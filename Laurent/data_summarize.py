@@ -5,12 +5,12 @@ summary = (
       .size()
       .sort_values(ascending=False)
 )
-print(summary.head(20))
+print(summary.head(50))
 import pandas as pd
 import requests
 
 # Your frequency data
-freq = pd.Series(summary.head(20))
+freq = pd.Series(summary.head(50))
 
 # Load DDragon item data
 version = "14.20.1"  # change to current patch if needed
