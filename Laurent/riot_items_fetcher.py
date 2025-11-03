@@ -1,15 +1,18 @@
-import os, time, argparse, requests, json, csv
+import requests
+import matplotlib.pyplot as plt
 from collections import defaultdict
+import os, time, requests, json, csv
+
 
 HEADERS = lambda key: {"X-Riot-Token": key}
 
 def get_puuid_from_riot_id(api_key, region, game_name, tag_line):
 
     headers = {"X-Riot-Token": api_key}
-    
     encoded_name = requests.utils.quote(game_name)
     encoded_tag = requests.utils.quote(tag_line)
     url = f"https://{region}.api.riotgames.com/riot/account/v1/accounts/by-riot-id/{encoded_name}/{encoded_tag}"
+    
     print(f"Requesting URL: {url}")
     
     try:
@@ -118,9 +121,6 @@ def parse_items_from_match(match_json, timeline_json):
     return out_participants
 
 
-import requests
-import matplotlib.pyplot as plt
-
 def get_gold_graph(api_key, region, match_id):
     headers = {"X-Riot-Token": api_key}
     url = f"https://{region}.api.riotgames.com/lol/match/v5/matches/{match_id}/timeline"
@@ -151,7 +151,7 @@ def get_gold_graph(api_key, region, match_id):
         gold_blue.append(total_blue)
         gold_red.append(total_red)
 
-    # 🧮 Plot
+    # Plot
     plt.figure(figsize=(10, 6))
     plt.plot(timestamps, gold_blue, label="Blue Team", linewidth=2)
     plt.plot(timestamps, gold_red, label="Red Team", linewidth=2)
@@ -164,22 +164,41 @@ def get_gold_graph(api_key, region, match_id):
 
     return timestamps, gold_blue, gold_red
 
-import json
-import os
 
-def save_gold_data(match_id, timestamps, player_gold, folder="gold_data"):
+import os, json
+
+def save_gold_data(match_data, timestamps, player_gold, folder="gold_data", prefix=""):
     os.makedirs(folder, exist_ok=True)
-    filepath = os.path.join(folder, f"{match_id}.json")
+
+    match_id = match_data["match_meta"]["matchId"]
+    game_mode = match_data["info"]["gameMode"]
+    prefix = game_mode[:3].upper()
+    filepath = os.path.join(folder, f"{prefix}_{match_id}.json")
+
+    # Build mapping from participantId → championName
+    id_to_champ = {
+        p["participantId"]: p["championName"]
+        for p in match_data["info"]["participants"]
+    }
+
+    # Replace player IDs with champion names
+    gold_by_champion = {}
+    for pid, gold_list in player_gold.items():
+        champ = id_to_champ.get(int(pid), f"Player{pid}")
+        gold_by_champion[champ] = gold_list
 
     data = {
         "matchId": match_id,
+        "gameMode": game_mode,
         "timestamps": timestamps,
-        "gold": player_gold
+        "gold": gold_by_champion
     }
 
-    with open(filepath, "w") as f:
+    with open(filepath, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
+
     print(f"✅ Gold data saved to {filepath}")
+
 
 
 def load_gold_data(match_id, folder="gold_data"):
@@ -228,17 +247,18 @@ def get_gold_per_player(api_key, region, match_id):
 def main():
     os.makedirs("matches", exist_ok=True)
     os.makedirs("matches_purchases", exist_ok=True)
-    api_key = "RGAPI-6bb3f659-7a2b-459b-8d53-3ed8e4d4cd0a"
+    api_key = "RGAPI-4836d26e-cbaf-40a7-836d-b35313ed9348"
 
 
     region = "europe"
-    game_name = "gogopotato"
-    tag_line = "777"
+    game_name = "POOP FACTORY"
+    tag_line = "POOF"
     number_of_games = 1
     sleep_timer = 1
     queue_type = None
     
     puuid = get_puuid_from_riot_id(api_key, region, game_name, tag_line)
+    print("PUUID:", puuid)
 
     match_ids = get_match_ids_by_puuid(api_key, region, puuid, start=0, count=number_of_games, queue=queue_type)
     print(match_ids)
@@ -246,6 +266,8 @@ def main():
     get_gold_per_player(api_key, region, match_ids[0])
     results = []
     for mid in match_ids:
+
+
         try:
             match = get_match(api_key, region, mid)
         except requests.HTTPError as e:
@@ -253,6 +275,10 @@ def main():
             continue
 
         timeline = None
+        game_mode = match["info"]["gameMode"]
+        prefix = game_mode[:3].upper()+"_"
+        print("Game mode prefix:", prefix)
+
         try:
             print("Fetching timeline for match", mid)
             timeline = get_timeline(api_key, region, mid)
@@ -267,14 +293,15 @@ def main():
         time.sleep(sleep_timer)
 
         # save
-        out_json = "matches/" + mid + ".json"
+        out_json = "matches/" + prefix + mid + ".json"
         with open(out_json, "w", encoding="utf-8") as f:
             json.dump(results, f, indent=2)
 
-        save_gold_data(mid, *get_gold_per_player(api_key, region, mid))
+        # save_gold_data(prefix+mid, *get_gold_per_player(api_key, region, mid))
+        save_gold_data(results[-1], *get_gold_per_player(api_key, region, mid), prefix=prefix)
         # optionally write a flat CSV with purchases
 
-        csv_out = "matches_purchases/" + mid + ".csv"
+        csv_out = "matches_purchases/" + prefix + mid + ".csv"
         with open(csv_out, "w", newline="", encoding="utf-8") as f:
             writer = csv.writer(f)
             writer.writerow(["matchId","puuid","summonerName","championName","participantId","timestamp_ms","event_type","itemId"])
