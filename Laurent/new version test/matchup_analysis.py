@@ -4,6 +4,7 @@ import glob
 import requests
 import csv
 import numpy as np
+import pandas as pd
 from collections import defaultdict
 
 # --- Configuration ---
@@ -89,8 +90,15 @@ def main():
         print("Aucun fichier JSON trouvé.")
         return
 
-    # Structure : stats[MyChamp][EnemyChamp][ItemID] = ...
-    data_store = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: {'wins': 0, 'count': 0, 'accels': []})))
+    # Structure : stats[MyChamp][EnemyChamp][(ItemID, LastItemID)] = ...
+    # Each stats entry includes wins, count, accels, golds (gold at purchase) and role_counts
+    data_store = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: {
+        'wins': 0,
+        'count': 0,
+        'accels': [],
+        'golds': [],
+        'role_counts': {}
+    })))
 
     print(f"Analyse de {len(json_files)} parties (Bottes finales incluses)...")
 
@@ -119,29 +127,58 @@ def main():
                 if not opponent: continue 
 
                 enemy_champ = opponent['championName']
-                processed_items = set() 
-                
+                processed_items = set()
+                last_final_item = None  # item précendant (None si premier acheter)
+
                 for purchase in p['item_purchases']:
                     item_id = str(purchase['itemId'])
-                    
+
                     # --- FILTRE AVEC EXCEPTION BOTTES ---
                     if not is_final_item(item_id, full_item_data):
-                        continue 
+                        continue
                     # ------------------------------------
-                    
-                    if item_id in processed_items: continue
+
+                    # Use tuple key (current_item, last_item, role) to build a sequential dataset
+                    role = p.get('lane')
+                    key = (item_id, last_final_item, role)
+                    if key in processed_items:
+                        # still update last_final_item and skip double counting
+                        last_final_item = item_id
+                        continue
 
                     accel = calculate_gold_acceleration(purchase['timestamp'], p['gold_curve'], timestamps)
-                    
-                    entry = data_store[my_champ][enemy_champ][item_id]
+
+                    entry = data_store[my_champ][enemy_champ][key]
                     entry['count'] += 1
-                    if p['win']:
+                    if p.get('win'):
                         entry['wins'] += 1
-                    
+
                     if accel is not None:
                         entry['accels'].append(accel)
-                        
-                    processed_items.add(item_id)
+
+                    # Track role: use the lane from parsed_matches as the role
+                    role = p.get('lane')
+                    if role:
+                        rc = entry['role_counts']
+                        rc[role] = rc.get(role, 0) + 1
+
+                    # Record gold at purchase (if available)
+                    purchase_min = purchase['timestamp'] / 60000.0
+                    idx_buy = int(round(purchase_min))
+                    gold_at_buy = None
+                    try:
+                        if isinstance(p.get('gold_curve'), list) and idx_buy < len(p.get('gold_curve')):
+                            gold_at_buy = p['gold_curve'][idx_buy]
+                    except Exception:
+                        gold_at_buy = None
+
+                    if gold_at_buy is not None:
+                        entry['golds'].append(gold_at_buy)
+
+                    processed_items.add(key)
+
+                    # update last_final_item since this was a final item
+                    last_final_item = item_id
 
         except Exception as e:
             pass
@@ -156,19 +193,37 @@ def main():
         
         rows = []
         for enemy_champ, items in enemies_data.items():
-            for item_id, stats in items.items():
+            for item_key, stats in items.items():
+                # item_key is (item_id, last_item_id, role)
+                item_id, last_item_id, role = item_key
                 count = stats['count']
                 if count == 0: continue
-                
+
                 winrate = (stats['wins'] / count) * 100
                 avg_accel = np.mean(stats['accels']) if stats['accels'] else 0
-                
+
                 # Nom de l'item
                 item_name = full_item_data.get(item_id, {}).get('name', f"Item {item_id}")
-                
+                last_item_name = "None" if last_item_id is None else full_item_data.get(last_item_id, {}).get('name', f"Item {last_item_id}")
+
+                # role is taken from aggregation key (lane when purchase happened)
+                if not role:
+                    role = "Unknown"
+
+                # Average gold at purchase for this aggregated entry
+                avg_gold = 0
+                if stats.get('golds'):
+                    try:
+                        avg_gold = float(np.mean(stats['golds']))
+                    except Exception:
+                        avg_gold = 0
+
                 rows.append({
                     "VS Champion": enemy_champ,
                     "Item Name": item_name,
+                    "Last Item": last_item_name,
+                    "Role": role,
+                    "Avg Gold At Purchase": round(avg_gold, 1),
                     "Win Rate (%)": round(winrate, 1),
                     "Gold Accel (5min) (%)": round(avg_accel, 2),
                     "Sample Size": count
@@ -178,7 +233,7 @@ def main():
         rows.sort(key=lambda x: x["Sample Size"], reverse=True)
 
         with open(csv_path, 'w', newline='', encoding='utf-8') as f:
-            fieldnames = ["VS Champion", "Item Name", "Win Rate (%)", "Gold Accel (5min) (%)", "Sample Size"]
+            fieldnames = ["VS Champion", "Item Name", "Last Item", "Role", "Avg Gold At Purchase", "Win Rate (%)", "Gold Accel (5min) (%)", "Sample Size"]
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(rows)
@@ -189,3 +244,162 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+def build_feature_dataframe(matchup_root="matchup_analysis", champ_data_path="champ_data.csv", global_stats_root="global_stats"):
+    """
+    Construit un DataFrame pandas à partir des CSV de `matchup_analysis`, du `champ_data.csv` et du dossier `global_stats`.
+
+    Columns returned:
+      - Champion
+      - Role
+      - Adversaire
+      - Dégat de l'adversaire (Damage Type)
+      - Gold (Avg Gold At Purchase)
+      - Item actuel (Last Item)
+      - Next item (Item Name)
+
+    Retourne: pandas.DataFrame
+    """
+    # Load champion metadata
+    if not os.path.exists(champ_data_path):
+        raise FileNotFoundError(f"champ_data.csv not found at {champ_data_path}")
+
+    champ_df = pd.read_csv(champ_data_path)
+    # Expect columns: Champion,Class,DmgType,Range
+    champ_df = champ_df.rename(columns={c: c.strip() for c in champ_df.columns})
+    dmg_map = dict(zip(champ_df['Champion'], champ_df['DmgType']))
+
+    # Collect rows from matchup CSVs
+    pattern = os.path.join(matchup_root, "*", "items_vs_champions.csv")
+    files = glob.glob(pattern)
+    rows = []
+    for fpath in files:
+        try:
+            df = pd.read_csv(fpath)
+        except Exception:
+            continue
+
+        champ_name = os.path.basename(os.path.dirname(fpath))
+        df['Champion'] = champ_name
+        # Standardize column names that may vary
+        # Expect columns: VS Champion, Item Name, Last Item, Role, Avg Gold At Purchase
+        for _, r in df.iterrows():
+            vs = r.get('VS Champion') or r.get('VS_Champion')
+            next_item = r.get('Item Name')
+            last_item = r.get('Last Item')
+            role = r.get('Role', 'Unknown')
+            gold = r.get('Avg Gold At Purchase', 0)
+
+            opponent_damage = dmg_map.get(vs, None)
+
+            rows.append({
+                'Champion': champ_name,
+                'Role': role,
+                'Adversaire': vs,
+                'Dégat de l\'adversaire': opponent_damage,
+                'Gold': gold,
+                'Item actuel': last_item,
+                'Next item': next_item
+            })
+
+    result_df = pd.DataFrame(rows)
+    return result_df
+
+
+def build_feature_dataframe_from_parsed(parsed_folder="parsed_matches", champ_data_path="champ_data.csv", item_data_map=None):
+    """
+    Build a per-purchase pandas DataFrame from `parsed_matches` JSON files.
+
+    Features returned:
+      - Champion
+      - Role (uses `lane` from parsed_matches)
+      - Adversaire
+      - Dégat de l'adversaire (Damage Type from `champ_data.csv`)
+      - Gold (gold at purchase, if available)
+      - Item actuel (last final item before this purchase)
+      - Next item (the item bought at this purchase)
+
+    This iterates every parsed match, each participant's purchase events and keeps only purchases
+    that are considered "final items" by `is_final_item` (uses `item_data_map`).
+    """
+    if not os.path.exists(champ_data_path):
+        raise FileNotFoundError(f"champ_data.csv not found at {champ_data_path}")
+
+    champ_df = pd.read_csv(champ_data_path)
+    dmg_map = dict(zip(champ_df['Champion'], champ_df['DmgType']))
+
+    if item_data_map is None:
+        item_data_map = get_item_data()
+
+    rows = []
+    json_files = glob.glob(os.path.join(parsed_folder, "*.json"))
+    for jf in json_files:
+        try:
+            with open(jf, 'r', encoding='utf-8') as f:
+                match = json.load(f)
+        except Exception:
+            continue
+
+        participants = match.get('participants', [])
+        # build quick lookup by team+lane to find direct opponent
+        for p in participants:
+            champ = p.get('championName')
+            role = p.get('lane')  # use lane as role per request
+            team = p.get('teamId')
+            gold_curve = p.get('gold_curve', [])
+
+            # find opponent in same lane on opposite team
+            opponent = None
+            for opp in participants:
+                if opp.get('teamId') != team and opp.get('lane') == role:
+                    opponent = opp
+                    break
+
+            opponent_champ = opponent.get('championName') if opponent else None
+            opponent_damage = dmg_map.get(opponent_champ)
+
+            # iterate purchases in time order
+            last_final_item = None
+            purchases = sorted(p.get('item_purchases', []), key=lambda x: x.get('timestamp', 0))
+            for purchase in purchases:
+                item_id = str(purchase.get('itemId'))
+                if not item_id:
+                    continue
+
+                if not is_final_item(item_id, item_data_map):
+                    continue
+
+                # gold at purchase
+                purchase_min = purchase.get('timestamp', 0) / 60000.0
+                idx = int(round(purchase_min))
+                gold_at_buy = None
+                if isinstance(gold_curve, list) and 0 <= idx < len(gold_curve):
+                    gold_at_buy = gold_curve[idx]
+
+                # map ids to names where possible
+                next_item_name = item_data_map.get(item_id, {}).get('name') if isinstance(item_data_map.get(item_id), dict) else item_data_map.get(item_id, None)
+                if not next_item_name:
+                    next_item_name = f"Item {item_id}"
+
+                last_item_name = None
+                if last_final_item is None:
+                    last_item_name = None
+                else:
+                    name = item_data_map.get(last_final_item, {})
+                    last_item_name = name.get('name') if isinstance(name, dict) else item_data_map.get(last_final_item, f"Item {last_final_item}")
+
+                rows.append({
+                    'Champion': champ,
+                    'Role': role,
+                    'Adversaire': opponent_champ,
+                    "Dégat de l'adversaire": opponent_damage,
+                    'Gold': gold_at_buy,
+                    'Item actuel': last_item_name,
+                    'Next item': next_item_name
+                })
+
+                # update last_final_item
+                last_final_item = item_id
+
+    return pd.DataFrame(rows)

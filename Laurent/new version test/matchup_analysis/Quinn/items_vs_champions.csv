@@ -1,66 +1,107 @@
-VS Champion,Item Name,Win Rate (%),Gold Accel (5min) (%),Sample Size
-Yasuo,Profane Hydra,0.0,11.96,2
-Malphite,Profane Hydra,100.0,-3.03,2
-Malphite,The Collector,100.0,159.85,2
-Malphite,Forever Forward,100.0,140.06,2
-Malphite,Lord Dominik's Regards,100.0,0,2
-Yone,Statikk Shiv,0.0,102.27,1
-Yone,Yun Tal Wildarrows,0.0,18.67,1
-Yone,Lord Dominik's Regards,0.0,14.89,1
-Sion,Kraken Slayer,100.0,17.85,1
-Sion,Edge of Night,100.0,-21.95,1
-Sion,The Collector,100.0,62.92,1
-Sion,Lord Dominik's Regards,100.0,0,1
-Sion,Forever Forward,100.0,0,1
-Yasuo,The Collector,0.0,80.26,1
-Yasuo,Lord Dominik's Regards,0.0,0,1
-Yasuo,Youmuu's Ghostblade,0.0,-32.49,1
-Vayne,Profane Hydra,0.0,17.56,1
-Vayne,The Collector,0.0,15.33,1
-Vayne,Serpent's Fang,0.0,0,1
-KSante,Statikk Shiv,100.0,7.12,1
-KSante,Edge of Night,100.0,5.37,1
-KSante,Lord Dominik's Regards,100.0,60.2,1
-KSante,Kraken Slayer,100.0,0,1
-Gnar,Profane Hydra,100.0,-0.83,1
-Gnar,Edge of Night,100.0,-11.99,1
-Gnar,The Collector,100.0,71.05,1
-Gnar,Infinity Edge,100.0,0,1
-Gangplank,Profane Hydra,0.0,3.51,1
-Gangplank,Edge of Night,0.0,4.11,1
-Darius,Yun Tal Wildarrows,0.0,44.36,1
-Darius,Infinity Edge,0.0,-17.59,1
-Darius,Mortal Reminder,0.0,22.56,1
-Darius,Blade of The Ruined King,0.0,-19.78,1
-Kayle,Statikk Shiv,0.0,-6.0,1
-Kayle,Infinity Edge,0.0,-22.59,1
-Kayle,The Collector,0.0,0,1
-Fiora,Profane Hydra,0.0,-30.83,1
-Fiora,The Collector,0.0,31.17,1
-Garen,Profane Hydra,100.0,0,1
-Malphite,Infinity Edge,100.0,16.48,1
-Malphite,Phantom Dancer,100.0,0,1
-Malphite,Edge of Night,100.0,85.48,1
-Yorick,Statikk Shiv,100.0,78.24,1
-Yorick,The Collector,100.0,69.23,1
-Yorick,Edge of Night,100.0,56.42,1
-Yorick,Infinity Edge,100.0,0,1
-Aurora,Profane Hydra,0.0,6.39,1
-Aurora,The Collector,0.0,72.19,1
-Aurora,Lord Dominik's Regards,0.0,0,1
-Ambessa,Profane Hydra,100.0,18.86,1
-Ambessa,The Collector,100.0,2.09,1
-Ambessa,Lord Dominik's Regards,100.0,171.25,1
-Ambessa,Infinity Edge,100.0,0,1
-Akshan,Profane Hydra,100.0,17.06,1
-Akshan,The Collector,100.0,-3.04,1
-Akshan,Forever Forward,100.0,0,1
-Vex,Profane Hydra,0.0,-11.97,1
-Vex,Edge of Night,0.0,-46.09,1
-Lux,Statikk Shiv,0.0,33.83,1
-Lux,Maw of Malmortius,0.0,-0.6,1
-Lux,Forever Forward,0.0,3.06,1
-Lux,Edge of Night,0.0,59.38,1
-Lux,The Collector,0.0,0,1
-Teemo,Profane Hydra,0.0,25.3,1
-Teemo,Edge of Night,0.0,0,1
+VS Champion,Item Name,Last Item,Role,Avg Gold At Purchase,Win Rate (%),Gold Accel (5min) (%),Sample Size
+Yasuo,Profane Hydra,None,MIDDLE,4687.5,0.0,11.96,2
+Malphite,Profane Hydra,None,TOP,4227.5,100.0,-3.03,2
+Zaahen,Profane Hydra,None,TOP,4309.5,100.0,37.79,2
+Yone,Statikk Shiv,None,MIDDLE,4341.0,0.0,102.27,1
+Yone,Yun Tal Wildarrows,Statikk Shiv,MIDDLE,7076.0,0.0,18.67,1
+Yone,Lord Dominik's Regards,Yun Tal Wildarrows,MIDDLE,10286.0,0.0,14.89,1
+Aatrox,Statikk Shiv,None,TOP,3574.0,100.0,33.73,1
+Jax,Statikk Shiv,None,TOP,4653.0,100.0,56.73,1
+Jax,Edge of Night,Statikk Shiv,TOP,7454.0,100.0,25.43,1
+Jax,Forever Forward,Edge of Night,TOP,8014.0,100.0,23.45,1
+Jax,Lord Dominik's Regards,Forever Forward,TOP,11211.0,100.0,0,1
+Sion,Kraken Slayer,None,TOP,3902.0,100.0,17.85,1
+Sion,Edge of Night,Kraken Slayer,TOP,8499.0,100.0,-21.95,1
+Sion,The Collector,Edge of Night,TOP,9996.0,100.0,62.92,1
+Sion,Lord Dominik's Regards,The Collector,TOP,13498.0,100.0,0,1
+Sion,Forever Forward,Lord Dominik's Regards,TOP,14749.0,100.0,0,1
+Yasuo,The Collector,Profane Hydra,MIDDLE,7553.0,0.0,80.26,1
+Yasuo,Lord Dominik's Regards,The Collector,MIDDLE,11087.0,0.0,0,1
+Yasuo,Youmuu's Ghostblade,Profane Hydra,MIDDLE,6866.0,0.0,-32.49,1
+Vayne,Profane Hydra,None,TOP,4349.0,0.0,17.56,1
+Vayne,The Collector,Profane Hydra,TOP,7255.0,0.0,15.33,1
+Vayne,Serpent's Fang,The Collector,TOP,10333.0,0.0,0,1
+KSante,Statikk Shiv,None,TOP,4494.0,100.0,7.12,1
+KSante,Edge of Night,Statikk Shiv,TOP,7647.0,100.0,5.37,1
+KSante,Lord Dominik's Regards,Edge of Night,TOP,11135.0,100.0,60.2,1
+KSante,Kraken Slayer,Lord Dominik's Regards,TOP,13740.0,100.0,0,1
+Gnar,Profane Hydra,None,TOP,4159.0,100.0,-0.83,1
+Gnar,Edge of Night,Profane Hydra,TOP,7638.0,100.0,-11.99,1
+Gnar,The Collector,Edge of Night,TOP,10646.0,100.0,71.05,1
+Gnar,Infinity Edge,The Collector,TOP,14050.0,100.0,0,1
+Gangplank,Profane Hydra,None,TOP,3982.0,0.0,3.51,1
+Gangplank,Edge of Night,Profane Hydra,TOP,7434.0,0.0,4.11,1
+Darius,Yun Tal Wildarrows,None,TOP,3697.0,0.0,44.36,1
+Darius,Infinity Edge,Yun Tal Wildarrows,TOP,8185.0,0.0,-17.59,1
+Darius,Mortal Reminder,Infinity Edge,TOP,11565.0,0.0,22.56,1
+Darius,Blade of The Ruined King,Mortal Reminder,TOP,13924.0,0.0,-19.78,1
+Darius,Statikk Shiv,None,TOP,4190.0,100.0,117.55,1
+Darius,Youmuu's Ghostblade,Statikk Shiv,TOP,7229.0,100.0,65.92,1
+Darius,Forever Forward,Youmuu's Ghostblade,TOP,9037.0,100.0,78.69,1
+Darius,Edge of Night,Forever Forward,TOP,10876.0,100.0,38.16,1
+Kayle,Statikk Shiv,None,TOP,4458.0,0.0,-6.0,1
+Kayle,Infinity Edge,Statikk Shiv,TOP,10294.0,0.0,-22.59,1
+Kayle,The Collector,Infinity Edge,TOP,11773.0,0.0,0,1
+Fiora,Profane Hydra,None,TOP,4730.0,0.0,-30.83,1
+Fiora,The Collector,Profane Hydra,TOP,7234.0,0.0,31.17,1
+Garen,Profane Hydra,None,TOP,4600.0,100.0,0,1
+Malphite,The Collector,Profane Hydra,TOP,7258.0,100.0,159.85,1
+Malphite,Forever Forward,The Collector,TOP,7512.0,100.0,180.98,1
+Malphite,Infinity Edge,Forever Forward,TOP,12254.0,100.0,16.48,1
+Malphite,Lord Dominik's Regards,Infinity Edge,TOP,14925.0,100.0,0,1
+Malphite,Phantom Dancer,Lord Dominik's Regards,TOP,16680.0,100.0,0,1
+Malphite,Edge of Night,Profane Hydra,TOP,8628.0,100.0,85.48,1
+Malphite,Forever Forward,Edge of Night,TOP,9534.0,100.0,99.15,1
+Malphite,Lord Dominik's Regards,Forever Forward,TOP,12208.0,100.0,0,1
+Malphite,The Collector,Lord Dominik's Regards,TOP,13569.0,100.0,0,1
+Yorick,Statikk Shiv,None,TOP,4913.0,100.0,78.24,1
+Yorick,The Collector,Statikk Shiv,TOP,8021.0,100.0,69.23,1
+Yorick,Edge of Night,The Collector,TOP,10868.0,100.0,56.42,1
+Yorick,Infinity Edge,Edge of Night,TOP,13684.0,100.0,0,1
+Yorick,Profane Hydra,None,TOP,4111.0,0.0,-27.31,1
+Aurora,Profane Hydra,None,MIDDLE,5455.0,0.0,6.39,1
+Aurora,The Collector,Profane Hydra,MIDDLE,7764.0,0.0,72.19,1
+Aurora,Lord Dominik's Regards,The Collector,MIDDLE,10678.0,0.0,0,1
+Ambessa,Profane Hydra,None,TOP,4170.0,100.0,18.86,1
+Ambessa,The Collector,Profane Hydra,TOP,7639.0,100.0,2.09,1
+Ambessa,Lord Dominik's Regards,The Collector,TOP,9688.0,100.0,171.25,1
+Ambessa,Infinity Edge,Lord Dominik's Regards,TOP,13639.0,100.0,0,1
+Akshan,Profane Hydra,None,MIDDLE,4798.0,100.0,17.06,1
+Akshan,The Collector,Profane Hydra,MIDDLE,7332.0,100.0,-3.04,1
+Akshan,Forever Forward,The Collector,MIDDLE,10062.0,100.0,0,1
+Vex,Profane Hydra,None,MIDDLE,4867.0,0.0,-11.97,1
+Vex,Edge of Night,Profane Hydra,MIDDLE,7660.0,0.0,-46.09,1
+Lux,Statikk Shiv,None,MIDDLE,4713.0,0.0,33.83,1
+Lux,Maw of Malmortius,Statikk Shiv,MIDDLE,7212.0,0.0,-0.6,1
+Lux,Forever Forward,Maw of Malmortius,MIDDLE,7897.0,0.0,3.06,1
+Lux,Edge of Night,Forever Forward,MIDDLE,10741.0,0.0,59.38,1
+Lux,The Collector,Edge of Night,MIDDLE,13998.0,0.0,0,1
+Teemo,Profane Hydra,None,TOP,4877.0,0.0,25.3,1
+Teemo,Edge of Night,Profane Hydra,TOP,8142.0,0.0,0,1
+Pantheon,Profane Hydra,None,TOP,4537.0,0.0,-32.04,1
+Rumble,Profane Hydra,None,TOP,3254.0,0.0,97.66,1
+Rumble,Edge of Night,Profane Hydra,TOP,8228.0,0.0,-27.09,1
+Rumble,The Collector,Edge of Night,TOP,9748.0,0.0,0,1
+Zaahen,Lord Dominik's Regards,Profane Hydra,TOP,8404.0,100.0,88.04,1
+Zaahen,The Collector,Lord Dominik's Regards,TOP,10141.0,100.0,78.47,1
+Zaahen,Edge of Night,The Collector,TOP,13871.0,100.0,0,1
+Zaahen,Edge of Night,Profane Hydra,TOP,7570.0,100.0,0,1
+Singed,Kraken Slayer,None,TOP,5041.0,100.0,0.97,1
+Singed,Lord Dominik's Regards,Kraken Slayer,TOP,7886.0,100.0,-12.41,1
+Singed,Blade of The Ruined King,Lord Dominik's Regards,TOP,12750.0,100.0,0,1
+Singed,Gunmetal Greaves,Blade of The Ruined King,TOP,12750.0,100.0,0,1
+Singed,Wit's End,Gunmetal Greaves,TOP,14006.0,100.0,0,1
+Viktor,Blade of The Ruined King,None,TOP,4559.0,0.0,24.27,1
+Viktor,Phantom Dancer,Blade of The Ruined King,TOP,7498.0,0.0,5.89,1
+Viktor,Blade of The Ruined King,Phantom Dancer,TOP,10203.0,0.0,0,1
+Viktor,The Collector,Phantom Dancer,TOP,10836.0,0.0,0,1
+Mordekaiser,Profane Hydra,None,TOP,4555.0,100.0,18.9,1
+Mordekaiser,Edge of Night,Profane Hydra,TOP,8204.0,100.0,105.47,1
+Mordekaiser,The Collector,Edge of Night,TOP,10186.0,100.0,69.09,1
+Mordekaiser,Lord Dominik's Regards,The Collector,TOP,14192.0,100.0,6.85,1
+Nasus,Profane Hydra,None,TOP,4581.0,100.0,26.43,1
+Nasus,Edge of Night,Profane Hydra,TOP,7489.0,100.0,44.6,1
+Nasus,Forever Forward,Edge of Night,TOP,8453.0,100.0,0,1
+DrMundo,Statikk Shiv,None,TOP,3869.0,0.0,-1.47,1
+DrMundo,Blade of The Ruined King,Statikk Shiv,TOP,7899.0,0.0,67.93,1
+DrMundo,The Collector,Blade of The Ruined King,TOP,10846.0,0.0,0,1

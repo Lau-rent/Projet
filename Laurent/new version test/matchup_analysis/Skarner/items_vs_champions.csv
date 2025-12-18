@@ -1,34 +1,49 @@
-VS Champion,Item Name,Win Rate (%),Gold Accel (5min) (%),Sample Size
-XinZhao,Heartsteel,100.0,-9.17,2
-XinZhao,Unending Despair,100.0,2.52,2
-XinZhao,Armored Advance,100.0,12.29,1
-XinZhao,Thornmail,100.0,7.96,1
-XinZhao,"Jak'Sho, The Protean",100.0,0,1
-Shyvana,Heartsteel,0.0,4.58,1
-Shyvana,Unending Despair,0.0,-6.54,1
-Shyvana,Spirit Visage,0.0,0,1
-Kayn,Sunfire Aegis,0.0,-19.89,1
-Kayn,Unending Despair,0.0,9.36,1
-Kayn,Heartsteel,0.0,15.16,1
-Warwick,Thornmail,0.0,-9.42,1
-Warwick,Heartsteel,0.0,4.48,1
-Warwick,Dead Man's Plate,0.0,0,1
-Khazix,Heartsteel,0.0,107.39,1
-Khazix,Unending Despair,0.0,-22.95,1
-Nocturne,Heartsteel,100.0,-37.36,1
-Nocturne,Thornmail,100.0,-2.63,1
-Nocturne,Unending Despair,100.0,-1.08,1
-Fiora,Sunfire Aegis,100.0,0,1
-Teemo,Heartsteel,0.0,-12.83,1
-Teemo,Hollow Radiance,0.0,-8.01,1
-Teemo,Warmog's Armor,0.0,-1.76,1
-Viego,Sunfire Aegis,0.0,14.36,1
-Viego,Thornmail,0.0,-28.36,1
-Elise,Heartsteel,0.0,10.6,1
-Elise,Sunfire Aegis,0.0,-48.43,1
-Lillia,Heartsteel,0.0,60.76,1
-Lillia,Unending Despair,0.0,-55.41,1
-Twitch,Heartsteel,100.0,0,1
-LeeSin,Sunfire Aegis,100.0,23.48,1
-LeeSin,Thornmail,100.0,77.05,1
-LeeSin,Kaenic Rookern,100.0,0,1
+VS Champion,Item Name,Last Item,Role,Avg Gold At Purchase,Win Rate (%),Gold Accel (5min) (%),Sample Size
+XinZhao,Heartsteel,None,JUNGLE,3863.0,100.0,-9.17,2
+XinZhao,Unending Despair,Heartsteel,JUNGLE,7592.5,100.0,2.52,2
+Nocturne,Heartsteel,None,JUNGLE,4419.0,100.0,-8.58,2
+XinZhao,Armored Advance,Unending Despair,JUNGLE,9663.0,100.0,12.29,1
+XinZhao,Thornmail,Armored Advance,JUNGLE,10680.0,100.0,7.96,1
+XinZhao,"Jak'Sho, The Protean",Thornmail,JUNGLE,13968.0,100.0,0,1
+Nocturne,Unending Despair,Heartsteel,JUNGLE,7973.0,100.0,-12.73,1
+Nocturne,Spirit Visage,Unending Despair,JUNGLE,10926.0,100.0,27.26,1
+Nocturne,Thornmail,Spirit Visage,JUNGLE,13545.0,100.0,-1.76,1
+Nocturne,"Jak'Sho, The Protean",Thornmail,JUNGLE,16533.0,100.0,0,1
+Nocturne,Thornmail,Heartsteel,JUNGLE,7362.0,100.0,-2.63,1
+Nocturne,Unending Despair,Thornmail,JUNGLE,9776.0,100.0,-1.08,1
+Shyvana,Heartsteel,None,JUNGLE,3703.0,0.0,4.58,1
+Shyvana,Unending Despair,Heartsteel,JUNGLE,7464.0,0.0,-6.54,1
+Shyvana,Spirit Visage,Unending Despair,JUNGLE,10226.0,0.0,0,1
+Kayn,Sunfire Aegis,None,JUNGLE,3585.0,0.0,-19.89,1
+Kayn,Unending Despair,Sunfire Aegis,JUNGLE,8063.0,0.0,9.36,1
+Kayn,Heartsteel,None,JUNGLE,3761.0,0.0,15.16,1
+Warwick,Thornmail,None,JUNGLE,3145.0,0.0,-9.42,1
+Warwick,Heartsteel,Thornmail,JUNGLE,7777.0,0.0,4.48,1
+Warwick,Dead Man's Plate,Heartsteel,JUNGLE,10141.0,0.0,0,1
+Khazix,Heartsteel,None,JUNGLE,3974.0,0.0,107.39,1
+Khazix,Unending Despair,Heartsteel,JUNGLE,7694.0,0.0,-22.95,1
+Hecarim,Heartsteel,None,JUNGLE,3701.0,0.0,69.75,1
+Hecarim,Unending Despair,Heartsteel,JUNGLE,8108.0,0.0,-20.32,1
+Hecarim,Thornmail,Unending Despair,JUNGLE,9698.0,0.0,0,1
+FiddleSticks,Sunfire Aegis,None,JUNGLE,4447.0,0.0,-31.15,1
+FiddleSticks,Unending Despair,Sunfire Aegis,JUNGLE,7970.0,0.0,-42.75,1
+Fiora,Sunfire Aegis,None,TOP,4290.0,100.0,0,1
+Teemo,Heartsteel,None,JUNGLE,5591.0,0.0,-12.83,1
+Teemo,Hollow Radiance,Heartsteel,JUNGLE,7659.0,0.0,-8.01,1
+Teemo,Warmog's Armor,Hollow Radiance,JUNGLE,10851.0,0.0,-1.76,1
+Viego,Sunfire Aegis,None,JUNGLE,2884.0,0.0,14.36,1
+Viego,Thornmail,Sunfire Aegis,JUNGLE,6290.0,0.0,-28.36,1
+Elise,Heartsteel,None,JUNGLE,5536.0,0.0,10.6,1
+Elise,Sunfire Aegis,Heartsteel,JUNGLE,7365.0,0.0,-48.43,1
+Lillia,Heartsteel,None,JUNGLE,3543.0,0.0,60.76,1
+Lillia,Unending Despair,Heartsteel,JUNGLE,8000.0,0.0,-55.41,1
+Twitch,Heartsteel,None,JUNGLE,4534.0,100.0,0,1
+LeeSin,Sunfire Aegis,None,JUNGLE,3496.0,100.0,23.48,1
+LeeSin,Thornmail,Sunfire Aegis,JUNGLE,7154.0,100.0,77.05,1
+LeeSin,Kaenic Rookern,Thornmail,JUNGLE,9889.0,100.0,0,1
+Sylas,Heartsteel,None,JUNGLE,4098.0,0.0,-27.21,1
+Sylas,Unending Despair,Heartsteel,JUNGLE,7582.0,0.0,-41.55,1
+Sylas,Sterak's Gage,Unending Despair,JUNGLE,10555.0,0.0,0,1
+Aatrox,Trinity Force,None,JUNGLE,3928.0,100.0,16.07,1
+Aatrox,Sunfire Aegis,Trinity Force,JUNGLE,7830.0,100.0,-8.49,1
+Aatrox,Dead Man's Plate,Sunfire Aegis,JUNGLE,10727.0,100.0,0,1

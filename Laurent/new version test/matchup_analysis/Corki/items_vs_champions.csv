@@ -1,55 +1,87 @@
-VS Champion,Item Name,Win Rate (%),Gold Accel (5min) (%),Sample Size
-MissFortune,Trinity Force,100.0,51.87,2
-MissFortune,Manamune,100.0,-3.13,2
-Ashe,Manamune,0.0,-14.01,2
-Ashe,Trinity Force,0.0,3.48,2
-Smolder,Trinity Force,100.0,-21.87,1
-Smolder,Manamune,100.0,83.36,1
-Smolder,Infinity Edge,100.0,-12.77,1
-Smolder,Armored Advance,100.0,35.71,1
-Smolder,Rapid Firecannon,100.0,15.2,1
-Smolder,Guardian Angel,100.0,-0.7,1
-Vayne,Trinity Force,100.0,10.23,1
-Vayne,Manamune,100.0,13.75,1
-Vayne,Armored Advance,100.0,13.87,1
-MissFortune,Armored Advance,100.0,0,1
-MissFortune,Infinity Edge,100.0,0,1
-MissFortune,Chainlaced Crushers,100.0,-32.1,1
-MissFortune,The Collector,100.0,67.39,1
-Samira,Trinity Force,100.0,38.35,1
-Samira,Manamune,100.0,80.58,1
-Samira,Rapid Firecannon,100.0,26.57,1
-Yone,Trinity Force,0.0,76.07,1
-Yone,Manamune,0.0,0,1
-Draven,Trinity Force,0.0,7.99,1
-Draven,Manamune,0.0,-15.0,1
-Draven,Rapid Firecannon,0.0,0,1
-Jhin,Trinity Force,0.0,-7.59,1
-Jhin,Manamune,0.0,-47.65,1
-Jhin,The Collector,0.0,17.08,1
-Jhin,Armored Advance,0.0,18.0,1
-Jhin,Spear of Shojin,0.0,2.27,1
-Yunara,Trinity Force,100.0,54.42,1
-Yunara,Manamune,100.0,0,1
-Ashe,Infinity Edge,0.0,-4.72,1
-Ashe,The Collector,0.0,7.3,1
-Ashe,Armored Advance,0.0,7.04,1
-Ashe,Mortal Reminder,0.0,-7.77,1
-Ashe,Rapid Firecannon,0.0,0,1
-Teemo,Trinity Force,100.0,73.04,1
-Teemo,Riftmaker,100.0,4.75,1
-Teemo,Manamune,100.0,53.19,1
-Tristana,Trinity Force,0.0,22.55,1
-Tristana,Manamune,0.0,-30.29,1
-Tristana,Infinity Edge,0.0,13.72,1
-Xayah,Trinity Force,0.0,15.36,1
-Xayah,Manamune,0.0,77.73,1
-Xayah,The Collector,0.0,-10.35,1
-Xayah,Rapid Firecannon,0.0,0,1
-Riven,Trinity Force,0.0,-19.33,1
-Riven,Manamune,0.0,92.43,1
-Riven,Armored Advance,0.0,107.9,1
-Riven,The Collector,0.0,15.36,1
-Riven,Lord Dominik's Regards,0.0,0,1
-Ezreal,Trinity Force,0.0,0.69,1
-Ezreal,Manamune,0.0,7.48,1
+VS Champion,Item Name,Last Item,Role,Avg Gold At Purchase,Win Rate (%),Gold Accel (5min) (%),Sample Size
+MissFortune,Trinity Force,None,BOTTOM,5187.5,100.0,51.87,2
+MissFortune,Manamune,Trinity Force,BOTTOM,8393.0,100.0,-3.13,2
+Ashe,Manamune,Trinity Force,BOTTOM,9450.0,0.0,11.67,2
+Tristana,Trinity Force,None,BOTTOM,5074.5,0.0,42.66,2
+Tristana,Manamune,Trinity Force,BOTTOM,7610.0,0.0,-22.8,2
+Tristana,Manamune,Manamune,BOTTOM,7723.5,0.0,-25.85,2
+Ezreal,Trinity Force,None,BOTTOM,4776.5,0.0,-10.58,2
+Ezreal,Manamune,Trinity Force,BOTTOM,7891.5,0.0,7.48,2
+Ezreal,Manamune,Manamune,BOTTOM,7891.5,0.0,7.49,2
+Smolder,Trinity Force,None,BOTTOM,4385.0,100.0,-21.87,1
+Smolder,Manamune,Trinity Force,BOTTOM,7727.0,100.0,83.36,1
+Smolder,Manamune,Manamune,BOTTOM,7727.0,100.0,83.41,1
+Smolder,Infinity Edge,Manamune,BOTTOM,11378.0,100.0,-12.77,1
+Smolder,Armored Advance,Infinity Edge,BOTTOM,13540.0,100.0,35.71,1
+Smolder,Rapid Firecannon,Armored Advance,BOTTOM,15768.0,100.0,15.2,1
+Smolder,Guardian Angel,Rapid Firecannon,BOTTOM,19593.0,100.0,-0.7,1
+Vayne,Trinity Force,None,BOTTOM,5867.0,100.0,10.23,1
+Vayne,Manamune,Trinity Force,BOTTOM,8842.0,100.0,13.75,1
+Vayne,Manamune,Manamune,BOTTOM,8842.0,100.0,13.77,1
+Vayne,Armored Advance,Manamune,BOTTOM,8842.0,100.0,13.87,1
+MissFortune,Manamune,Manamune,BOTTOM,9862.0,100.0,2.4,1
+MissFortune,Armored Advance,Manamune,BOTTOM,11642.0,100.0,0,1
+MissFortune,Infinity Edge,Armored Advance,BOTTOM,13107.0,100.0,0,1
+MissFortune,Chainlaced Crushers,Manamune,BOTTOM,8685.0,100.0,-32.1,1
+MissFortune,Manamune,Chainlaced Crushers,BOTTOM,8857.0,100.0,-17.12,1
+MissFortune,The Collector,Manamune,BOTTOM,11375.0,100.0,67.39,1
+Samira,Trinity Force,None,BOTTOM,5195.0,100.0,38.35,1
+Samira,Manamune,Trinity Force,BOTTOM,6737.0,100.0,80.58,1
+Samira,Manamune,Manamune,BOTTOM,8459.0,100.0,83.02,1
+Samira,Rapid Firecannon,Manamune,BOTTOM,10718.0,100.0,26.57,1
+Yone,Trinity Force,None,MIDDLE,5195.0,0.0,76.07,1
+Yone,Manamune,Trinity Force,MIDDLE,7447.0,0.0,0,1
+Draven,Trinity Force,None,BOTTOM,4320.0,0.0,7.99,1
+Draven,Manamune,Trinity Force,BOTTOM,8018.0,0.0,-15.0,1
+Draven,Manamune,Manamune,BOTTOM,8018.0,0.0,-14.99,1
+Draven,Rapid Firecannon,Manamune,BOTTOM,10480.0,0.0,0,1
+Jhin,Trinity Force,None,BOTTOM,4630.0,0.0,-7.59,1
+Jhin,Manamune,Trinity Force,BOTTOM,7655.0,0.0,-47.65,1
+Jhin,The Collector,Manamune,BOTTOM,10837.0,0.0,17.08,1
+Jhin,Manamune,The Collector,BOTTOM,11864.0,0.0,16.06,1
+Jhin,Armored Advance,Manamune,BOTTOM,11864.0,0.0,18.0,1
+Jhin,Spear of Shojin,Armored Advance,BOTTOM,14458.0,0.0,2.27,1
+Yunara,Trinity Force,None,BOTTOM,4886.0,100.0,54.42,1
+Yunara,Manamune,Trinity Force,BOTTOM,8450.0,100.0,0,1
+Ashe,Manamune,None,BOTTOM,4390.0,0.0,18.7,1
+Ashe,Trinity Force,Manamune,BOTTOM,7536.0,0.0,41.9,1
+Ashe,Infinity Edge,Manamune,BOTTOM,12070.0,0.0,-4.72,1
+Ashe,Trinity Force,None,BOTTOM,6760.0,0.0,-34.94,1
+Ashe,Manamune,Manamune,BOTTOM,9460.0,0.0,-46.72,1
+Ashe,The Collector,Manamune,BOTTOM,11383.0,0.0,7.3,1
+Ashe,Armored Advance,The Collector,BOTTOM,13684.0,0.0,7.04,1
+Ashe,Mortal Reminder,Armored Advance,BOTTOM,14839.0,0.0,-7.77,1
+Ashe,Rapid Firecannon,Mortal Reminder,BOTTOM,17384.0,0.0,0,1
+Teemo,Trinity Force,None,TOP,4546.0,100.0,73.04,1
+Teemo,Riftmaker,Trinity Force,TOP,8572.0,100.0,4.75,1
+Teemo,Manamune,Riftmaker,TOP,11271.0,100.0,53.19,1
+Teemo,Manamune,Manamune,TOP,11271.0,100.0,53.2,1
+Tristana,Infinity Edge,Manamune,BOTTOM,10984.0,0.0,13.72,1
+Xayah,Trinity Force,None,BOTTOM,4510.0,0.0,15.36,1
+Xayah,Manamune,Trinity Force,BOTTOM,6982.0,0.0,77.73,1
+Xayah,The Collector,Manamune,BOTTOM,11245.0,0.0,-10.35,1
+Xayah,Manamune,The Collector,BOTTOM,11601.0,0.0,0,1
+Xayah,Rapid Firecannon,Manamune,BOTTOM,13563.0,0.0,0,1
+Riven,Trinity Force,None,BOTTOM,4203.0,0.0,-19.33,1
+Riven,Manamune,Trinity Force,BOTTOM,8801.0,0.0,92.43,1
+Riven,Manamune,Manamune,BOTTOM,8801.0,0.0,92.44,1
+Riven,Armored Advance,Manamune,BOTTOM,9118.0,0.0,107.9,1
+Riven,The Collector,Armored Advance,BOTTOM,12280.0,0.0,15.36,1
+Riven,Lord Dominik's Regards,The Collector,BOTTOM,14574.0,0.0,0,1
+Jinx,Manamune,None,BOTTOM,4707.0,0.0,12.2,1
+Jinx,Trinity Force,Manamune,BOTTOM,7356.0,0.0,-17.82,1
+Jinx,Armored Advance,Trinity Force,BOTTOM,8976.0,0.0,-17.66,1
+Jinx,Manamune,Armored Advance,BOTTOM,9374.0,0.0,-18.45,1
+Jinx,Infinity Edge,Manamune,BOTTOM,13703.0,0.0,-9.44,1
+Jinx,Lord Dominik's Regards,Infinity Edge,BOTTOM,16017.0,0.0,0,1
+Jinx,Rapid Firecannon,Lord Dominik's Regards,BOTTOM,17913.0,0.0,0,1
+Sylas,Trinity Force,None,MIDDLE,5467.0,100.0,28.28,1
+Sylas,Manamune,Trinity Force,MIDDLE,7533.0,100.0,-9.46,1
+Sylas,Manamune,Manamune,MIDDLE,7787.0,100.0,15.13,1
+Sylas,Gunmetal Greaves,Manamune,MIDDLE,9075.0,100.0,0,1
+Kaisa,Trinity Force,None,BOTTOM,4685.0,100.0,-0.73,1
+Aphelios,Trinity Force,None,BOTTOM,5101.0,100.0,30.81,1
+Aphelios,Manamune,Trinity Force,BOTTOM,7775.0,100.0,34.67,1
+Aphelios,Manamune,Manamune,BOTTOM,7775.0,100.0,34.68,1
+Aphelios,Gunmetal Greaves,Manamune,BOTTOM,10108.0,100.0,44.47,1
+Aphelios,Rapid Firecannon,Gunmetal Greaves,BOTTOM,12686.0,100.0,0,1

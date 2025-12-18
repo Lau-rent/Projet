@@ -1,46 +1,67 @@
-VS Champion,Item Name,Win Rate (%),Gold Accel (5min) (%),Sample Size
-Hecarim,Thornmail,50.0,-2.24,2
-Jax,Thornmail,50.0,-8.94,2
-Nami,Trailblazer,100.0,7.44,1
-Nami,Forever Forward,100.0,84.48,1
-Nami,Thornmail,100.0,0,1
-Hecarim,Dead Man's Plate,100.0,-13.9,1
-Hecarim,Chainlaced Crushers,100.0,-13.84,1
-Hecarim,Hollow Radiance,100.0,-36.77,1
-Hecarim,Sunfire Aegis,0.0,-10.78,1
-Hecarim,"Jak'Sho, The Protean",0.0,0,1
-Zac,"Jak'Sho, The Protean",0.0,-29.12,1
-Zac,Liandry's Torment,0.0,-7.38,1
-Ekko,Thornmail,100.0,5.57,1
-Ekko,Sunfire Aegis,100.0,-16.46,1
-Ekko,Unending Despair,100.0,-25.82,1
-Ekko,Chainlaced Crushers,100.0,-25.75,1
-Ekko,"Jak'Sho, The Protean",100.0,-15.87,1
-Ekko,Zeke's Convergence,100.0,0,1
-Viego,Sunfire Aegis,0.0,-2.91,1
-Viego,Thornmail,0.0,5.18,1
-Viego,"Jak'Sho, The Protean",0.0,14.4,1
-Viego,Unending Despair,0.0,25.81,1
-JarvanIV,Thornmail,100.0,7.24,1
-JarvanIV,Sunfire Aegis,100.0,-15.52,1
-JarvanIV,"Jak'Sho, The Protean",100.0,0,1
-XinZhao,Sunfire Aegis,100.0,39.25,1
-XinZhao,Thornmail,100.0,65.57,1
-XinZhao,"Jak'Sho, The Protean",100.0,27.8,1
-XinZhao,Frozen Heart,100.0,0,1
-XinZhao,Armored Advance,100.0,0,1
-Evelynn,Thornmail,0.0,-19.24,1
-Kayn,Heartsteel,0.0,-9.3,1
-Kayn,Sunfire Aegis,0.0,0,1
-Shaco,Thornmail,0.0,-1.22,1
-Shaco,Force of Nature,0.0,97.66,1
-Shaco,"Jak'Sho, The Protean",0.0,-37.25,1
-Jax,Dead Man's Plate,0.0,41.48,1
-Jax,Sunfire Aegis,100.0,-24.67,1
-Jax,Chainlaced Crushers,100.0,0,1
-MasterYi,Thornmail,100.0,52.12,1
-MasterYi,Sunfire Aegis,100.0,20.75,1
-Braum,Trailblazer,100.0,3.37,1
-Braum,Forever Forward,100.0,15.29,1
-Briar,Thornmail,0.0,-9.95,1
-Briar,Sunfire Aegis,0.0,-21.3,1
+VS Champion,Item Name,Last Item,Role,Avg Gold At Purchase,Win Rate (%),Gold Accel (5min) (%),Sample Size
+Hecarim,Thornmail,None,JUNGLE,3339.0,50.0,-2.24,2
+Viego,Thornmail,None,JUNGLE,3736.5,100.0,4.71,2
+Jax,Thornmail,None,JUNGLE,3466.5,50.0,-8.94,2
+Nami,Trailblazer,None,UTILITY,4675.0,100.0,7.44,1
+Nami,Forever Forward,Trailblazer,UTILITY,5112.0,100.0,84.48,1
+Nami,Thornmail,Forever Forward,UTILITY,7367.0,100.0,0,1
+Hecarim,Dead Man's Plate,Thornmail,JUNGLE,8470.0,100.0,-13.9,1
+Hecarim,Chainlaced Crushers,Dead Man's Plate,JUNGLE,8470.0,100.0,-13.84,1
+Hecarim,Hollow Radiance,Chainlaced Crushers,JUNGLE,10718.0,100.0,-36.77,1
+Hecarim,Sunfire Aegis,Thornmail,JUNGLE,6797.0,0.0,-10.78,1
+Hecarim,"Jak'Sho, The Protean",Sunfire Aegis,JUNGLE,10586.0,0.0,0,1
+Zac,"Jak'Sho, The Protean",None,JUNGLE,3957.0,0.0,-29.12,1
+Zac,Liandry's Torment,"Jak'Sho, The Protean",JUNGLE,8102.0,0.0,-7.38,1
+Ekko,Thornmail,None,JUNGLE,5131.0,100.0,5.57,1
+Ekko,Sunfire Aegis,Thornmail,JUNGLE,8130.0,100.0,-16.46,1
+Ekko,Unending Despair,Sunfire Aegis,JUNGLE,10318.0,100.0,-25.82,1
+Ekko,Chainlaced Crushers,Unending Despair,JUNGLE,10318.0,100.0,-25.75,1
+Ekko,"Jak'Sho, The Protean",Chainlaced Crushers,JUNGLE,14048.0,100.0,-15.87,1
+Ekko,Zeke's Convergence,"Jak'Sho, The Protean",JUNGLE,16059.0,100.0,0,1
+Viego,Sunfire Aegis,None,JUNGLE,3517.0,0.0,-2.91,1
+Viego,Thornmail,Sunfire Aegis,JUNGLE,6868.0,0.0,5.18,1
+Viego,"Jak'Sho, The Protean",Thornmail,JUNGLE,10874.0,0.0,14.4,1
+Viego,Unending Despair,"Jak'Sho, The Protean",JUNGLE,12835.0,0.0,25.81,1
+Viego,Sunfire Aegis,Thornmail,JUNGLE,7807.0,100.0,9.98,1
+Viego,Dead Man's Plate,Thornmail,JUNGLE,7590.0,100.0,16.0,1
+Viego,Force of Nature,Dead Man's Plate,JUNGLE,10249.0,100.0,-5.16,1
+Viego,Swiftmarch,Force of Nature,JUNGLE,10249.0,100.0,-5.05,1
+Kayn,Thornmail,None,JUNGLE,6127.0,100.0,-0.42,1
+Kayn,Sunfire Aegis,Thornmail,JUNGLE,7716.0,100.0,23.86,1
+Kayn,"Jak'Sho, The Protean",Sunfire Aegis,JUNGLE,10818.0,100.0,0,1
+Kayn,Heartsteel,None,JUNGLE,3654.0,0.0,-9.3,1
+Kayn,Sunfire Aegis,Heartsteel,JUNGLE,7933.0,0.0,0,1
+JarvanIV,Thornmail,None,JUNGLE,3089.0,100.0,7.24,1
+JarvanIV,Sunfire Aegis,Thornmail,JUNGLE,7528.0,100.0,-15.52,1
+JarvanIV,"Jak'Sho, The Protean",Sunfire Aegis,JUNGLE,11116.0,100.0,0,1
+XinZhao,Sunfire Aegis,None,JUNGLE,6402.0,100.0,39.25,1
+XinZhao,Thornmail,Sunfire Aegis,JUNGLE,7182.0,100.0,65.57,1
+XinZhao,"Jak'Sho, The Protean",Thornmail,JUNGLE,10561.0,100.0,27.8,1
+XinZhao,Frozen Heart,"Jak'Sho, The Protean",JUNGLE,13691.0,100.0,0,1
+XinZhao,Armored Advance,Frozen Heart,JUNGLE,13691.0,100.0,0,1
+Evelynn,Thornmail,None,JUNGLE,4812.0,0.0,-19.24,1
+Shaco,Thornmail,None,JUNGLE,4719.0,0.0,-1.22,1
+Shaco,Force of Nature,Thornmail,JUNGLE,7916.0,0.0,97.66,1
+Shaco,"Jak'Sho, The Protean",Force of Nature,JUNGLE,11191.0,0.0,-37.25,1
+Jax,Dead Man's Plate,Thornmail,JUNGLE,7241.0,0.0,41.48,1
+Jax,Sunfire Aegis,Thornmail,JUNGLE,6369.0,100.0,-24.67,1
+Jax,Chainlaced Crushers,Sunfire Aegis,JUNGLE,8379.0,100.0,0,1
+MasterYi,Thornmail,None,JUNGLE,3226.0,100.0,52.12,1
+MasterYi,Sunfire Aegis,Thornmail,JUNGLE,6944.0,100.0,20.75,1
+Braum,Trailblazer,None,UTILITY,5179.0,100.0,3.37,1
+Braum,Forever Forward,Trailblazer,UTILITY,5406.0,100.0,15.29,1
+Briar,Thornmail,None,JUNGLE,4289.0,0.0,-9.95,1
+Briar,Sunfire Aegis,Thornmail,JUNGLE,7928.0,0.0,-21.3,1
+Lillia,Thornmail,None,JUNGLE,4799.0,0.0,-27.84,1
+Lillia,Sunfire Aegis,Thornmail,JUNGLE,7627.0,0.0,-36.73,1
+Lillia,"Jak'Sho, The Protean",Sunfire Aegis,JUNGLE,9848.0,0.0,0,1
+Belveth,Thornmail,None,JUNGLE,3207.0,100.0,46.89,1
+Belveth,Sunfire Aegis,Thornmail,JUNGLE,7997.0,100.0,33.88,1
+Belveth,"Jak'Sho, The Protean",Sunfire Aegis,JUNGLE,10075.0,100.0,6.39,1
+Belveth,Randuin's Omen,"Jak'Sho, The Protean",JUNGLE,13198.0,100.0,0,1
+Amumu,Thornmail,None,JUNGLE,4278.0,0.0,11.7,1
+Amumu,Sunfire Aegis,Thornmail,JUNGLE,7235.0,0.0,45.88,1
+Amumu,"Jak'Sho, The Protean",Sunfire Aegis,JUNGLE,9953.0,0.0,-4.77,1
+Amumu,Randuin's Omen,"Jak'Sho, The Protean",JUNGLE,10745.0,0.0,0,1
+Yone,Thornmail,None,TOP,3063.0,0.0,14.74,1
+Yone,Randuin's Omen,Thornmail,TOP,9165.0,0.0,0,1

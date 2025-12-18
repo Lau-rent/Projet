@@ -1,53 +1,92 @@
-VS Champion,Item Name,Win Rate (%),Gold Accel (5min) (%),Sample Size
-Ekko,Blackfire Torch,100.0,0.82,2
-Teemo,Liandry's Torment,0.0,32.35,2
-Garen,Liandry's Torment,50.0,20.6,2
-Ekko,Zhonya's Hourglass,100.0,-39.84,1
-Ekko,Spellslinger's Shoes,100.0,-46.69,1
-Ekko,Liandry's Torment,100.0,13.65,1
-Ekko,Rylai's Crystal Scepter,100.0,32.86,1
-Ekko,Rabadon's Deathcap,100.0,0,1
-Teemo,Zhonya's Hourglass,0.0,-34.58,1
-Teemo,Spellslinger's Shoes,0.0,0,1
-Teemo,Blackfire Torch,0.0,-42.76,1
-Teemo,Rylai's Crystal Scepter,0.0,21.37,1
-Teemo,Void Staff,0.0,-15.82,1
-Teemo,Shadowflame,0.0,-17.09,1
-Garen,Shadowflame,100.0,65.85,1
-Garen,Spellslinger's Shoes,100.0,52.7,1
-Garen,Void Staff,100.0,0,1
-Garen,Blackfire Torch,0.0,84.65,1
-Garen,Zhonya's Hourglass,0.0,-17.83,1
-DrMundo,Blackfire Torch,100.0,26.52,1
-DrMundo,Liandry's Torment,100.0,-48.98,1
-Sion,Blackfire Torch,0.0,-24.69,1
-Sion,Shadowflame,0.0,0,1
-Jax,Blackfire Torch,100.0,47.36,1
-Jax,Zhonya's Hourglass,100.0,-5.61,1
-Jax,Spellslinger's Shoes,100.0,26.99,1
-Jax,Rylai's Crystal Scepter,100.0,0,1
-Syndra,Zhonya's Hourglass,0.0,-20.99,1
-Olaf,Liandry's Torment,0.0,20.64,1
-Amumu,Liandry's Torment,0.0,0,1
-Irelia,Liandry's Torment,100.0,-6.06,1
-Irelia,Blackfire Torch,100.0,27.26,1
-Irelia,Spellslinger's Shoes,100.0,2.12,1
-Irelia,Rylai's Crystal Scepter,100.0,0,1
-Sett,Blackfire Torch,100.0,-3.67,1
-Sett,Liandry's Torment,100.0,30.56,1
-Sett,Zhonya's Hourglass,100.0,27.7,1
-Sett,Rylai's Crystal Scepter,100.0,42.1,1
-Aurora,Blackfire Torch,100.0,44.66,1
-Aurora,Zhonya's Hourglass,100.0,119.73,1
-Aurora,Rylai's Crystal Scepter,100.0,6.71,1
-Aurora,Spellslinger's Shoes,100.0,7.4,1
-Gnar,Stormsurge,100.0,-1.74,1
-Gnar,Rabadon's Deathcap,100.0,32.43,1
-Gnar,Spellslinger's Shoes,100.0,56.17,1
-Qiyana,Liandry's Torment,100.0,-13.01,1
-Qiyana,Blackfire Torch,100.0,1.93,1
-Qiyana,Zhonya's Hourglass,100.0,-19.85,1
-Qiyana,Rabadon's Deathcap,100.0,27.32,1
-Qiyana,Shadowflame,100.0,0,1
-Renekton,Rylai's Crystal Scepter,100.0,50.48,1
-Renekton,Liandry's Torment,100.0,0,1
+VS Champion,Item Name,Last Item,Role,Avg Gold At Purchase,Win Rate (%),Gold Accel (5min) (%),Sample Size
+Syndra,Blackfire Torch,None,MIDDLE,3700.0,50.0,-1.64,2
+Syndra,Liandry's Torment,Blackfire Torch,MIDDLE,7466.0,50.0,10.37,2
+Ekko,Blackfire Torch,None,MIDDLE,3912.5,100.0,0.82,2
+Teemo,Liandry's Torment,None,TOP,3809.0,0.0,32.35,2
+Syndra,Zhonya's Hourglass,None,MIDDLE,4190.0,0.0,-20.99,1
+Syndra,Rabadon's Deathcap,Liandry's Torment,MIDDLE,10751.0,0.0,-47.64,1
+Syndra,Zhonya's Hourglass,Rabadon's Deathcap,MIDDLE,14781.0,0.0,-8.57,1
+Ahri,Blackfire Torch,None,MIDDLE,3524.0,100.0,42.75,1
+Ahri,Liandry's Torment,Blackfire Torch,MIDDLE,8105.0,100.0,43.71,1
+Ahri,Zhonya's Hourglass,Liandry's Torment,MIDDLE,10951.0,100.0,0,1
+Ekko,Zhonya's Hourglass,Blackfire Torch,MIDDLE,7602.0,100.0,-39.84,1
+Ekko,Spellslinger's Shoes,Zhonya's Hourglass,MIDDLE,8470.0,100.0,-46.69,1
+Ekko,Liandry's Torment,Blackfire Torch,MIDDLE,8187.0,100.0,13.65,1
+Ekko,Rylai's Crystal Scepter,Liandry's Torment,MIDDLE,9414.0,100.0,32.86,1
+Ekko,Rabadon's Deathcap,Rylai's Crystal Scepter,MIDDLE,13488.0,100.0,0,1
+Gnar,Archangel's Staff,None,TOP,3801.0,0.0,0,1
+Gnar,Stormsurge,None,TOP,4123.0,100.0,-1.74,1
+Gnar,Rabadon's Deathcap,Stormsurge,TOP,8318.0,100.0,32.43,1
+Gnar,Spellslinger's Shoes,Rabadon's Deathcap,TOP,8918.0,100.0,56.17,1
+Teemo,Zhonya's Hourglass,Liandry's Torment,TOP,7227.0,0.0,-34.58,1
+Teemo,Spellslinger's Shoes,Zhonya's Hourglass,TOP,8565.0,0.0,0,1
+Teemo,Blackfire Torch,Liandry's Torment,TOP,7918.0,0.0,-42.76,1
+Teemo,Rylai's Crystal Scepter,Blackfire Torch,TOP,10435.0,0.0,21.37,1
+Teemo,Void Staff,Rylai's Crystal Scepter,TOP,12990.0,0.0,-15.82,1
+Teemo,Shadowflame,Void Staff,TOP,15976.0,0.0,-17.09,1
+Garen,Liandry's Torment,None,TOP,4112.0,100.0,15.63,1
+Garen,Shadowflame,Liandry's Torment,TOP,8364.0,100.0,65.85,1
+Garen,Spellslinger's Shoes,Shadowflame,TOP,8992.0,100.0,52.7,1
+Garen,Void Staff,Spellslinger's Shoes,TOP,11647.0,100.0,0,1
+Garen,Blackfire Torch,None,TOP,5385.0,0.0,84.65,1
+Garen,Liandry's Torment,Blackfire Torch,TOP,7950.0,0.0,25.56,1
+Garen,Zhonya's Hourglass,Liandry's Torment,TOP,10698.0,0.0,-17.83,1
+DrMundo,Blackfire Torch,None,TOP,3934.0,100.0,26.52,1
+DrMundo,Liandry's Torment,Blackfire Torch,TOP,7594.0,100.0,-48.98,1
+Sion,Blackfire Torch,None,TOP,3705.0,0.0,-24.69,1
+Sion,Shadowflame,Blackfire Torch,TOP,6943.0,0.0,0,1
+Jax,Blackfire Torch,None,TOP,5811.0,100.0,47.36,1
+Jax,Zhonya's Hourglass,Blackfire Torch,TOP,8131.0,100.0,-5.61,1
+Jax,Spellslinger's Shoes,Zhonya's Hourglass,TOP,8687.0,100.0,26.99,1
+Jax,Rylai's Crystal Scepter,Spellslinger's Shoes,TOP,10897.0,100.0,0,1
+Olaf,Liandry's Torment,None,MIDDLE,3825.0,0.0,20.64,1
+Amumu,Liandry's Torment,None,UTILITY,4100.0,0.0,0,1
+Irelia,Liandry's Torment,None,TOP,3883.0,100.0,-6.06,1
+Irelia,Blackfire Torch,Liandry's Torment,TOP,7290.0,100.0,27.26,1
+Irelia,Spellslinger's Shoes,Blackfire Torch,TOP,9132.0,100.0,2.12,1
+Irelia,Rylai's Crystal Scepter,Spellslinger's Shoes,TOP,10670.0,100.0,0,1
+Darius,Zhonya's Hourglass,None,TOP,4604.0,100.0,20.19,1
+Darius,Liandry's Torment,Zhonya's Hourglass,TOP,6734.0,100.0,2.71,1
+Darius,Spellslinger's Shoes,Liandry's Torment,TOP,9443.0,100.0,0,1
+Sett,Blackfire Torch,None,TOP,3402.0,100.0,-3.67,1
+Sett,Liandry's Torment,Blackfire Torch,TOP,8975.0,100.0,30.56,1
+Sett,Zhonya's Hourglass,Liandry's Torment,TOP,10825.0,100.0,27.7,1
+Sett,Rylai's Crystal Scepter,Zhonya's Hourglass,TOP,13461.0,100.0,42.1,1
+Aurora,Blackfire Torch,None,TOP,3766.0,100.0,44.66,1
+Aurora,Zhonya's Hourglass,Blackfire Torch,TOP,7951.0,100.0,119.73,1
+Aurora,Rylai's Crystal Scepter,Zhonya's Hourglass,TOP,11260.0,100.0,6.71,1
+Aurora,Spellslinger's Shoes,Rylai's Crystal Scepter,TOP,11260.0,100.0,7.4,1
+Qiyana,Liandry's Torment,None,MIDDLE,4044.0,100.0,-13.01,1
+Qiyana,Blackfire Torch,Liandry's Torment,MIDDLE,7771.0,100.0,1.93,1
+Qiyana,Zhonya's Hourglass,Blackfire Torch,MIDDLE,11047.0,100.0,-19.85,1
+Qiyana,Rabadon's Deathcap,Zhonya's Hourglass,MIDDLE,15160.0,100.0,27.32,1
+Qiyana,Shadowflame,Rabadon's Deathcap,MIDDLE,17623.0,100.0,0,1
+Renekton,Rylai's Crystal Scepter,None,TOP,3826.0,100.0,50.48,1
+Renekton,Liandry's Torment,Rylai's Crystal Scepter,TOP,8212.0,100.0,0,1
+Renekton,Blackfire Torch,None,TOP,3837.0,100.0,16.19,1
+Renekton,Liandry's Torment,Blackfire Torch,TOP,8020.0,100.0,-26.38,1
+Renekton,Void Staff,Liandry's Torment,TOP,10474.0,100.0,134.8,1
+Renekton,Rabadon's Deathcap,Void Staff,TOP,14386.0,100.0,-23.76,1
+Renekton,Rylai's Crystal Scepter,Rabadon's Deathcap,TOP,16936.0,100.0,-10.3,1
+TwistedFate,Blackfire Torch,None,TOP,3543.0,100.0,0,1
+Lulu,Blackfire Torch,None,TOP,3708.0,0.0,16.92,1
+Lulu,Liandry's Torment,Blackfire Torch,TOP,7506.0,0.0,49.97,1
+Lulu,Rabadon's Deathcap,Liandry's Torment,TOP,10917.0,0.0,69.41,1
+Lulu,Rylai's Crystal Scepter,Rabadon's Deathcap,TOP,13877.0,0.0,16.42,1
+Lulu,Zhonya's Hourglass,Rylai's Crystal Scepter,TOP,16722.0,0.0,-60.51,1
+Talon,Blackfire Torch,None,MIDDLE,4608.0,100.0,14.46,1
+Talon,Rylai's Crystal Scepter,Blackfire Torch,MIDDLE,8300.0,100.0,-18.79,1
+Talon,Morellonomicon,Rylai's Crystal Scepter,MIDDLE,9804.0,100.0,0,1
+Smolder,Blackfire Torch,None,MIDDLE,4348.0,100.0,10.51,1
+Smolder,Rylai's Crystal Scepter,Blackfire Torch,MIDDLE,8603.0,100.0,0,1
+Vayne,Liandry's Torment,None,TOP,4573.0,0.0,27.85,1
+Vayne,Blackfire Torch,Liandry's Torment,TOP,7129.0,0.0,8.85,1
+Malzahar,Rylai's Crystal Scepter,None,MIDDLE,5074.0,0.0,-4.72,1
+Malzahar,Liandry's Torment,Rylai's Crystal Scepter,MIDDLE,8511.0,0.0,-0.26,1
+Malzahar,Blackfire Torch,Liandry's Torment,MIDDLE,10556.0,0.0,2.59,1
+Urgot,Liandry's Torment,None,TOP,4639.0,0.0,31.44,1
+Urgot,Rylai's Crystal Scepter,Liandry's Torment,TOP,7633.0,0.0,-14.13,1
+Urgot,Zhonya's Hourglass,Rylai's Crystal Scepter,TOP,11260.0,0.0,-11.45,1
+Urgot,Rabadon's Deathcap,Zhonya's Hourglass,TOP,14280.0,0.0,58.52,1
+Urgot,Void Staff,Rabadon's Deathcap,TOP,17790.0,0.0,45.76,1
+Urgot,Shadowflame,Void Staff,TOP,21999.0,0.0,-33.35,1

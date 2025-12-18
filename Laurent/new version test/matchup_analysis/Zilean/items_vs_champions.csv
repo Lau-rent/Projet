@@ -1,60 +1,104 @@
-VS Champion,Item Name,Win Rate (%),Gold Accel (5min) (%),Sample Size
-Thresh,Shurelya's Battlesong,100.0,19.77,2
-Karma,Shurelya's Battlesong,50.0,22.23,2
-Akshan,Imperial Mandate,0.0,-16.9,1
-Akshan,Archangel's Staff,0.0,-9.06,1
-Nautilus,Archangel's Staff,0.0,-28.84,1
-Nautilus,Shurelya's Battlesong,0.0,-21.02,1
-TahmKench,Shurelya's Battlesong,0.0,101.82,1
-TahmKench,Imperial Mandate,0.0,-2.07,1
-TahmKench,Cosmic Drive,0.0,-39.73,1
-Vex,Rod of Ages,100.0,9.52,1
-Vex,Archangel's Staff,100.0,-14.31,1
-Milio,Archangel's Staff,0.0,119.65,1
-Milio,Shurelya's Battlesong,0.0,-13.45,1
-Milio,Imperial Mandate,0.0,0,1
-Galio,Archangel's Staff,0.0,-35.81,1
-Galio,Cosmic Drive,0.0,3.27,1
-Lulu,Shurelya's Battlesong,0.0,33.47,1
-Lulu,Imperial Mandate,0.0,-22.81,1
-Blitzcrank,Liandry's Torment,100.0,-35.65,1
-Blitzcrank,Swiftmarch,100.0,12.9,1
-Blitzcrank,Locket of the Iron Solari,100.0,20.03,1
-Thresh,Crimson Lucidity,100.0,10.56,1
-Thresh,Imperial Mandate,100.0,20.77,1
-Thresh,Luden's Companion,100.0,25.1,1
-Thresh,Stormsurge,100.0,8.79,1
-Thresh,Archangel's Staff,100.0,0,1
-Maokai,Shurelya's Battlesong,0.0,19.24,1
-Maokai,Imperial Mandate,0.0,0,1
-Karma,Archangel's Staff,100.0,3.81,1
-Brand,Redemption,0.0,-20.3,1
-Neeko,Shurelya's Battlesong,0.0,-4.34,1
-Leona,Shurelya's Battlesong,0.0,5.89,1
-Leona,Imperial Mandate,0.0,21.1,1
-Leona,Luden's Companion,0.0,0,1
-Janna,Luden's Companion,100.0,7.47,1
-Janna,Blackfire Torch,100.0,-4.26,1
-Janna,Rylai's Crystal Scepter,100.0,8.01,1
-Yuumi,Luden's Companion,0.0,-0.29,1
-Yuumi,Cosmic Drive,0.0,45.95,1
-Yuumi,Spellslinger's Shoes,0.0,41.88,1
-Shaco,Shurelya's Battlesong,100.0,46.29,1
-Shaco,Archangel's Staff,100.0,63.77,1
-Rakan,Redemption,0.0,-7.11,1
-Rakan,Locket of the Iron Solari,0.0,-2.0,1
-Rakan,Shurelya's Battlesong,0.0,11.87,1
-Pantheon,Redemption,100.0,-24.02,1
-Pantheon,Locket of the Iron Solari,100.0,1.27,1
-Pantheon,Frozen Heart,100.0,52.26,1
-Soraka,Ardent Censer,0.0,-10.85,1
-Soraka,Shurelya's Battlesong,0.0,0,1
-Nami,Luden's Companion,0.0,104.29,1
-Nami,Redemption,100.0,61.92,1
-Nami,Imperial Mandate,100.0,-11.86,1
-Nami,Crimson Lucidity,100.0,0,1
-Senna,Luden's Companion,100.0,6.77,1
-Senna,Zhonya's Hourglass,100.0,0,1
-Braum,Archangel's Staff,100.0,73.66,1
-Braum,Crimson Lucidity,100.0,57.57,1
-Braum,Shurelya's Battlesong,100.0,42.82,1
+VS Champion,Item Name,Last Item,Role,Avg Gold At Purchase,Win Rate (%),Gold Accel (5min) (%),Sample Size
+Thresh,Shurelya's Battlesong,None,UTILITY,4070.3,100.0,39.12,3
+Milio,Archangel's Staff,None,UTILITY,4976.0,50.0,61.68,2
+Milio,Imperial Mandate,Shurelya's Battlesong,UTILITY,8301.0,50.0,1.65,2
+Karma,Archangel's Staff,None,UTILITY,4336.5,50.0,15.55,2
+Karma,Archangel's Staff,Archangel's Staff,UTILITY,5160.0,50.0,10.32,2
+Yuumi,Archangel's Staff,Archangel's Staff,UTILITY,6484.0,100.0,56.62,2
+Akshan,Imperial Mandate,None,MIDDLE,4267.0,0.0,-16.9,1
+Akshan,Archangel's Staff,Imperial Mandate,MIDDLE,6414.0,0.0,-9.06,1
+Akshan,Archangel's Staff,Archangel's Staff,MIDDLE,6918.0,0.0,-11.67,1
+Nautilus,Archangel's Staff,None,UTILITY,5653.0,0.0,-28.84,1
+Nautilus,Archangel's Staff,Archangel's Staff,UTILITY,5653.0,0.0,-28.83,1
+Nautilus,Shurelya's Battlesong,Archangel's Staff,UTILITY,6952.0,0.0,-21.02,1
+TahmKench,Shurelya's Battlesong,None,UTILITY,4063.0,0.0,101.82,1
+TahmKench,Imperial Mandate,Shurelya's Battlesong,UTILITY,6053.0,0.0,-2.07,1
+TahmKench,Cosmic Drive,Imperial Mandate,UTILITY,8815.0,0.0,-39.73,1
+Vex,Rod of Ages,None,MIDDLE,4949.0,100.0,9.52,1
+Vex,Archangel's Staff,Rod of Ages,MIDDLE,7076.0,100.0,-14.31,1
+Milio,Archangel's Staff,Archangel's Staff,UTILITY,6471.0,0.0,0,1
+Milio,Shurelya's Battlesong,None,UTILITY,5761.0,0.0,-13.45,1
+Milio,Crimson Lucidity,Archangel's Staff,UTILITY,5447.0,100.0,4.22,1
+Milio,Archangel's Staff,Crimson Lucidity,UTILITY,6315.0,100.0,-24.26,1
+Milio,Shurelya's Battlesong,Archangel's Staff,UTILITY,7463.0,100.0,-33.86,1
+Galio,Archangel's Staff,None,MIDDLE,6590.0,0.0,-35.81,1
+Galio,Archangel's Staff,Archangel's Staff,MIDDLE,6590.0,0.0,-35.8,1
+Galio,Cosmic Drive,Archangel's Staff,MIDDLE,7295.0,0.0,3.27,1
+Lulu,Shurelya's Battlesong,None,UTILITY,3766.0,0.0,33.47,1
+Lulu,Imperial Mandate,Shurelya's Battlesong,UTILITY,5960.0,0.0,-22.81,1
+Blitzcrank,Liandry's Torment,None,UTILITY,5080.0,100.0,-35.65,1
+Blitzcrank,Swiftmarch,Liandry's Torment,UTILITY,7378.0,100.0,12.9,1
+Blitzcrank,Locket of the Iron Solari,Swiftmarch,UTILITY,8060.0,100.0,20.03,1
+Lux,Archangel's Staff,None,MIDDLE,3813.0,100.0,52.15,1
+Lux,Archangel's Staff,Archangel's Staff,MIDDLE,6470.0,100.0,39.24,1
+Lux,Luden's Companion,Archangel's Staff,MIDDLE,7447.0,100.0,-8.29,1
+Lux,Cosmic Drive,Luden's Companion,MIDDLE,9879.0,100.0,0,1
+Thresh,Crimson Lucidity,Shurelya's Battlesong,UTILITY,5109.0,100.0,10.56,1
+Thresh,Imperial Mandate,Crimson Lucidity,UTILITY,8014.0,100.0,20.77,1
+Thresh,Luden's Companion,None,UTILITY,5864.0,100.0,25.1,1
+Thresh,Stormsurge,Luden's Companion,UTILITY,7747.0,100.0,8.79,1
+Thresh,Archangel's Staff,Stormsurge,UTILITY,10350.0,100.0,0,1
+Thresh,Archangel's Staff,Archangel's Staff,UTILITY,10350.0,100.0,0,1
+Thresh,Imperial Mandate,Shurelya's Battlesong,UTILITY,6625.0,100.0,-28.84,1
+Thresh,Redemption,Imperial Mandate,UTILITY,8737.0,100.0,0,1
+Maokai,Shurelya's Battlesong,None,UTILITY,3936.0,0.0,19.24,1
+Maokai,Imperial Mandate,Shurelya's Battlesong,UTILITY,6389.0,0.0,0,1
+Karma,Shurelya's Battlesong,Archangel's Staff,UTILITY,6889.0,100.0,46.9,1
+Karma,Shurelya's Battlesong,None,UTILITY,3929.0,0.0,-2.44,1
+Karma,Imperial Mandate,Archangel's Staff,UTILITY,7540.0,0.0,-15.23,1
+Karma,Crimson Lucidity,Imperial Mandate,UTILITY,7540.0,0.0,-14.97,1
+Karma,Shurelya's Battlesong,Crimson Lucidity,UTILITY,9632.0,0.0,0,1
+Brand,Redemption,None,UTILITY,3874.0,0.0,-20.3,1
+Neeko,Shurelya's Battlesong,None,UTILITY,3385.0,0.0,-4.34,1
+Leona,Shurelya's Battlesong,None,UTILITY,3252.0,0.0,5.89,1
+Leona,Imperial Mandate,Shurelya's Battlesong,UTILITY,6330.0,0.0,21.1,1
+Leona,Luden's Companion,Imperial Mandate,UTILITY,9647.0,0.0,0,1
+Braum,Imperial Mandate,None,UTILITY,4125.0,0.0,-0.75,1
+Braum,Cosmic Drive,Imperial Mandate,UTILITY,7407.0,0.0,-0.97,1
+Braum,Archangel's Staff,None,UTILITY,4907.0,100.0,73.66,1
+Braum,Archangel's Staff,Archangel's Staff,UTILITY,4907.0,100.0,73.69,1
+Braum,Crimson Lucidity,Archangel's Staff,UTILITY,5604.0,100.0,57.57,1
+Braum,Shurelya's Battlesong,Crimson Lucidity,UTILITY,7734.0,100.0,42.82,1
+Janna,Luden's Companion,None,UTILITY,4971.0,100.0,7.47,1
+Janna,Blackfire Torch,Luden's Companion,UTILITY,8140.0,100.0,-4.26,1
+Janna,Rylai's Crystal Scepter,Blackfire Torch,UTILITY,10536.0,100.0,8.01,1
+Janna,Redemption,None,UTILITY,4760.0,100.0,0,1
+Yuumi,Luden's Companion,None,UTILITY,3862.0,0.0,-0.29,1
+Yuumi,Cosmic Drive,Luden's Companion,UTILITY,7638.0,0.0,45.95,1
+Yuumi,Spellslinger's Shoes,Cosmic Drive,UTILITY,8282.0,0.0,41.88,1
+Yuumi,Archangel's Staff,None,UTILITY,4405.0,100.0,-24.29,1
+Yuumi,Cosmic Drive,Archangel's Staff,UTILITY,7433.0,100.0,0,1
+Yuumi,Shurelya's Battlesong,None,UTILITY,4169.0,100.0,-26.31,1
+Yuumi,Archangel's Staff,Shurelya's Battlesong,UTILITY,7107.0,100.0,93.59,1
+Shaco,Shurelya's Battlesong,None,UTILITY,4595.0,100.0,46.29,1
+Shaco,Archangel's Staff,Shurelya's Battlesong,UTILITY,6663.0,100.0,63.77,1
+Shaco,Archangel's Staff,Archangel's Staff,UTILITY,6663.0,100.0,63.79,1
+Rakan,Redemption,None,UTILITY,4517.0,0.0,-7.11,1
+Rakan,Locket of the Iron Solari,Redemption,UTILITY,6888.0,0.0,-2.0,1
+Rakan,Shurelya's Battlesong,Locket of the Iron Solari,UTILITY,8980.0,0.0,11.87,1
+Pantheon,Redemption,None,UTILITY,4588.0,100.0,-24.02,1
+Pantheon,Locket of the Iron Solari,Redemption,UTILITY,5590.0,100.0,1.27,1
+Pantheon,Frozen Heart,Locket of the Iron Solari,UTILITY,8110.0,100.0,52.26,1
+Soraka,Ardent Censer,None,UTILITY,4151.0,0.0,-10.85,1
+Soraka,Shurelya's Battlesong,Ardent Censer,UTILITY,6050.0,0.0,0,1
+Soraka,Archangel's Staff,None,UTILITY,5021.0,0.0,-6.06,1
+Soraka,Archangel's Staff,Archangel's Staff,UTILITY,5021.0,0.0,-6.05,1
+Nami,Luden's Companion,None,UTILITY,3673.0,0.0,104.29,1
+Nami,Redemption,None,UTILITY,4399.0,100.0,61.92,1
+Nami,Imperial Mandate,Redemption,UTILITY,6203.0,100.0,-11.86,1
+Nami,Crimson Lucidity,Imperial Mandate,UTILITY,6781.0,100.0,0,1
+Senna,Luden's Companion,None,UTILITY,3894.0,100.0,6.77,1
+Senna,Zhonya's Hourglass,Luden's Companion,UTILITY,8045.0,100.0,0,1
+Irelia,Archangel's Staff,None,MIDDLE,4024.0,0.0,74.55,1
+Irelia,Archangel's Staff,Archangel's Staff,MIDDLE,4822.0,0.0,17.02,1
+Irelia,Cosmic Drive,Archangel's Staff,MIDDLE,7579.0,0.0,0,1
+Morgana,Imperial Mandate,None,UTILITY,4612.0,0.0,-21.68,1
+Morgana,Archangel's Staff,Imperial Mandate,UTILITY,7333.0,0.0,-12.87,1
+Morgana,Archangel's Staff,Archangel's Staff,UTILITY,7333.0,0.0,-12.86,1
+Morgana,Shurelya's Battlesong,Archangel's Staff,UTILITY,9838.0,0.0,0,1
+Pyke,Shurelya's Battlesong,None,UTILITY,3770.0,100.0,-13.16,1
+Pyke,Locket of the Iron Solari,Shurelya's Battlesong,UTILITY,6864.0,100.0,0,1
+Pyke,Crimson Lucidity,Locket of the Iron Solari,UTILITY,7055.0,100.0,0,1
+Pyke,Luden's Companion,None,UTILITY,4179.0,100.0,103.7,1
+Pyke,Archangel's Staff,Luden's Companion,UTILITY,8270.0,100.0,15.34,1
+Pyke,Archangel's Staff,Archangel's Staff,UTILITY,8270.0,100.0,15.34,1

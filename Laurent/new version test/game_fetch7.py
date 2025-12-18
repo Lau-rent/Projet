@@ -20,7 +20,7 @@ PLATFORM_TO_REGIONAL = {
 def get_api_key():
     api_key = os.environ.get("RIOT_API_KEY") 
     if not api_key:
-        return "RGAPI-807fcdeb-946e-4d42-8387-1d0b48ede2a8" 
+        return "RGAPI-da23eb7d-0d1c-44e8-8aa2-1ad002794508" 
     return api_key
 
 HEADERS = lambda key: {"X-Riot-Token": key}

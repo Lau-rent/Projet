@@ -1,0 +1,405 @@
+{
+  "matchId": "EUW1_7633037168",
+  "gameDate": "2025-12-07 19:35:50",
+  "rank": "PLATINUM IV",
+  "gameMode": "CLASSIC",
+  "gameDuration": 150,
+  "timestamps_minutes": [
+    0.0,
+    1.0004333333333333,
+    2.0008166666666667,
+    2.503216666666667
+  ],
+  "participants": [
+    {
+      "participantId": 1,
+      "championName": "Ryze",
+      "teamId": 100,
+      "win": false,
+      "lane": "NONE",
+      "gold_curve": [
+        500,
+        500,
+        541,
+        602
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 5378,
+          "itemId": 1056
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 5378,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 5378,
+          "itemId": 2003
+        }
+      ],
+      "final_items": [
+        1056,
+        2003,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 2,
+      "championName": "Sylas",
+      "teamId": 100,
+      "win": false,
+      "lane": "JUNGLE",
+      "gold_curve": [
+        500,
+        500,
+        631,
+        787
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 17537,
+          "itemId": 1102
+        }
+      ],
+      "final_items": [
+        1102,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 3,
+      "championName": "Viktor",
+      "teamId": 100,
+      "win": false,
+      "lane": "MIDDLE",
+      "gold_curve": [
+        500,
+        500,
+        625,
+        763
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 9220,
+          "itemId": 1056
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 9220,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 9220,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 10289,
+          "itemId": 3340
+        }
+      ],
+      "final_items": [
+        1056,
+        2003,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 4,
+      "championName": "Yunara",
+      "teamId": 100,
+      "win": false,
+      "lane": "BOTTOM",
+      "gold_curve": [
+        500,
+        500,
+        604,
+        679
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 9654,
+          "itemId": 1055
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 10188,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 10355,
+          "itemId": 3340
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 131116,
+          "itemId": 2003
+        }
+      ],
+      "final_items": [
+        1055,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 5,
+      "championName": "Blitzcrank",
+      "teamId": 100,
+      "win": false,
+      "lane": "UTILITY",
+      "gold_curve": [
+        500,
+        500,
+        562,
+        646
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 25419,
+          "itemId": 3340
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 25720,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 25887,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 146050,
+          "itemId": 2003
+        }
+      ],
+      "final_items": [
+        3865,
+        2003,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 6,
+      "championName": "Sion",
+      "teamId": 200,
+      "win": true,
+      "lane": "TOP",
+      "gold_curve": [
+        500,
+        500,
+        622,
+        794
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 3675,
+          "itemId": 1054
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 3675,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 13061,
+          "itemId": 1083
+        }
+      ],
+      "final_items": [
+        1083,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 7,
+      "championName": "Viego",
+      "teamId": 200,
+      "win": true,
+      "lane": "JUNGLE",
+      "gold_curve": [
+        500,
+        500,
+        616,
+        792
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 6748,
+          "itemId": 1103
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 7383,
+          "itemId": 3340
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 15333,
+          "itemId": 1101
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 16001,
+          "itemId": 3340
+        }
+      ],
+      "final_items": [
+        1101,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 8,
+      "championName": "TwistedFate",
+      "teamId": 200,
+      "win": true,
+      "lane": "MIDDLE",
+      "gold_curve": [
+        500,
+        500,
+        637,
+        782
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 11925,
+          "itemId": 1056
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 11925,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 11925,
+          "itemId": 2003
+        }
+      ],
+      "final_items": [
+        1056,
+        2003,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 9,
+      "championName": "KogMaw",
+      "teamId": 200,
+      "win": true,
+      "lane": "BOTTOM",
+      "gold_curve": [
+        500,
+        500,
+        632,
+        791
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 22814,
+          "itemId": 1055
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 22814,
+          "itemId": 2003
+        }
+      ],
+      "final_items": [
+        1055,
+        2003,
+        2010,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 10,
+      "championName": "Karma",
+      "teamId": 200,
+      "win": true,
+      "lane": "UTILITY",
+      "gold_curve": [
+        500,
+        500,
+        567,
+        676
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 6447,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 6748,
+          "itemId": 2003
+        }
+      ],
+      "final_items": [
+        3865,
+        2003,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    }
+  ]
+}

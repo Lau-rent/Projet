@@ -1,83 +1,120 @@
-VS Champion,Item Name,Win Rate (%),Gold Accel (5min) (%),Sample Size
-DrMundo,Black Cleaver,50.0,-15.22,2
-DrMundo,"Jak'Sho, The Protean",50.0,-32.26,2
-Vayne,Black Cleaver,0.0,-8.02,2
-Mordekaiser,Black Cleaver,0.0,11.22,2
-Mordekaiser,Sterak's Gage,0.0,27.7,2
-Kayle,Black Cleaver,100.0,-0.8,2
-Malphite,Black Cleaver,0.0,28.05,2
-Malphite,Sterak's Gage,0.0,66.45,2
-Olaf,Stridebreaker,100.0,32.16,1
-Olaf,Hullbreaker,100.0,3.51,1
-Olaf,Armored Advance,100.0,-42.7,1
-Olaf,Kaenic Rookern,100.0,13.8,1
-Olaf,Frozen Heart,100.0,14.28,1
-Olaf,Thornmail,100.0,0,1
-Olaf,Black Cleaver,0.0,97.82,1
-Olaf,Sterak's Gage,0.0,-0.33,1
-Olaf,Overlord's Bloodmail,0.0,20.08,1
-Kennen,Black Cleaver,100.0,20.66,1
-Kennen,Hullbreaker,100.0,17.28,1
-Kennen,Chainlaced Crushers,100.0,17.61,1
-Kennen,Sterak's Gage,100.0,-17.84,1
-DrMundo,Sterak's Gage,100.0,127.7,1
-DrMundo,Swiftmarch,100.0,13.24,1
-DrMundo,Hullbreaker,0.0,43.28,1
-Teemo,Black Cleaver,0.0,27.24,1
-Teemo,Kaenic Rookern,0.0,0,1
-Vayne,Sterak's Gage,0.0,49.81,1
-Vayne,Thornmail,0.0,78.99,1
-Vayne,"Jak'Sho, The Protean",0.0,0,1
-Vayne,Hullbreaker,0.0,49.32,1
-Mordekaiser,"Jak'Sho, The Protean",0.0,48.6,1
-Mordekaiser,Chainlaced Crushers,0.0,48.79,1
-Mordekaiser,Kaenic Rookern,0.0,-25.21,1
-Mordekaiser,Thornmail,0.0,-35.81,1
-Camille,Black Cleaver,100.0,-3.56,1
-Camille,Sterak's Gage,100.0,10.11,1
-Camille,Armored Advance,100.0,-10.54,1
-Camille,"Jak'Sho, The Protean",100.0,0,1
-Camille,Thornmail,100.0,0,1
-Akali,Black Cleaver,0.0,123.0,1
-Akali,Sterak's Gage,0.0,-45.54,1
-Akali,Overlord's Bloodmail,0.0,31.92,1
-Akali,Youmuu's Ghostblade,0.0,0,1
-Kayle,Sterak's Gage,100.0,42.86,1
-Volibear,Black Cleaver,100.0,23.07,1
-Volibear,Sterak's Gage,100.0,64.99,1
-Volibear,Overlord's Bloodmail,100.0,-22.79,1
-Volibear,Swiftmarch,100.0,-22.65,1
-Riven,Black Cleaver,100.0,22.21,1
-Riven,Titanic Hydra,100.0,0,1
-Malphite,Stridebreaker,0.0,-31.61,1
-Malphite,Hullbreaker,0.0,-16.11,1
-Malphite,Overlord's Bloodmail,0.0,-46.38,1
-Malphite,"Jak'Sho, The Protean",0.0,-39.34,1
-Malphite,Randuin's Omen,0.0,-33.08,1
-Nasus,Black Cleaver,100.0,95.79,1
-Nasus,Sterak's Gage,100.0,25.45,1
-Nasus,"Jak'Sho, The Protean",100.0,0,1
-Garen,Black Cleaver,0.0,13.97,1
-Garen,Sterak's Gage,0.0,-17.36,1
-Garen,"Jak'Sho, The Protean",0.0,-27.39,1
-Garen,Thornmail,0.0,0,1
-Illaoi,Black Cleaver,0.0,24.55,1
-Illaoi,Titanic Hydra,0.0,16.85,1
-Illaoi,Sterak's Gage,0.0,110.67,1
-Illaoi,Thornmail,0.0,12.63,1
-Illaoi,Knight's Vow,0.0,0,1
-Irelia,Black Cleaver,0.0,-16.91,1
-Irelia,Sterak's Gage,0.0,-34.85,1
-Gragas,Profane Hydra,0.0,-7.86,1
-Gragas,Black Cleaver,0.0,96.91,1
-Gragas,Dead Man's Plate,0.0,20.05,1
-Gragas,Swiftmarch,0.0,20.11,1
-Gragas,Hullbreaker,0.0,0,1
-Sion,Black Cleaver,0.0,61.24,1
-Sion,Sterak's Gage,0.0,31.1,1
-Sion,"Jak'Sho, The Protean",0.0,0,1
-Galio,Black Cleaver,0.0,54.73,1
-Galio,Overlord's Bloodmail,0.0,-18.05,1
-Rumble,Stridebreaker,0.0,-7.4,1
-Rumble,Black Cleaver,0.0,0,1
-Sett,Stridebreaker,0.0,0,1
+VS Champion,Item Name,Last Item,Role,Avg Gold At Purchase,Win Rate (%),Gold Accel (5min) (%),Sample Size
+Garen,Black Cleaver,None,TOP,4292.3,0.0,23.39,3
+Garen,Sterak's Gage,Black Cleaver,TOP,8202.7,0.0,20.94,3
+Garen,"Jak'Sho, The Protean",Sterak's Gage,TOP,11614.0,0.0,-18.26,3
+Kayle,Black Cleaver,None,TOP,4212.3,66.7,19.41,3
+Malphite,Black Cleaver,None,TOP,5005.3,33.3,35.78,3
+DrMundo,Black Cleaver,None,TOP,4739.5,50.0,-15.22,2
+Camille,Black Cleaver,None,TOP,3997.5,100.0,27.37,2
+Camille,Sterak's Gage,Black Cleaver,TOP,8796.0,100.0,-6.21,2
+Mordekaiser,Black Cleaver,None,TOP,5181.0,0.0,11.22,2
+Mordekaiser,Sterak's Gage,Black Cleaver,TOP,9225.5,0.0,27.7,2
+Kayle,Sterak's Gage,Black Cleaver,TOP,8628.0,50.0,5.14,2
+Malphite,Sterak's Gage,Black Cleaver,TOP,8540.5,50.0,105.89,2
+Nasus,Black Cleaver,None,TOP,4411.0,100.0,94.01,2
+Nasus,Sterak's Gage,Black Cleaver,TOP,8479.5,100.0,14.82,2
+Sion,Black Cleaver,None,TOP,3878.0,50.0,37.23,2
+Sion,Sterak's Gage,Black Cleaver,TOP,8152.5,50.0,29.03,2
+Sion,"Jak'Sho, The Protean",Sterak's Gage,TOP,11071.0,50.0,21.14,2
+Zaahen,Black Cleaver,None,TOP,4208.5,100.0,53.58,2
+Zaahen,Sterak's Gage,Black Cleaver,TOP,7831.0,100.0,32.91,2
+Darius,Black Cleaver,None,TOP,4001.0,50.0,39.12,2
+Olaf,Stridebreaker,None,TOP,5808.0,100.0,32.16,1
+Olaf,Hullbreaker,Stridebreaker,TOP,9724.0,100.0,3.51,1
+Olaf,Armored Advance,Hullbreaker,TOP,11046.0,100.0,-42.7,1
+Olaf,Kaenic Rookern,Armored Advance,TOP,13962.0,100.0,13.8,1
+Olaf,Frozen Heart,Kaenic Rookern,TOP,16110.0,100.0,14.28,1
+Olaf,Thornmail,Frozen Heart,TOP,17563.0,100.0,0,1
+Olaf,Black Cleaver,None,TOP,4080.0,0.0,97.82,1
+Olaf,Sterak's Gage,Black Cleaver,TOP,9965.0,0.0,-0.33,1
+Olaf,Overlord's Bloodmail,Sterak's Gage,TOP,11935.0,0.0,20.08,1
+Kennen,Black Cleaver,None,TOP,3606.0,100.0,20.66,1
+Kennen,Hullbreaker,Black Cleaver,TOP,9621.0,100.0,17.28,1
+Kennen,Chainlaced Crushers,Hullbreaker,TOP,9621.0,100.0,17.61,1
+Kennen,Sterak's Gage,Chainlaced Crushers,TOP,11539.0,100.0,-17.84,1
+DrMundo,Sterak's Gage,Black Cleaver,TOP,8780.0,100.0,127.7,1
+DrMundo,Swiftmarch,Sterak's Gage,TOP,10807.0,100.0,13.24,1
+DrMundo,"Jak'Sho, The Protean",Swiftmarch,TOP,12831.0,100.0,-32.26,1
+DrMundo,Hullbreaker,Black Cleaver,TOP,9309.0,0.0,43.28,1
+DrMundo,"Jak'Sho, The Protean",Hullbreaker,TOP,12428.0,0.0,0,1
+Garen,Thornmail,"Jak'Sho, The Protean",TOP,14512.0,0.0,0,1
+Teemo,Black Cleaver,None,TOP,5859.0,0.0,27.24,1
+Teemo,Kaenic Rookern,Black Cleaver,TOP,7882.0,0.0,0,1
+Vayne,Black Cleaver,None,TOP,3717.0,0.0,26.33,1
+Vayne,Sterak's Gage,Black Cleaver,TOP,9427.0,0.0,49.81,1
+Vayne,Thornmail,Sterak's Gage,TOP,10175.0,0.0,78.99,1
+Vayne,"Jak'Sho, The Protean",Thornmail,TOP,12547.0,0.0,0,1
+Vayne,Hullbreaker,None,TOP,4440.0,0.0,49.32,1
+Vayne,Black Cleaver,Hullbreaker,TOP,8536.0,0.0,-42.37,1
+Camille,Overlord's Bloodmail,Sterak's Gage,TOP,11500.0,100.0,0,1
+Camille,Armored Advance,Sterak's Gage,TOP,8350.0,100.0,-10.54,1
+Camille,"Jak'Sho, The Protean",Armored Advance,TOP,12448.0,100.0,0,1
+Camille,Thornmail,"Jak'Sho, The Protean",TOP,13981.0,100.0,0,1
+Sett,Black Cleaver,None,TOP,4100.0,100.0,101.32,1
+Sett,Youmuu's Ghostblade,Black Cleaver,TOP,7669.0,100.0,-16.92,1
+Sett,Stridebreaker,None,TOP,5314.0,0.0,0,1
+Mordekaiser,"Jak'Sho, The Protean",Sterak's Gage,TOP,13203.0,0.0,48.6,1
+Mordekaiser,Chainlaced Crushers,"Jak'Sho, The Protean",TOP,13203.0,0.0,48.79,1
+Mordekaiser,Kaenic Rookern,Chainlaced Crushers,TOP,16379.0,0.0,-25.21,1
+Mordekaiser,Thornmail,Kaenic Rookern,TOP,16983.0,0.0,-35.81,1
+Akali,Black Cleaver,None,MIDDLE,5328.0,0.0,123.0,1
+Akali,Sterak's Gage,Black Cleaver,MIDDLE,10305.0,0.0,-45.54,1
+Akali,Overlord's Bloodmail,Sterak's Gage,MIDDLE,11149.0,0.0,31.92,1
+Akali,Youmuu's Ghostblade,Overlord's Bloodmail,MIDDLE,13922.0,0.0,0,1
+Kayle,Overlord's Bloodmail,Sterak's Gage,TOP,11626.0,0.0,-27.54,1
+Kayle,Kaenic Rookern,Overlord's Bloodmail,TOP,14161.0,0.0,0,1
+Volibear,Black Cleaver,None,TOP,5165.0,100.0,23.07,1
+Volibear,Sterak's Gage,Black Cleaver,TOP,9096.0,100.0,64.99,1
+Volibear,Overlord's Bloodmail,Sterak's Gage,TOP,12346.0,100.0,-22.79,1
+Volibear,Swiftmarch,Overlord's Bloodmail,TOP,12346.0,100.0,-22.65,1
+Riven,Black Cleaver,None,TOP,4773.0,100.0,22.21,1
+Riven,Titanic Hydra,Black Cleaver,TOP,8556.0,100.0,0,1
+Malphite,Stridebreaker,Sterak's Gage,TOP,12873.0,0.0,-31.61,1
+Malphite,Hullbreaker,Black Cleaver,TOP,6991.0,0.0,-16.11,1
+Malphite,Sterak's Gage,Hullbreaker,TOP,10624.0,0.0,83.7,1
+Malphite,Overlord's Bloodmail,Sterak's Gage,TOP,14269.0,0.0,-46.38,1
+Malphite,"Jak'Sho, The Protean",Overlord's Bloodmail,TOP,17150.0,0.0,-39.34,1
+Malphite,Hullbreaker,"Jak'Sho, The Protean",TOP,18363.0,0.0,-33.11,1
+Malphite,Randuin's Omen,Hullbreaker,TOP,18363.0,0.0,-33.08,1
+Malphite,Swiftmarch,Sterak's Gage,TOP,10492.0,100.0,0,1
+Nasus,"Jak'Sho, The Protean",Sterak's Gage,TOP,11875.0,100.0,0,1
+Nasus,Overlord's Bloodmail,Sterak's Gage,TOP,11494.0,100.0,95.04,1
+Nasus,"Jak'Sho, The Protean",Overlord's Bloodmail,TOP,14065.0,100.0,33.48,1
+Nasus,Dead Man's Plate,"Jak'Sho, The Protean",TOP,17440.0,100.0,0,1
+Illaoi,Black Cleaver,None,TOP,5208.0,0.0,24.55,1
+Illaoi,Titanic Hydra,Black Cleaver,TOP,8592.0,0.0,16.85,1
+Illaoi,Sterak's Gage,Titanic Hydra,TOP,11458.0,0.0,110.67,1
+Illaoi,Thornmail,Sterak's Gage,TOP,13968.0,0.0,12.63,1
+Illaoi,Knight's Vow,Thornmail,TOP,16314.0,0.0,0,1
+Irelia,Black Cleaver,None,TOP,3590.0,0.0,-16.91,1
+Irelia,Sterak's Gage,Black Cleaver,TOP,8050.0,0.0,-34.85,1
+Gragas,Profane Hydra,None,TOP,3905.0,0.0,-7.86,1
+Gragas,Black Cleaver,Profane Hydra,TOP,6763.0,0.0,96.91,1
+Gragas,Dead Man's Plate,Black Cleaver,TOP,11003.0,0.0,20.05,1
+Gragas,Swiftmarch,Dead Man's Plate,TOP,11003.0,0.0,20.11,1
+Gragas,Hullbreaker,Swiftmarch,TOP,13880.0,0.0,0,1
+Galio,Black Cleaver,None,TOP,4885.0,0.0,54.73,1
+Galio,Overlord's Bloodmail,Black Cleaver,TOP,7755.0,0.0,-18.05,1
+Rumble,Stridebreaker,None,TOP,5273.0,0.0,-7.4,1
+Rumble,Black Cleaver,Stridebreaker,TOP,8707.0,0.0,0,1
+Zaahen,Armored Advance,Sterak's Gage,TOP,10209.0,100.0,58.28,1
+Zaahen,Thornmail,Armored Advance,TOP,12008.0,100.0,0,1
+Zaahen,"Jak'Sho, The Protean",Sterak's Gage,TOP,10796.0,100.0,50.32,1
+Gnar,Heartsteel,None,TOP,3650.0,100.0,12.06,1
+Gnar,Titanic Hydra,Heartsteel,TOP,8059.0,100.0,0,1
+XinZhao,Black Cleaver,None,TOP,5794.0,100.0,86.53,1
+XinZhao,Sterak's Gage,Black Cleaver,TOP,9592.0,100.0,50.79,1
+XinZhao,Armored Advance,Sterak's Gage,TOP,11734.0,100.0,0,1
+XinZhao,Thornmail,Armored Advance,TOP,11734.0,100.0,0,1
+Bard,Black Cleaver,None,UTILITY,4497.0,100.0,85.7,1
+Bard,Swiftmarch,Black Cleaver,UTILITY,5293.0,100.0,55.38,1
+Bard,Chempunk Chainsword,Swiftmarch,UTILITY,8190.0,100.0,33.65,1
+Darius,Hullbreaker,Black Cleaver,TOP,7921.0,100.0,0,1
+Darius,Sterak's Gage,Black Cleaver,TOP,8976.0,0.0,-8.58,1
+Darius,Overlord's Bloodmail,Sterak's Gage,TOP,11604.0,0.0,10.91,1
+Heimerdinger,Black Cleaver,None,TOP,4960.0,100.0,-22.49,1
+Heimerdinger,Sterak's Gage,Black Cleaver,TOP,7922.0,100.0,25.28,1
+Heimerdinger,Chainlaced Crushers,Sterak's Gage,TOP,9811.0,100.0,102.02,1
+Heimerdinger,"Jak'Sho, The Protean",Chainlaced Crushers,TOP,11494.0,100.0,70.26,1
+Heimerdinger,Overlord's Bloodmail,"Jak'Sho, The Protean",TOP,15033.0,100.0,-17.36,1
+Heimerdinger,Thornmail,Overlord's Bloodmail,TOP,18957.0,100.0,-4.27,1

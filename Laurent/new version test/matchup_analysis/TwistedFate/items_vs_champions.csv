@@ -1,62 +1,119 @@
-VS Champion,Item Name,Win Rate (%),Gold Accel (5min) (%),Sample Size
-Vladimir,Lich Bane,100.0,9.54,3
-Vladimir,Rapid Firecannon,100.0,4.17,3
-Irelia,Lich Bane,50.0,0,2
-Katarina,Rod of Ages,50.0,-2.13,2
-Vladimir,Swiftmarch,100.0,-13.8,2
-Vladimir,Rod of Ages,100.0,11.77,2
-Irelia,Shurelya's Battlesong,0.0,19.03,1
-Irelia,Rapid Firecannon,0.0,-44.85,1
-Irelia,Hextech Rocketbelt,100.0,-6.52,1
-Irelia,Rabadon's Deathcap,100.0,66.84,1
-Xerath,Rod of Ages,100.0,26.5,1
-Xerath,Lich Bane,100.0,21.89,1
-Xerath,Swiftmarch,100.0,22.32,1
-Xerath,Rapid Firecannon,100.0,-6.97,1
-Xerath,Rabadon's Deathcap,100.0,0,1
-Xerath,Cryptbloom,100.0,0,1
-Syndra,Rod of Ages,0.0,50.83,1
-Taliyah,Rod of Ages,100.0,36.31,1
-Taliyah,Lich Bane,100.0,-25.08,1
-Taliyah,Rapid Firecannon,100.0,0,1
-Katarina,Lich Bane,0.0,3.93,1
-Katarina,Zhonya's Hourglass,0.0,14.61,1
-Katarina,Rabadon's Deathcap,0.0,0,1
-Vladimir,Luden's Companion,100.0,42.8,1
-Vladimir,Rabadon's Deathcap,100.0,0,1
-Vladimir,Chainlaced Crushers,100.0,0,1
-Akali,Rod of Ages,100.0,51.29,1
-Akali,Lich Bane,100.0,33.99,1
-Akali,Rapid Firecannon,100.0,-2.56,1
-Akali,Zhonya's Hourglass,100.0,-34.96,1
-Akali,Rabadon's Deathcap,100.0,-38.5,1
-Akali,Swiftmarch,100.0,-41.17,1
-Sylas,Luden's Companion,0.0,8.46,1
-Sylas,Lich Bane,0.0,0,1
-Sylas,Rapid Firecannon,0.0,0,1
-Ekko,Rod of Ages,0.0,22.06,1
-Ekko,Lich Bane,0.0,-10.12,1
-Ekko,Rapid Firecannon,0.0,-15.13,1
-Leblanc,Rod of Ages,100.0,41.13,1
-Leblanc,Lich Bane,100.0,19.37,1
-Leblanc,Spellslinger's Shoes,100.0,14.97,1
-Hwei,Luden's Companion,0.0,-4.3,1
-Hwei,Lich Bane,0.0,31.13,1
-Hwei,Rapid Firecannon,0.0,83.59,1
-Hwei,Zhonya's Hourglass,0.0,0,1
-Pantheon,Luden's Companion,100.0,40.14,1
-Pantheon,Rod of Ages,100.0,28.18,1
-Pantheon,Spellslinger's Shoes,100.0,11.24,1
-Pantheon,Lich Bane,100.0,17.79,1
-Zyra,Rapid Firecannon,100.0,0,1
-Viktor,Luden's Companion,0.0,18.38,1
-Viktor,Rapid Firecannon,0.0,0,1
-Zed,Zhonya's Hourglass,0.0,-14.17,1
-Veigar,Luden's Companion,0.0,23.13,1
-Veigar,Stormsurge,0.0,51.19,1
-Veigar,Rabadon's Deathcap,0.0,72.32,1
-Veigar,Shadowflame,0.0,5.7,1
-Veigar,Void Staff,0.0,-1.5,1
-Kaisa,Kraken Slayer,0.0,-12.56,1
-Kaisa,Guinsoo's Rageblade,0.0,82.74,1
-Kaisa,Blade of The Ruined King,0.0,0,1
+VS Champion,Item Name,Last Item,Role,Avg Gold At Purchase,Win Rate (%),Gold Accel (5min) (%),Sample Size
+Katarina,Rod of Ages,None,MIDDLE,3854.3,33.3,16.93,3
+Sylas,Luden's Companion,None,MIDDLE,3600.0,50.0,8.46,2
+Sylas,Rapid Firecannon,Lich Bane,MIDDLE,10225.5,0.0,-1.27,2
+Sylas,Rod of Ages,None,MIDDLE,3673.5,0.0,40.49,2
+Sylas,Lich Bane,Rod of Ages,MIDDLE,7483.0,0.0,6.17,2
+Katarina,Lich Bane,Rod of Ages,MIDDLE,7455.0,0.0,18.78,2
+Katarina,Rabadon's Deathcap,Zhonya's Hourglass,MIDDLE,14064.5,0.0,0,2
+Vladimir,Rod of Ages,None,MIDDLE,3824.0,100.0,11.77,2
+Vladimir,Lich Bane,Rod of Ages,MIDDLE,7802.5,100.0,28.49,2
+Vladimir,Rapid Firecannon,Lich Bane,MIDDLE,10259.5,100.0,-11.18,2
+Irelia,Shurelya's Battlesong,None,MIDDLE,4837.0,0.0,19.03,1
+Irelia,Rapid Firecannon,Shurelya's Battlesong,MIDDLE,6823.0,0.0,-44.85,1
+Irelia,Lich Bane,Rapid Firecannon,MIDDLE,10003.0,0.0,0,1
+Irelia,Hextech Rocketbelt,None,MIDDLE,5249.0,100.0,-6.52,1
+Irelia,Rabadon's Deathcap,Hextech Rocketbelt,MIDDLE,8308.0,100.0,66.84,1
+Irelia,Lich Bane,Rabadon's Deathcap,MIDDLE,12048.0,100.0,0,1
+Akshan,Rod of Ages,None,MIDDLE,3573.0,0.0,19.76,1
+Akshan,Lich Bane,Rod of Ages,MIDDLE,7998.0,0.0,-18.93,1
+Akshan,Rapid Firecannon,Lich Bane,MIDDLE,9976.0,0.0,-41.23,1
+Akshan,Shadowflame,Rapid Firecannon,MIDDLE,13231.0,0.0,0,1
+Anivia,Luden's Companion,None,MIDDLE,4203.0,0.0,6.83,1
+Anivia,Lich Bane,Luden's Companion,MIDDLE,7992.0,0.0,0,1
+Xerath,Rod of Ages,None,MIDDLE,4248.0,100.0,26.5,1
+Xerath,Lich Bane,Rod of Ages,MIDDLE,8164.0,100.0,21.89,1
+Xerath,Swiftmarch,Lich Bane,MIDDLE,8164.0,100.0,22.32,1
+Xerath,Rapid Firecannon,Swiftmarch,MIDDLE,11069.0,100.0,-6.97,1
+Xerath,Rabadon's Deathcap,Rapid Firecannon,MIDDLE,16440.0,100.0,0,1
+Xerath,Cryptbloom,Rabadon's Deathcap,MIDDLE,16563.0,100.0,0,1
+Xerath,Luden's Companion,None,MIDDLE,4669.0,100.0,89.37,1
+Xerath,Rapid Firecannon,Luden's Companion,MIDDLE,8471.0,100.0,-18.42,1
+Xerath,Swiftmarch,Rapid Firecannon,MIDDLE,9246.0,100.0,11.87,1
+Xerath,Hextech Rocketbelt,Swiftmarch,MIDDLE,11873.0,100.0,-16.32,1
+Xerath,Lich Bane,Hextech Rocketbelt,MIDDLE,14788.0,100.0,-21.28,1
+Syndra,Rod of Ages,None,MIDDLE,3259.0,0.0,50.83,1
+Syndra,Luden's Companion,None,MIDDLE,4542.0,100.0,24.24,1
+Syndra,Lich Bane,Luden's Companion,MIDDLE,7420.0,100.0,86.7,1
+Syndra,Rapid Firecannon,Lich Bane,MIDDLE,9988.0,100.0,7.32,1
+Syndra,Crimson Lucidity,Rapid Firecannon,MIDDLE,9988.0,100.0,7.37,1
+Taliyah,Rod of Ages,None,MIDDLE,3808.0,100.0,36.31,1
+Taliyah,Lich Bane,Rod of Ages,MIDDLE,8198.0,100.0,-25.08,1
+Taliyah,Rapid Firecannon,Lich Bane,MIDDLE,9876.0,100.0,0,1
+Sylas,Lich Bane,Luden's Companion,MIDDLE,7493.0,0.0,0,1
+Ahri,Luden's Companion,None,MIDDLE,3124.0,100.0,4.89,1
+Ahri,Lich Bane,Luden's Companion,MIDDLE,7873.0,100.0,17.74,1
+Ahri,Spellslinger's Shoes,Lich Bane,MIDDLE,9106.0,100.0,59.37,1
+Ahri,Rabadon's Deathcap,Spellslinger's Shoes,MIDDLE,12909.0,100.0,1.06,1
+Ahri,Rod of Ages,None,MIDDLE,4578.0,0.0,9.84,1
+Ahri,Lich Bane,Rod of Ages,MIDDLE,6918.0,0.0,84.34,1
+Ahri,Rapid Firecannon,Lich Bane,MIDDLE,9189.0,0.0,0,1
+Katarina,Zhonya's Hourglass,Lich Bane,MIDDLE,10967.0,0.0,14.61,1
+Katarina,Swiftmarch,Lich Bane,MIDDLE,9574.0,0.0,6.63,1
+Katarina,Zhonya's Hourglass,Swiftmarch,MIDDLE,11733.0,0.0,-21.3,1
+Vladimir,Luden's Companion,None,MIDDLE,4632.0,100.0,42.8,1
+Vladimir,Lich Bane,Luden's Companion,MIDDLE,8906.0,100.0,-28.36,1
+Vladimir,Swiftmarch,Lich Bane,MIDDLE,9938.0,100.0,-13.8,1
+Vladimir,Rapid Firecannon,Swiftmarch,MIDDLE,10657.0,100.0,19.51,1
+Vladimir,Rabadon's Deathcap,Rapid Firecannon,MIDDLE,15478.0,100.0,0,1
+Vladimir,Swiftmarch,Rapid Firecannon,MIDDLE,11959.0,100.0,0,1
+Vladimir,Chainlaced Crushers,Rapid Firecannon,MIDDLE,10846.0,100.0,0,1
+Akali,Rod of Ages,None,MIDDLE,5374.0,100.0,51.29,1
+Akali,Lich Bane,Rod of Ages,MIDDLE,7643.0,100.0,33.99,1
+Akali,Rapid Firecannon,Lich Bane,MIDDLE,9712.0,100.0,-2.56,1
+Akali,Zhonya's Hourglass,Rapid Firecannon,MIDDLE,13680.0,100.0,-34.96,1
+Akali,Rabadon's Deathcap,Zhonya's Hourglass,MIDDLE,17429.0,100.0,-38.5,1
+Akali,Swiftmarch,Rabadon's Deathcap,MIDDLE,18229.0,100.0,-41.17,1
+Ekko,Rod of Ages,None,MIDDLE,3998.0,0.0,22.06,1
+Ekko,Lich Bane,Rod of Ages,MIDDLE,8401.0,0.0,-10.12,1
+Ekko,Rapid Firecannon,Lich Bane,MIDDLE,10089.0,0.0,-15.13,1
+Leblanc,Rod of Ages,None,MIDDLE,3507.0,100.0,41.13,1
+Leblanc,Lich Bane,Rod of Ages,MIDDLE,6822.0,100.0,19.37,1
+Leblanc,Spellslinger's Shoes,Lich Bane,MIDDLE,7461.0,100.0,14.97,1
+Hwei,Luden's Companion,None,MIDDLE,4262.0,0.0,-4.3,1
+Hwei,Lich Bane,Luden's Companion,MIDDLE,7005.0,0.0,31.13,1
+Hwei,Rapid Firecannon,Lich Bane,MIDDLE,9457.0,0.0,83.59,1
+Hwei,Zhonya's Hourglass,Rapid Firecannon,MIDDLE,13696.0,0.0,0,1
+Pantheon,Luden's Companion,None,MIDDLE,3190.0,100.0,40.14,1
+Pantheon,Rod of Ages,Luden's Companion,MIDDLE,6906.0,100.0,28.18,1
+Pantheon,Spellslinger's Shoes,Rod of Ages,MIDDLE,8116.0,100.0,11.24,1
+Pantheon,Lich Bane,Spellslinger's Shoes,MIDDLE,10359.0,100.0,17.79,1
+Zyra,Rapid Firecannon,None,UTILITY,4071.0,100.0,0,1
+Viktor,Luden's Companion,None,MIDDLE,4442.0,0.0,18.38,1
+Viktor,Rapid Firecannon,Luden's Companion,MIDDLE,7485.0,0.0,0,1
+Zed,Zhonya's Hourglass,None,MIDDLE,4872.0,0.0,-14.17,1
+Caitlyn,Luden's Companion,None,MIDDLE,3363.0,0.0,59.66,1
+Caitlyn,Zhonya's Hourglass,Luden's Companion,MIDDLE,7068.0,0.0,5.27,1
+Caitlyn,Rabadon's Deathcap,Zhonya's Hourglass,MIDDLE,11177.0,0.0,20.18,1
+Veigar,Luden's Companion,None,MIDDLE,4425.0,0.0,23.13,1
+Veigar,Stormsurge,Luden's Companion,MIDDLE,7041.0,0.0,51.19,1
+Veigar,Rabadon's Deathcap,Stormsurge,MIDDLE,10482.0,0.0,72.32,1
+Veigar,Shadowflame,Rabadon's Deathcap,MIDDLE,14905.0,0.0,5.7,1
+Veigar,Void Staff,Shadowflame,MIDDLE,16940.0,0.0,-1.5,1
+Kaisa,Kraken Slayer,None,BOTTOM,3584.0,0.0,-12.56,1
+Kaisa,Guinsoo's Rageblade,Kraken Slayer,BOTTOM,7713.0,0.0,82.74,1
+Kaisa,Blade of The Ruined King,Guinsoo's Rageblade,BOTTOM,11288.0,0.0,0,1
+Vex,Luden's Companion,None,MIDDLE,4547.0,0.0,18.49,1
+Vex,Lich Bane,Luden's Companion,MIDDLE,8142.0,0.0,-11.85,1
+Vex,Rapid Firecannon,Lich Bane,MIDDLE,9843.0,0.0,-30.82,1
+Vex,Banshee's Veil,Rapid Firecannon,MIDDLE,13636.0,0.0,0,1
+Kayle,Lich Bane,None,MIDDLE,4160.0,100.0,74.98,1
+Kayle,Stormsurge,Lich Bane,MIDDLE,9307.0,100.0,9.69,1
+Kayle,Rapid Firecannon,Stormsurge,MIDDLE,10553.0,100.0,55.9,1
+Kayle,Zhonya's Hourglass,Rapid Firecannon,MIDDLE,13513.0,100.0,-31.12,1
+Kayle,Void Staff,Zhonya's Hourglass,MIDDLE,16412.0,100.0,-12.14,1
+Kayle,Void Staff,Void Staff,MIDDLE,18198.0,100.0,0,1
+Kayle,Rabadon's Deathcap,Void Staff,MIDDLE,18835.0,100.0,0,1
+Aurora,Rod of Ages,None,MIDDLE,3321.0,100.0,57.69,1
+Aurora,Lich Bane,Rod of Ages,MIDDLE,6610.0,100.0,38.3,1
+Orianna,Rod of Ages,None,MIDDLE,4032.0,100.0,-20.17,1
+Orianna,Lich Bane,Rod of Ages,MIDDLE,7845.0,100.0,3.07,1
+Orianna,Rabadon's Deathcap,Lich Bane,MIDDLE,10717.0,100.0,26.1,1
+Orianna,Void Staff,Rabadon's Deathcap,MIDDLE,16519.0,100.0,0,1
+Lux,Luden's Companion,None,MIDDLE,3820.0,0.0,-7.36,1
+Lux,Lich Bane,Luden's Companion,MIDDLE,8026.0,0.0,7.84,1
+Lux,Rapid Firecannon,Lich Bane,MIDDLE,10337.0,0.0,7.15,1
+Lux,Zhonya's Hourglass,Rapid Firecannon,MIDDLE,13456.0,0.0,58.67,1
+Lux,Rabadon's Deathcap,Zhonya's Hourglass,MIDDLE,16499.0,0.0,-31.28,1
+Fizz,Luden's Companion,None,MIDDLE,3681.0,0.0,20.21,1
+Fizz,Zhonya's Hourglass,Luden's Companion,MIDDLE,8764.0,0.0,0,1

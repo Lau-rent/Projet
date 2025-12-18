@@ -1,95 +1,149 @@
-VS Champion,Item Name,Win Rate (%),Gold Accel (5min) (%),Sample Size
-Caitlyn,The Collector,50.0,35.99,6
-MissFortune,Infinity Edge,50.0,14.6,6
-Ashe,Infinity Edge,60.0,13.35,5
-Caitlyn,Infinity Edge,60.0,16.2,5
-Ashe,The Collector,75.0,-0.87,4
-Caitlyn,Lord Dominik's Regards,50.0,0,4
-Lucian,The Collector,50.0,55.3,4
-Smolder,The Collector,25.0,11.14,4
-Smolder,Infinity Edge,50.0,46.62,4
-Smolder,Lord Dominik's Regards,50.0,0,4
-MissFortune,The Collector,50.0,23.42,4
-MissFortune,Lord Dominik's Regards,50.0,-17.88,4
-Jhin,Infinity Edge,100.0,20.77,3
-Jhin,Lord Dominik's Regards,100.0,96.39,3
-Ashe,Lord Dominik's Regards,66.7,56.55,3
-Vayne,Infinity Edge,66.7,2.55,3
-Lucian,Infinity Edge,33.3,60.75,3
-Jinx,The Collector,0.0,50.14,3
-Jinx,Infinity Edge,0.0,-32.62,3
-Ezreal,The Collector,33.3,3.35,3
-Ezreal,Infinity Edge,33.3,50.65,3
-Sivir,Infinity Edge,0.0,22.01,2
-Jhin,The Collector,100.0,55.33,2
-Ashe,Yun Tal Wildarrows,0.0,78.42,2
-Vayne,The Collector,50.0,-7.62,2
-Xayah,Infinity Edge,50.0,1.68,2
-Xayah,Mortal Reminder,50.0,21.27,2
-MissFortune,Gunmetal Greaves,100.0,-7.64,2
-MissFortune,Bloodthirster,50.0,0,2
-MissFortune,Yun Tal Wildarrows,50.0,6.18,2
-Ezreal,Gunmetal Greaves,50.0,126.23,2
-Zeri,The Collector,0.0,42.51,2
-Zeri,Infinity Edge,0.0,-0.57,2
-Sivir,Yun Tal Wildarrows,0.0,-7.82,1
-Sivir,The Collector,0.0,-26.11,1
-Sivir,Gunmetal Greaves,0.0,61.2,1
-Sivir,Mortal Reminder,0.0,-24.6,1
-Draven,Youmuu's Ghostblade,0.0,39.9,1
-Draven,The Collector,0.0,-0.17,1
-Draven,Lord Dominik's Regards,0.0,-30.9,1
-Draven,Infinity Edge,0.0,7.96,1
-Draven,Runaan's Hurricane,0.0,0,1
-Jhin,Gunmetal Greaves,100.0,75.88,1
-Jhin,Yun Tal Wildarrows,100.0,115.9,1
-Jhin,Kraken Slayer,0.0,-6.33,1
-Ashe,Runaan's Hurricane,0.0,68.26,1
-Ashe,Gunmetal Greaves,100.0,36.97,1
-Ashe,Mortal Reminder,100.0,2.05,1
-Vayne,Yun Tal Wildarrows,100.0,-12.85,1
-Vayne,Gunmetal Greaves,100.0,0,1
-Caitlyn,Swiftmarch,100.0,70.11,1
-Caitlyn,Immortal Shieldbow,100.0,-38.26,1
-Caitlyn,Runaan's Hurricane,100.0,125.48,1
-Yunara,The Collector,100.0,23.83,1
-Yunara,Infinity Edge,100.0,-40.9,1
-Yunara,Lord Dominik's Regards,100.0,48.62,1
-Yunara,Bloodthirster,100.0,0,1
-Lucian,Mortal Reminder,0.0,138.89,1
-Lucian,Runaan's Hurricane,0.0,50.22,1
-Lucian,Guardian Angel,0.0,0,1
-Lucian,Lord Dominik's Regards,0.0,-28.23,1
-Lucian,Bloodthirster,0.0,19.41,1
-Yasuo,The Collector,0.0,33.78,1
-Yasuo,Infinity Edge,0.0,0.45,1
-Yasuo,Mortal Reminder,0.0,0,1
-Smolder,Youmuu's Ghostblade,0.0,77.25,1
-Smolder,Yun Tal Wildarrows,100.0,24.51,1
-Jinx,Lord Dominik's Regards,0.0,0,1
-Jinx,Immortal Shieldbow,0.0,22.88,1
-Jinx,Gunmetal Greaves,0.0,-21.16,1
-Jinx,Phantom Dancer,0.0,0,1
-Xayah,Gunmetal Greaves,100.0,24.57,1
-Xayah,Immortal Shieldbow,100.0,0,1
-Xayah,The Collector,0.0,-22.62,1
-Varus,Yun Tal Wildarrows,100.0,97.11,1
-Varus,Infinity Edge,100.0,0,1
-MissFortune,Mercurial Scimitar,100.0,1.87,1
-MissFortune,Immortal Shieldbow,0.0,-31.05,1
-Twitch,The Collector,0.0,-2.5,1
-Twitch,Mortal Reminder,0.0,12.75,1
-Ezreal,Lord Dominik's Regards,100.0,0,1
-Ezreal,Mortal Reminder,0.0,-13.73,1
-Ezreal,Runaan's Hurricane,0.0,16.91,1
-Zeri,Mortal Reminder,0.0,0,1
-Zeri,Immortal Shieldbow,0.0,0,1
-Karthus,Yun Tal Wildarrows,100.0,17.27,1
-Karthus,Infinity Edge,100.0,58.73,1
-Karthus,Immortal Shieldbow,100.0,-5.89,1
-Karthus,Mortal Reminder,100.0,24.61,1
-Kaisa,The Collector,0.0,-14.57,1
-Kaisa,Infinity Edge,0.0,0,1
-Kaisa,Bloodthirster,0.0,-13.13,1
-Tristana,Yun Tal Wildarrows,100.0,1.41,1
-Tristana,Infinity Edge,100.0,86.99,1
+VS Champion,Item Name,Last Item,Role,Avg Gold At Purchase,Win Rate (%),Gold Accel (5min) (%),Sample Size
+Caitlyn,The Collector,None,BOTTOM,4588.9,42.9,25.7,7
+Jhin,The Collector,None,BOTTOM,4535.4,80.0,14.61,5
+Caitlyn,Infinity Edge,The Collector,BOTTOM,8898.6,40.0,18.77,5
+Smolder,Lord Dominik's Regards,Infinity Edge,BOTTOM,11701.0,40.0,47.51,5
+Jhin,Infinity Edge,The Collector,BOTTOM,8095.0,100.0,24.56,4
+Jhin,Lord Dominik's Regards,Infinity Edge,BOTTOM,11526.5,100.0,96.39,4
+Ashe,The Collector,None,BOTTOM,4344.0,75.0,-0.87,4
+Ashe,Infinity Edge,The Collector,BOTTOM,8593.8,75.0,23.78,4
+Vayne,The Collector,None,BOTTOM,4363.8,25.0,-0.16,4
+Lucian,The Collector,None,BOTTOM,4220.8,50.0,55.3,4
+Smolder,The Collector,None,BOTTOM,3987.5,25.0,47.96,4
+Smolder,Infinity Edge,The Collector,BOTTOM,8535.0,25.0,14.57,4
+MissFortune,The Collector,None,BOTTOM,4097.0,50.0,23.42,4
+MissFortune,Infinity Edge,The Collector,BOTTOM,8602.5,50.0,40.87,4
+MissFortune,Lord Dominik's Regards,Infinity Edge,BOTTOM,12190.0,50.0,-17.88,4
+Jhin,Yun Tal Wildarrows,None,BOTTOM,4360.7,66.7,50.38,3
+Ashe,Lord Dominik's Regards,Infinity Edge,BOTTOM,11341.7,66.7,56.55,3
+Vayne,Infinity Edge,The Collector,BOTTOM,8412.0,33.3,24.17,3
+Lucian,Infinity Edge,The Collector,BOTTOM,8330.3,33.3,60.75,3
+Jinx,The Collector,None,BOTTOM,4266.0,33.3,38.01,3
+Jinx,Infinity Edge,The Collector,BOTTOM,8955.0,33.3,-28.73,3
+MissFortune,Yun Tal Wildarrows,None,BOTTOM,4154.3,66.7,5.11,3
+MissFortune,Infinity Edge,Yun Tal Wildarrows,BOTTOM,7535.0,66.7,3.8,3
+Ezreal,The Collector,None,BOTTOM,4423.0,33.3,3.35,3
+Ezreal,Infinity Edge,The Collector,BOTTOM,8157.3,33.3,50.65,3
+Jhin,Infinity Edge,Yun Tal Wildarrows,BOTTOM,8675.5,100.0,-3.89,2
+Caitlyn,Lord Dominik's Regards,Infinity Edge,BOTTOM,11403.0,0.0,-65.23,2
+Caitlyn,Yun Tal Wildarrows,None,BOTTOM,4234.5,0.0,19.79,2
+Yunara,The Collector,None,BOTTOM,3915.5,50.0,13.27,2
+Yunara,Infinity Edge,The Collector,BOTTOM,7976.0,50.0,-20.32,2
+Jinx,Lord Dominik's Regards,Infinity Edge,BOTTOM,11013.0,50.0,-2.24,2
+Xayah,Mortal Reminder,Infinity Edge,BOTTOM,9920.0,50.0,21.27,2
+Zeri,The Collector,None,BOTTOM,4756.0,0.0,42.51,2
+Zeri,Infinity Edge,The Collector,BOTTOM,8102.5,0.0,-0.57,2
+Kaisa,The Collector,None,BOTTOM,4243.5,0.0,0.83,2
+Kaisa,Infinity Edge,The Collector,BOTTOM,7687.5,0.0,18.27,2
+Sivir,Yun Tal Wildarrows,None,BOTTOM,4179.0,0.0,-7.82,1
+Sivir,Infinity Edge,Yun Tal Wildarrows,BOTTOM,8317.0,0.0,-15.82,1
+Sivir,The Collector,None,BOTTOM,5434.0,0.0,-26.11,1
+Sivir,Infinity Edge,The Collector,BOTTOM,8561.0,0.0,59.84,1
+Sivir,Gunmetal Greaves,Infinity Edge,BOTTOM,8561.0,0.0,61.2,1
+Sivir,Gunmetal Greaves,Gunmetal Greaves,BOTTOM,8561.0,0.0,61.49,1
+Sivir,Mortal Reminder,Gunmetal Greaves,BOTTOM,11696.0,0.0,-24.6,1
+Draven,Youmuu's Ghostblade,None,BOTTOM,4420.0,0.0,39.9,1
+Draven,The Collector,Youmuu's Ghostblade,BOTTOM,8225.0,0.0,-0.17,1
+Draven,Lord Dominik's Regards,The Collector,BOTTOM,11268.0,0.0,-30.9,1
+Draven,Infinity Edge,Lord Dominik's Regards,BOTTOM,14338.0,0.0,7.96,1
+Draven,Runaan's Hurricane,Infinity Edge,BOTTOM,16916.0,0.0,0,1
+Draven,Runaan's Hurricane,Runaan's Hurricane,BOTTOM,17235.0,0.0,0,1
+Jhin,Gunmetal Greaves,Infinity Edge,BOTTOM,9477.0,100.0,75.88,1
+Jhin,Lord Dominik's Regards,Gunmetal Greaves,BOTTOM,13529.0,100.0,0,1
+Jhin,Kraken Slayer,None,BOTTOM,3920.0,0.0,-6.33,1
+Jhin,Immortal Shieldbow,Infinity Edge,BOTTOM,11162.0,100.0,0,1
+Ashe,Runaan's Hurricane,Lord Dominik's Regards,BOTTOM,15556.0,0.0,68.26,1
+Ashe,Yun Tal Wildarrows,Runaan's Hurricane,BOTTOM,18737.0,0.0,0,1
+Ashe,Gunmetal Greaves,Infinity Edge,BOTTOM,8826.0,100.0,36.97,1
+Ashe,Mortal Reminder,Gunmetal Greaves,BOTTOM,11782.0,100.0,2.05,1
+Ashe,Yun Tal Wildarrows,None,BOTTOM,3434.0,0.0,78.42,1
+Ashe,Infinity Edge,Yun Tal Wildarrows,BOTTOM,8232.0,0.0,-28.34,1
+Vayne,Yun Tal Wildarrows,None,BOTTOM,3557.0,100.0,-12.85,1
+Vayne,Infinity Edge,Yun Tal Wildarrows,BOTTOM,7265.0,100.0,-31.65,1
+Vayne,Gunmetal Greaves,Infinity Edge,BOTTOM,11256.0,100.0,0,1
+Vayne,Runaan's Hurricane,The Collector,BOTTOM,7262.0,0.0,-12.79,1
+Vayne,Swiftmarch,Infinity Edge,BOTTOM,9726.0,0.0,-18.83,1
+Vayne,Lord Dominik's Regards,Swiftmarch,BOTTOM,12098.0,0.0,46.09,1
+Vayne,Immortal Shieldbow,Lord Dominik's Regards,BOTTOM,15117.0,0.0,0,1
+Caitlyn,Swiftmarch,Infinity Edge,BOTTOM,9239.0,100.0,70.11,1
+Caitlyn,Lord Dominik's Regards,Swiftmarch,BOTTOM,12055.0,100.0,0,1
+Caitlyn,Infinity Edge,Infinity Edge,BOTTOM,9897.0,100.0,-42.0,1
+Caitlyn,Immortal Shieldbow,Infinity Edge,BOTTOM,10896.0,100.0,-38.26,1
+Caitlyn,Lord Dominik's Regards,Immortal Shieldbow,BOTTOM,14593.0,100.0,0,1
+Caitlyn,Runaan's Hurricane,The Collector,BOTTOM,8055.0,100.0,125.48,1
+Caitlyn,Infinity Edge,Runaan's Hurricane,BOTTOM,11472.0,100.0,0,1
+Caitlyn,Lord Dominik's Regards,The Collector,BOTTOM,7530.0,0.0,0,1
+Caitlyn,Lord Dominik's Regards,Yun Tal Wildarrows,BOTTOM,7754.0,0.0,0.02,1
+Caitlyn,Runaan's Hurricane,Lord Dominik's Regards,BOTTOM,9826.0,0.0,0,1
+Caitlyn,Bloodthirster,Infinity Edge,BOTTOM,11579.0,0.0,0,1
+Caitlyn,Infinity Edge,Yun Tal Wildarrows,BOTTOM,9487.0,0.0,-6.11,1
+Yunara,Lord Dominik's Regards,Infinity Edge,BOTTOM,13227.0,100.0,48.62,1
+Yunara,Bloodthirster,Lord Dominik's Regards,BOTTOM,14652.0,100.0,0,1
+Yunara,Mortal Reminder,Infinity Edge,BOTTOM,11239.0,0.0,24.81,1
+Yunara,Runaan's Hurricane,Mortal Reminder,BOTTOM,15082.0,0.0,35.41,1
+Yunara,Bloodthirster,Runaan's Hurricane,BOTTOM,17324.0,0.0,26.54,1
+Lucian,Mortal Reminder,Infinity Edge,BOTTOM,11893.0,0.0,138.89,1
+Lucian,Runaan's Hurricane,Mortal Reminder,BOTTOM,14280.0,0.0,50.22,1
+Lucian,Guardian Angel,Runaan's Hurricane,BOTTOM,17213.0,0.0,0,1
+Lucian,Lord Dominik's Regards,Infinity Edge,BOTTOM,11945.0,0.0,-28.23,1
+Lucian,Bloodthirster,Lord Dominik's Regards,BOTTOM,15023.0,0.0,19.41,1
+Yasuo,The Collector,None,BOTTOM,3904.0,0.0,33.78,1
+Yasuo,Infinity Edge,The Collector,BOTTOM,5738.0,0.0,0.45,1
+Yasuo,The Collector,Infinity Edge,BOTTOM,8597.0,0.0,50.49,1
+Yasuo,Mortal Reminder,The Collector,BOTTOM,11600.0,0.0,0,1
+Smolder,Youmuu's Ghostblade,None,BOTTOM,3293.0,0.0,77.25,1
+Smolder,The Collector,Youmuu's Ghostblade,BOTTOM,6818.0,0.0,0,1
+Smolder,Yun Tal Wildarrows,None,BOTTOM,4097.0,100.0,24.51,1
+Smolder,Infinity Edge,Yun Tal Wildarrows,BOTTOM,7704.0,100.0,89.73,1
+Smolder,Runaan's Hurricane,Lord Dominik's Regards,BOTTOM,14250.0,0.0,0,1
+Jinx,Infinity Edge,None,BOTTOM,4622.0,0.0,-18.44,1
+Jinx,The Collector,Infinity Edge,BOTTOM,8008.0,0.0,62.48,1
+Jinx,Immortal Shieldbow,The Collector,BOTTOM,11054.0,0.0,22.88,1
+Jinx,Gunmetal Greaves,Immortal Shieldbow,BOTTOM,12575.0,0.0,-21.16,1
+Jinx,Phantom Dancer,Gunmetal Greaves,BOTTOM,14148.0,0.0,0,1
+Jinx,Rapid Firecannon,Lord Dominik's Regards,BOTTOM,14970.0,100.0,38.22,1
+Jinx,Guardian Angel,Rapid Firecannon,BOTTOM,18341.0,100.0,18.66,1
+Jinx,Gunmetal Greaves,Guardian Angel,BOTTOM,18341.0,100.0,18.86,1
+Jinx,Guardian Angel,Gunmetal Greaves,BOTTOM,19507.0,100.0,0,1
+Xayah,Infinity Edge,None,BOTTOM,4588.0,100.0,-24.57,1
+Xayah,Gunmetal Greaves,Mortal Reminder,BOTTOM,9834.0,100.0,24.57,1
+Xayah,Immortal Shieldbow,Gunmetal Greaves,BOTTOM,11492.0,100.0,0,1
+Xayah,The Collector,None,BOTTOM,4915.0,0.0,-22.62,1
+Xayah,Infinity Edge,The Collector,BOTTOM,9664.0,0.0,27.93,1
+Varus,Yun Tal Wildarrows,None,BOTTOM,3530.0,100.0,97.11,1
+Varus,Infinity Edge,Yun Tal Wildarrows,BOTTOM,7526.0,100.0,0,1
+MissFortune,Mercurial Scimitar,Lord Dominik's Regards,BOTTOM,14568.0,100.0,1.87,1
+MissFortune,Gunmetal Greaves,Mercurial Scimitar,BOTTOM,14992.0,100.0,-7.64,1
+MissFortune,Bloodthirster,Gunmetal Greaves,BOTTOM,18590.0,100.0,0,1
+MissFortune,Gunmetal Greaves,Infinity Edge,BOTTOM,10024.0,100.0,0,1
+MissFortune,Immortal Shieldbow,Lord Dominik's Regards,BOTTOM,14609.0,0.0,-31.05,1
+MissFortune,Bloodthirster,Immortal Shieldbow,BOTTOM,17432.0,0.0,0,1
+Twitch,The Collector,None,BOTTOM,4370.0,0.0,-2.5,1
+Twitch,Mortal Reminder,The Collector,BOTTOM,8245.0,0.0,12.75,1
+Ezreal,Gunmetal Greaves,Infinity Edge,BOTTOM,8383.0,100.0,126.23,1
+Ezreal,Lord Dominik's Regards,Gunmetal Greaves,BOTTOM,12272.0,100.0,0,1
+Ezreal,Mortal Reminder,Infinity Edge,BOTTOM,13024.0,0.0,-13.73,1
+Ezreal,Runaan's Hurricane,Mortal Reminder,BOTTOM,13983.0,0.0,16.91,1
+Ezreal,Gunmetal Greaves,Runaan's Hurricane,BOTTOM,15057.0,0.0,0,1
+Zeri,Mortal Reminder,Infinity Edge,BOTTOM,12608.0,0.0,0,1
+Zeri,Immortal Shieldbow,Mortal Reminder,BOTTOM,14742.0,0.0,0,1
+Karthus,Yun Tal Wildarrows,None,BOTTOM,3849.0,100.0,17.27,1
+Karthus,Infinity Edge,Yun Tal Wildarrows,BOTTOM,8935.0,100.0,58.73,1
+Karthus,Immortal Shieldbow,Infinity Edge,BOTTOM,12769.0,100.0,-5.89,1
+Karthus,Mortal Reminder,Immortal Shieldbow,BOTTOM,15140.0,100.0,24.61,1
+Kaisa,Bloodthirster,None,BOTTOM,5733.0,0.0,-13.13,1
+Tristana,Yun Tal Wildarrows,None,BOTTOM,3994.0,100.0,1.41,1
+Tristana,Infinity Edge,Yun Tal Wildarrows,BOTTOM,7928.0,100.0,86.99,1
+Senna,The Collector,None,BOTTOM,3678.0,0.0,61.83,1
+Senna,Infinity Edge,The Collector,BOTTOM,8324.0,0.0,-5.81,1
+Senna,Bloodthirster,Infinity Edge,BOTTOM,11536.0,0.0,0,1
+Corki,The Collector,None,BOTTOM,4939.0,0.0,-11.0,1
+Corki,Infinity Edge,The Collector,BOTTOM,8533.0,0.0,100.23,1
+Corki,Bloodthirster,Infinity Edge,BOTTOM,11833.0,0.0,0,1
+Corki,Immortal Shieldbow,Bloodthirster,BOTTOM,14588.0,0.0,0,1
+Ziggs,Yun Tal Wildarrows,None,BOTTOM,4274.0,100.0,12.0,1
+Ziggs,Infinity Edge,Yun Tal Wildarrows,BOTTOM,8782.0,100.0,75.99,1
+Ziggs,Mortal Reminder,Infinity Edge,BOTTOM,11199.0,100.0,75.26,1
+Nilah,Yun Tal Wildarrows,None,BOTTOM,4567.0,0.0,13.52,1
+Nilah,Infinity Edge,Yun Tal Wildarrows,BOTTOM,8129.0,0.0,-4.95,1
+Nilah,Gunmetal Greaves,Infinity Edge,BOTTOM,10411.0,0.0,0,1

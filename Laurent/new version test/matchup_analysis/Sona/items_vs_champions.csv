@@ -1,42 +1,77 @@
-VS Champion,Item Name,Win Rate (%),Gold Accel (5min) (%),Sample Size
-Nami,Moonstone Renewer,75.0,-9.53,4
-Nami,Echoes of Helia,66.7,23.24,3
-Nami,Archangel's Staff,100.0,32.14,2
-Blitzcrank,Moonstone Renewer,50.0,24.15,2
-Milio,Echoes of Helia,50.0,-17.28,2
-Milio,Moonstone Renewer,50.0,0,2
-Morgana,Echoes of Helia,0.0,0.22,2
-Nami,Dawncore,100.0,88.95,1
-Blitzcrank,Dawncore,100.0,3.52,1
-Blitzcrank,Archangel's Staff,0.0,0,1
-Lulu,Echoes of Helia,0.0,-14.61,1
-Braum,Echoes of Helia,100.0,-29.77,1
-Braum,Moonstone Renewer,100.0,0,1
-Braum,Swiftmarch,100.0,0,1
-Sylas,Redemption,0.0,-14.6,1
-Sylas,Moonstone Renewer,0.0,-42.22,1
-Poppy,Echoes of Helia,0.0,-24.87,1
-Poppy,Archangel's Staff,0.0,-38.4,1
-Poppy,Moonstone Renewer,0.0,-18.48,1
-Poppy,Redemption,0.0,0,1
-TahmKench,Echoes of Helia,100.0,36.12,1
-TahmKench,Crimson Lucidity,100.0,29.06,1
-TahmKench,Moonstone Renewer,100.0,0,1
-Leona,Redemption,0.0,-8.43,1
-Leona,Staff of Flowing Water,0.0,0,1
-Karma,Echoes of Helia,100.0,-4.92,1
-Karma,Swiftmarch,100.0,20.53,1
-Karma,Archangel's Staff,100.0,14.75,1
-Karma,Mikael's Blessing,100.0,0,1
-Milio,Crimson Lucidity,100.0,99.6,1
-Morgana,Moonstone Renewer,0.0,4.69,1
-Morgana,Rod of Ages,0.0,0,1
-Morgana,Archangel's Staff,0.0,14.72,1
-Renata,Echoes of Helia,100.0,-27.76,1
-Renata,Moonstone Renewer,100.0,4.26,1
-Renata,Ardent Censer,100.0,0,1
-LeeSin,Echoes of Helia,0.0,40.82,1
-LeeSin,Moonstone Renewer,0.0,26.43,1
-Brand,Echoes of Helia,100.0,-6.48,1
-Brand,Swiftmarch,100.0,25.03,1
-Brand,Archangel's Staff,100.0,0,1
+VS Champion,Item Name,Last Item,Role,Avg Gold At Purchase,Win Rate (%),Gold Accel (5min) (%),Sample Size
+Nami,Echoes of Helia,None,UTILITY,4231.0,60.0,3.13,5
+Milio,Echoes of Helia,None,UTILITY,3675.5,75.0,10.18,4
+Nami,Moonstone Renewer,Echoes of Helia,UTILITY,6351.7,66.7,-8.29,3
+Nami,Moonstone Renewer,None,UTILITY,4264.5,100.0,-12.0,2
+Nami,Archangel's Staff,Archangel's Staff,UTILITY,6923.0,100.0,32.15,2
+Blitzcrank,Moonstone Renewer,None,UTILITY,4191.5,50.0,24.15,2
+Milio,Moonstone Renewer,Echoes of Helia,UTILITY,6502.5,50.0,0,2
+Milio,Crimson Lucidity,Echoes of Helia,UTILITY,5021.5,100.0,45.43,2
+Milio,Moonstone Renewer,Crimson Lucidity,UTILITY,7043.0,100.0,-3.73,2
+Morgana,Echoes of Helia,None,UTILITY,3669.0,0.0,0.22,2
+Nami,Archangel's Staff,Echoes of Helia,UTILITY,6797.0,100.0,32.14,1
+Nami,Archangel's Staff,Moonstone Renewer,UTILITY,7049.0,100.0,0,1
+Nami,Dawncore,Moonstone Renewer,UTILITY,8760.0,100.0,88.95,1
+Nami,Ardent Censer,Echoes of Helia,UTILITY,6013.0,0.0,-21.62,1
+Rell,Echoes of Helia,None,UTILITY,3814.0,100.0,74.33,1
+Rell,Dawncore,Echoes of Helia,UTILITY,6076.0,100.0,50.64,1
+Rell,Crimson Lucidity,Dawncore,UTILITY,7517.0,100.0,56.11,1
+Blitzcrank,Dawncore,Moonstone Renewer,UTILITY,6755.0,100.0,3.52,1
+Blitzcrank,Archangel's Staff,Moonstone Renewer,UTILITY,7279.0,0.0,0,1
+Blitzcrank,Archangel's Staff,Archangel's Staff,UTILITY,7279.0,0.0,0,1
+Lulu,Echoes of Helia,None,UTILITY,3458.0,0.0,-14.61,1
+Braum,Echoes of Helia,None,UTILITY,3389.0,100.0,-29.77,1
+Braum,Moonstone Renewer,Echoes of Helia,UTILITY,7564.0,100.0,0,1
+Braum,Swiftmarch,Moonstone Renewer,UTILITY,7564.0,100.0,0,1
+Sylas,Redemption,None,UTILITY,3572.0,0.0,-14.6,1
+Sylas,Moonstone Renewer,Redemption,UTILITY,6152.0,0.0,-42.22,1
+Poppy,Echoes of Helia,None,UTILITY,4221.0,0.0,-24.87,1
+Poppy,Archangel's Staff,Echoes of Helia,UTILITY,7094.0,0.0,-38.4,1
+Poppy,Archangel's Staff,Archangel's Staff,UTILITY,7094.0,0.0,-38.39,1
+Poppy,Moonstone Renewer,Archangel's Staff,UTILITY,9268.0,0.0,-18.48,1
+Poppy,Redemption,Moonstone Renewer,UTILITY,11629.0,0.0,0,1
+TahmKench,Echoes of Helia,None,UTILITY,3891.0,100.0,36.12,1
+TahmKench,Crimson Lucidity,Echoes of Helia,UTILITY,4476.0,100.0,29.06,1
+TahmKench,Moonstone Renewer,Crimson Lucidity,UTILITY,7219.0,100.0,0,1
+Leona,Redemption,None,UTILITY,2922.0,0.0,-8.43,1
+Leona,Staff of Flowing Water,Redemption,UTILITY,6186.0,0.0,0,1
+Karma,Echoes of Helia,None,UTILITY,4255.0,100.0,-4.92,1
+Karma,Swiftmarch,Echoes of Helia,UTILITY,5325.0,100.0,20.53,1
+Karma,Archangel's Staff,Swiftmarch,UTILITY,7348.0,100.0,14.75,1
+Karma,Archangel's Staff,Archangel's Staff,UTILITY,7348.0,100.0,14.76,1
+Karma,Mikael's Blessing,Archangel's Staff,UTILITY,9125.0,100.0,0,1
+Milio,Archangel's Staff,None,UTILITY,4651.0,0.0,-7.09,1
+Milio,Archangel's Staff,Archangel's Staff,UTILITY,4651.0,0.0,-7.09,1
+Milio,Crimson Lucidity,Archangel's Staff,UTILITY,5146.0,0.0,-10.21,1
+Milio,Morellonomicon,Crimson Lucidity,UTILITY,8944.0,0.0,12.42,1
+Milio,Ardent Censer,Morellonomicon,UTILITY,11106.0,0.0,-3.29,1
+Milio,Echoes of Helia,Ardent Censer,UTILITY,12450.0,0.0,-16.03,1
+Morgana,Moonstone Renewer,Echoes of Helia,UTILITY,5393.0,0.0,4.69,1
+Morgana,Rod of Ages,Moonstone Renewer,UTILITY,8717.0,0.0,0,1
+Morgana,Archangel's Staff,Echoes of Helia,UTILITY,6222.0,0.0,14.72,1
+Morgana,Archangel's Staff,Archangel's Staff,UTILITY,6222.0,0.0,14.72,1
+Renata,Echoes of Helia,None,UTILITY,4791.0,100.0,-27.76,1
+Renata,Moonstone Renewer,Echoes of Helia,UTILITY,6888.0,100.0,4.26,1
+Renata,Ardent Censer,Moonstone Renewer,UTILITY,8511.0,100.0,0,1
+LeeSin,Echoes of Helia,None,UTILITY,3665.0,0.0,40.82,1
+LeeSin,Moonstone Renewer,Echoes of Helia,UTILITY,6023.0,0.0,26.43,1
+Brand,Echoes of Helia,None,UTILITY,4616.0,100.0,-6.48,1
+Brand,Swiftmarch,Echoes of Helia,UTILITY,5149.0,100.0,25.03,1
+Brand,Archangel's Staff,Swiftmarch,UTILITY,6918.0,100.0,0,1
+Brand,Archangel's Staff,Archangel's Staff,UTILITY,7482.0,100.0,0,1
+Rakan,Echoes of Helia,None,UTILITY,4396.0,100.0,3.91,1
+Rakan,Crimson Lucidity,Echoes of Helia,UTILITY,5122.0,100.0,37.33,1
+Rakan,Moonstone Renewer,Crimson Lucidity,UTILITY,6791.0,100.0,44.58,1
+Mel,Echoes of Helia,None,UTILITY,2956.0,100.0,24.91,1
+Mel,Moonstone Renewer,Echoes of Helia,UTILITY,6235.0,100.0,-19.34,1
+Mel,Archangel's Staff,Moonstone Renewer,UTILITY,9033.0,100.0,-10.68,1
+Mel,Archangel's Staff,Archangel's Staff,UTILITY,9981.0,100.0,146.47,1
+Mel,Zhonya's Hourglass,Archangel's Staff,UTILITY,13645.0,100.0,0,1
+Zoe,Moonstone Renewer,None,UTILITY,4332.0,100.0,-5.97,1
+Zoe,Crimson Lucidity,Moonstone Renewer,UTILITY,5806.0,100.0,32.5,1
+Zoe,Archangel's Staff,Crimson Lucidity,UTILITY,7330.0,100.0,0,1
+Zoe,Archangel's Staff,Archangel's Staff,UTILITY,7330.0,100.0,0,1
+Thresh,Echoes of Helia,None,UTILITY,4216.0,100.0,-18.16,1
+Thresh,Archangel's Staff,Echoes of Helia,UTILITY,7556.0,100.0,20.69,1
+Thresh,Archangel's Staff,Archangel's Staff,UTILITY,7556.0,100.0,20.69,1
+Thresh,Moonstone Renewer,Archangel's Staff,UTILITY,9147.0,100.0,-22.6,1

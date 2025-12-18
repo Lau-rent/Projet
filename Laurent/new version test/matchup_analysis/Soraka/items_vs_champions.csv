@@ -1,89 +1,129 @@
-VS Champion,Item Name,Win Rate (%),Gold Accel (5min) (%),Sample Size
-Nautilus,Moonstone Renewer,25.0,0.95,4
-Nautilus,Redemption,50.0,-10.19,4
-Braum,Moonstone Renewer,25.0,6.92,4
-Senna,Redemption,33.3,39.1,3
-Lulu,Moonstone Renewer,66.7,13.04,3
-Nami,Moonstone Renewer,33.3,-15.25,3
-Nautilus,Dawncore,50.0,0,2
-Senna,Echoes of Helia,50.0,-5.72,2
-Senna,Ardent Censer,0.0,-20.44,2
-Braum,Redemption,0.0,-4.49,2
-Braum,Crimson Lucidity,50.0,-22.47,2
-Velkoz,Moonstone Renewer,50.0,8.05,2
-Bard,Moonstone Renewer,0.0,-5.6,2
-Lulu,Redemption,100.0,-16.74,2
-Thresh,Moonstone Renewer,100.0,0.43,2
-Seraphine,Moonstone Renewer,100.0,-10.68,2
-Seraphine,Redemption,100.0,0,2
-Zyra,Moonstone Renewer,50.0,0,2
-Brand,Moonstone Renewer,50.0,6.84,2
-Brand,Redemption,0.0,0,2
-Brand,Ardent Censer,50.0,-3.91,2
-Neeko,Moonstone Renewer,100.0,8.11,2
-Neeko,Redemption,100.0,17.03,2
-Leona,Moonstone Renewer,50.0,17.32,2
-Leona,Redemption,50.0,28.48,2
-Senna,Dawncore,0.0,-20.9,1
-Senna,Swiftmarch,100.0,0,1
-Braum,Warmog's Armor,0.0,-26.88,1
-Braum,Randuin's Omen,0.0,0,1
-Braum,Swiftmarch,0.0,0.41,1
-Braum,Dawncore,100.0,-10.42,1
-Velkoz,Redemption,100.0,9.89,1
-Karma,Moonstone Renewer,0.0,-15.41,1
-Karma,Ardent Censer,0.0,0,1
-Poppy,Moonstone Renewer,0.0,11.4,1
-Poppy,Redemption,0.0,0,1
-Bard,Ardent Censer,0.0,-5.7,1
-Bard,Dawncore,0.0,0,1
-Blitzcrank,Shurelya's Battlesong,100.0,16.37,1
-Blitzcrank,Ardent Censer,100.0,79.41,1
-Blitzcrank,Locket of the Iron Solari,100.0,0,1
-Lulu,Crimson Lucidity,100.0,-16.81,1
-Lulu,Swiftmarch,100.0,-13.92,1
-Lulu,Malignance,0.0,0,1
-Taliyah,Moonstone Renewer,0.0,17.5,1
-Taliyah,Crimson Lucidity,0.0,-21.83,1
-Taliyah,Dawncore,0.0,0,1
-Thresh,Swiftmarch,100.0,-5.77,1
-Thresh,Dawncore,100.0,0,1
-Shaco,Moonstone Renewer,0.0,-27.44,1
-Nami,Dawncore,0.0,-45.39,1
-Nami,Redemption,0.0,0,1
-Nami,Crimson Lucidity,100.0,-12.3,1
-Nami,Ardent Censer,100.0,0,1
-Evelynn,Moonstone Renewer,100.0,25.21,1
-Evelynn,Dawncore,100.0,23.07,1
-Evelynn,Redemption,100.0,0,1
-Zoe,Moonstone Renewer,0.0,-10.8,1
-Zoe,Redemption,0.0,-17.3,1
-Zoe,Crimson Lucidity,0.0,-10.32,1
-Seraphine,Crimson Lucidity,100.0,-39.59,1
-Seraphine,Dawncore,100.0,61.22,1
-Seraphine,Warmog's Armor,100.0,11.27,1
-Taric,Moonstone Renewer,100.0,20.44,1
-Taric,Redemption,100.0,0,1
-Rakan,Mikael's Blessing,0.0,17.12,1
-Rakan,Moonstone Renewer,0.0,22.37,1
-Rakan,Dawncore,0.0,26.48,1
-Rakan,Warmog's Armor,0.0,0,1
-Neeko,Warmog's Armor,100.0,23.29,1
-Milio,Moonstone Renewer,0.0,-17.08,1
-Milio,Redemption,0.0,0,1
-Mel,Moonstone Renewer,0.0,-21.74,1
-Mel,Redemption,0.0,0,1
-Leona,Dawncore,100.0,0,1
-Xerath,Moonstone Renewer,0.0,-10.68,1
-Xerath,Redemption,0.0,0,1
-Rell,Moonstone Renewer,0.0,0.14,1
-Rell,Ardent Censer,0.0,-12.73,1
-Zilean,Moonstone Renewer,100.0,3.12,1
-Zilean,Forever Forward,100.0,-19.17,1
-Lux,Moonstone Renewer,100.0,51.37,1
-Lux,Redemption,100.0,59.73,1
-Lux,Ardent Censer,100.0,-8.76,1
-Lux,Dawncore,100.0,0,1
-Pantheon,Mikael's Blessing,0.0,-8.48,1
-TahmKench,Moonstone Renewer,100.0,38.24,1
-TahmKench,Redemption,100.0,0,1
+VS Champion,Item Name,Last Item,Role,Avg Gold At Purchase,Win Rate (%),Gold Accel (5min) (%),Sample Size
+Nami,Moonstone Renewer,None,UTILITY,3670.7,33.3,-13.7,6
+Nautilus,Moonstone Renewer,None,UTILITY,2993.5,25.0,0.95,4
+Braum,Moonstone Renewer,None,UTILITY,3576.8,25.0,6.92,4
+Milio,Moonstone Renewer,None,UTILITY,3698.0,25.0,-7.15,4
+Thresh,Moonstone Renewer,None,UTILITY,3046.0,75.0,-1.29,4
+Neeko,Moonstone Renewer,None,UTILITY,3716.2,75.0,-2.39,4
+Nautilus,Redemption,Moonstone Renewer,UTILITY,6363.0,33.3,-10.19,3
+Bard,Moonstone Renewer,None,UTILITY,4070.3,0.0,-4.55,3
+Lulu,Moonstone Renewer,None,UTILITY,3964.7,66.7,13.04,3
+Milio,Redemption,Moonstone Renewer,UTILITY,6294.3,33.3,-2.2,3
+Zyra,Moonstone Renewer,None,UTILITY,3466.0,66.7,-6.23,3
+Neeko,Redemption,Moonstone Renewer,UTILITY,6578.3,100.0,15.27,3
+Senna,Ardent Censer,None,UTILITY,4059.5,0.0,-20.44,2
+Senna,Redemption,Ardent Censer,UTILITY,6333.0,0.0,0,2
+Velkoz,Moonstone Renewer,None,UTILITY,3338.5,50.0,8.05,2
+Nami,Redemption,Moonstone Renewer,UTILITY,6273.5,50.0,-1.32,2
+Seraphine,Moonstone Renewer,None,UTILITY,3551.5,100.0,-10.68,2
+Brand,Moonstone Renewer,None,UTILITY,3108.0,50.0,6.84,2
+Leona,Moonstone Renewer,None,UTILITY,3902.5,50.0,17.32,2
+Leona,Redemption,Moonstone Renewer,UTILITY,6243.5,50.0,28.48,2
+Zilean,Moonstone Renewer,None,UTILITY,3518.5,100.0,37.78,2
+Lux,Moonstone Renewer,None,UTILITY,4186.0,100.0,32.32,2
+Lux,Redemption,Moonstone Renewer,UTILITY,6641.0,100.0,44.03,2
+Nautilus,Dawncore,Redemption,UTILITY,8808.0,100.0,0,1
+Nautilus,Dawncore,Moonstone Renewer,UTILITY,6320.0,0.0,0,1
+Nautilus,Redemption,None,UTILITY,3799.0,100.0,0,1
+Senna,Dawncore,None,UTILITY,4528.0,0.0,-20.9,1
+Senna,Echoes of Helia,Dawncore,UTILITY,6399.0,0.0,0,1
+Senna,Echoes of Helia,None,UTILITY,3853.0,100.0,-5.72,1
+Senna,Redemption,Echoes of Helia,UTILITY,6016.0,100.0,39.1,1
+Senna,Swiftmarch,Redemption,UTILITY,8387.0,100.0,0,1
+Senna,Moonstone Renewer,None,UTILITY,2910.0,100.0,-21.64,1
+Senna,Crimson Lucidity,Moonstone Renewer,UTILITY,4930.0,100.0,-11.93,1
+Senna,Redemption,Crimson Lucidity,UTILITY,7175.0,100.0,31.65,1
+Braum,Redemption,Moonstone Renewer,UTILITY,6039.0,0.0,-4.49,1
+Braum,Crimson Lucidity,Moonstone Renewer,UTILITY,5557.0,0.0,-24.4,1
+Braum,Warmog's Armor,Crimson Lucidity,UTILITY,7716.0,0.0,-26.88,1
+Braum,Randuin's Omen,Warmog's Armor,UTILITY,10609.0,0.0,0,1
+Braum,Swiftmarch,Moonstone Renewer,UTILITY,6148.0,0.0,0.41,1
+Braum,Redemption,Swiftmarch,UTILITY,7083.0,0.0,0,1
+Braum,Dawncore,Moonstone Renewer,UTILITY,6262.0,100.0,-10.42,1
+Braum,Crimson Lucidity,Dawncore,UTILITY,6725.0,100.0,-20.55,1
+Velkoz,Redemption,Moonstone Renewer,UTILITY,6314.0,100.0,9.89,1
+Morgana,Redemption,None,UTILITY,3217.0,0.0,5.18,1
+Morgana,Moonstone Renewer,Redemption,UTILITY,6786.0,0.0,-31.8,1
+Morgana,Crimson Lucidity,Moonstone Renewer,UTILITY,7013.0,0.0,-29.31,1
+Karma,Moonstone Renewer,None,UTILITY,3972.0,0.0,-15.41,1
+Karma,Ardent Censer,Moonstone Renewer,UTILITY,6967.0,0.0,0,1
+Poppy,Moonstone Renewer,None,UTILITY,3234.0,0.0,11.4,1
+Poppy,Redemption,Moonstone Renewer,UTILITY,6467.0,0.0,0,1
+Bard,Ardent Censer,Moonstone Renewer,UTILITY,6673.0,0.0,-5.7,1
+Bard,Dawncore,Moonstone Renewer,UTILITY,6585.0,0.0,0,1
+Bard,Redemption,Moonstone Renewer,UTILITY,6193.0,0.0,0,1
+Blitzcrank,Shurelya's Battlesong,None,UTILITY,3907.0,100.0,16.37,1
+Blitzcrank,Ardent Censer,Shurelya's Battlesong,UTILITY,7276.0,100.0,79.41,1
+Blitzcrank,Locket of the Iron Solari,Ardent Censer,UTILITY,8932.0,100.0,0,1
+Lulu,Crimson Lucidity,Moonstone Renewer,UTILITY,6871.0,100.0,-16.81,1
+Lulu,Redemption,Crimson Lucidity,UTILITY,6871.0,100.0,-16.74,1
+Lulu,Swiftmarch,Moonstone Renewer,UTILITY,5215.0,100.0,-13.92,1
+Lulu,Redemption,Swiftmarch,UTILITY,7071.0,100.0,0,1
+Lulu,Malignance,Moonstone Renewer,UTILITY,6519.0,0.0,0,1
+Taliyah,Moonstone Renewer,None,UTILITY,3190.0,0.0,17.5,1
+Taliyah,Crimson Lucidity,Moonstone Renewer,UTILITY,5020.0,0.0,-21.83,1
+Taliyah,Dawncore,Crimson Lucidity,UTILITY,7256.0,0.0,0,1
+Nami,Redemption,None,UTILITY,2886.0,100.0,-23.81,1
+Nami,Dawncore,Redemption,UTILITY,6278.0,100.0,-27.15,1
+Nami,Moonstone Renewer,Dawncore,UTILITY,9009.0,100.0,109.01,1
+Nami,Dawncore,Moonstone Renewer,UTILITY,7489.0,0.0,-45.39,1
+Nami,Redemption,Dawncore,UTILITY,8648.0,0.0,0,1
+Nami,Crimson Lucidity,Moonstone Renewer,UTILITY,4593.0,100.0,-12.3,1
+Nami,Ardent Censer,Crimson Lucidity,UTILITY,7613.0,100.0,0,1
+Thresh,Swiftmarch,Moonstone Renewer,UTILITY,4748.0,100.0,-5.77,1
+Thresh,Dawncore,Swiftmarch,UTILITY,6834.0,100.0,0,1
+Thresh,Dawncore,Moonstone Renewer,UTILITY,6106.0,100.0,0,1
+Thresh,Mikael's Blessing,Moonstone Renewer,UTILITY,6619.0,0.0,-34.26,1
+Thresh,Redemption,Mikael's Blessing,UTILITY,9402.0,0.0,0,1
+Shaco,Moonstone Renewer,None,UTILITY,3647.0,0.0,-27.44,1
+Evelynn,Moonstone Renewer,None,UTILITY,3411.0,100.0,25.21,1
+Evelynn,Dawncore,Moonstone Renewer,UTILITY,6641.0,100.0,23.07,1
+Evelynn,Redemption,Dawncore,UTILITY,8888.0,100.0,0,1
+Zoe,Moonstone Renewer,None,UTILITY,3733.0,0.0,-10.8,1
+Zoe,Redemption,Moonstone Renewer,UTILITY,6966.0,0.0,-17.3,1
+Zoe,Crimson Lucidity,Redemption,UTILITY,7173.0,0.0,-10.32,1
+Zoe,Crimson Lucidity,Crimson Lucidity,UTILITY,7756.0,0.0,-35.18,1
+Seraphine,Crimson Lucidity,Moonstone Renewer,UTILITY,4523.0,100.0,-39.59,1
+Seraphine,Crimson Lucidity,Crimson Lucidity,UTILITY,5043.0,100.0,-25.01,1
+Seraphine,Redemption,Crimson Lucidity,UTILITY,7297.0,100.0,0,1
+Seraphine,Dawncore,Moonstone Renewer,UTILITY,6396.0,100.0,61.22,1
+Seraphine,Warmog's Armor,Dawncore,UTILITY,10320.0,100.0,11.27,1
+Seraphine,Redemption,Warmog's Armor,UTILITY,12009.0,100.0,0,1
+Taric,Moonstone Renewer,None,UTILITY,4029.0,100.0,20.44,1
+Taric,Redemption,Moonstone Renewer,UTILITY,6771.0,100.0,0,1
+Rakan,Mikael's Blessing,None,UTILITY,2988.0,0.0,17.12,1
+Rakan,Moonstone Renewer,Mikael's Blessing,UTILITY,5984.0,0.0,22.37,1
+Rakan,Dawncore,Moonstone Renewer,UTILITY,9171.0,0.0,26.48,1
+Rakan,Warmog's Armor,Dawncore,UTILITY,12334.0,0.0,0,1
+Brand,Redemption,Moonstone Renewer,UTILITY,6760.0,0.0,0,1
+Brand,Ardent Censer,None,UTILITY,3293.0,0.0,-2.61,1
+Brand,Redemption,Ardent Censer,UTILITY,6208.0,0.0,0,1
+Brand,Ardent Censer,Moonstone Renewer,UTILITY,4932.0,100.0,-5.21,1
+Neeko,Warmog's Armor,Redemption,UTILITY,9475.0,100.0,23.29,1
+Jinx,Moonstone Renewer,None,BOTTOM,3484.0,0.0,0,1
+Mel,Moonstone Renewer,None,UTILITY,3037.0,0.0,-21.74,1
+Mel,Redemption,Moonstone Renewer,UTILITY,6222.0,0.0,0,1
+Leona,Dawncore,Redemption,UTILITY,8770.0,100.0,0,1
+Xerath,Moonstone Renewer,None,UTILITY,4008.0,0.0,-10.68,1
+Xerath,Redemption,Moonstone Renewer,UTILITY,6792.0,0.0,0,1
+Rell,Moonstone Renewer,None,UTILITY,3133.0,0.0,0.14,1
+Rell,Ardent Censer,Moonstone Renewer,UTILITY,5813.0,0.0,-12.73,1
+Zilean,Forever Forward,Moonstone Renewer,UTILITY,4872.0,100.0,-19.17,1
+Zilean,Crimson Lucidity,Moonstone Renewer,UTILITY,4497.0,100.0,20.39,1
+Zilean,Redemption,Crimson Lucidity,UTILITY,7323.0,100.0,0,1
+Lux,Ardent Censer,Redemption,UTILITY,8765.0,100.0,-8.76,1
+Lux,Dawncore,Ardent Censer,UTILITY,11233.0,100.0,0,1
+Lux,Chainlaced Crushers,Redemption,UTILITY,7201.0,100.0,49.93,1
+Lux,Dawncore,Chainlaced Crushers,UTILITY,9952.0,100.0,-20.65,1
+Lux,Mikael's Blessing,Dawncore,UTILITY,11991.0,100.0,0,1
+Pantheon,Mikael's Blessing,None,UTILITY,3832.0,0.0,-8.48,1
+TahmKench,Moonstone Renewer,None,UTILITY,2939.0,100.0,38.24,1
+TahmKench,Redemption,Moonstone Renewer,UTILITY,6828.0,100.0,0,1
+Ashe,Moonstone Renewer,None,UTILITY,3881.0,0.0,-11.67,1
+Ashe,Mikael's Blessing,Moonstone Renewer,UTILITY,6264.0,0.0,0,1
+Alistar,Redemption,None,UTILITY,3361.0,100.0,6.21,1
+Alistar,Moonstone Renewer,Redemption,UTILITY,6721.0,100.0,20.54,1
+Swain,Moonstone Renewer,None,UTILITY,2985.0,0.0,-19.96,1
+Swain,Redemption,Moonstone Renewer,UTILITY,6356.0,0.0,0,1
+Fizz,Moonstone Renewer,None,UTILITY,4057.0,0.0,15.18,1
+Fizz,Redemption,Moonstone Renewer,UTILITY,6569.0,0.0,0,1

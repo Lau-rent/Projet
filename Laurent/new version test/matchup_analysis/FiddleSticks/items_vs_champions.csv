@@ -1,81 +1,112 @@
-VS Champion,Item Name,Win Rate (%),Gold Accel (5min) (%),Sample Size
-Viego,Malignance,60.0,16.8,5
-Viego,Liandry's Torment,75.0,9.43,4
-Viego,Zhonya's Hourglass,100.0,13.34,3
-Amumu,Malignance,66.7,-13.06,3
-Amumu,Liandry's Torment,66.7,18.22,3
-Amumu,Zhonya's Hourglass,66.7,13.5,3
-Viego,Hextech Rocketbelt,50.0,35.04,2
-Garen,Blackfire Torch,50.0,13.57,2
-Garen,Liandry's Torment,50.0,-19.97,2
-Amumu,Shadowflame,50.0,53.58,2
-Mordekaiser,Liandry's Torment,100.0,73.61,1
-Mordekaiser,Shadowflame,100.0,0,1
-Nunu,Liandry's Torment,100.0,19.25,1
-Nunu,Shadowflame,100.0,-0.22,1
-Nunu,Banshee's Veil,100.0,-7.44,1
-Vi,Liandry's Torment,0.0,40.13,1
-Vi,Shadowflame,0.0,0,1
-Kayn,Liandry's Torment,0.0,-19.24,1
-Kayn,Zhonya's Hourglass,0.0,0,1
-Kayn,Hextech Rocketbelt,0.0,30.3,1
-Kayn,Shadowflame,0.0,-13.57,1
-Kayn,Spellslinger's Shoes,0.0,58.28,1
-MasterYi,Malignance,100.0,10.08,1
-MasterYi,Liandry's Torment,100.0,13.22,1
-Kayle,Liandry's Torment,100.0,7.11,1
-Kayle,Blackfire Torch,100.0,-7.77,1
-Kayle,Shadowflame,100.0,0,1
-Maokai,Malignance,100.0,-47.61,1
-Maokai,Zeke's Convergence,100.0,47.75,1
-Maokai,Forever Forward,100.0,42.65,1
-Maokai,Liandry's Torment,100.0,-40.63,1
-Khazix,Liandry's Torment,0.0,-24.52,1
-Khazix,Zhonya's Hourglass,0.0,-12.18,1
-Yuumi,Malignance,100.0,-16.74,1
-Yuumi,Spellslinger's Shoes,100.0,22.74,1
-Yuumi,Zhonya's Hourglass,100.0,0,1
-Zac,Blackfire Torch,0.0,89.88,1
-Zac,Liandry's Torment,0.0,16.87,1
-Zac,Zhonya's Hourglass,0.0,-54.59,1
-Viego,Rabadon's Deathcap,100.0,-24.31,1
-Viego,Void Staff,100.0,-21.98,1
-Viego,Spellslinger's Shoes,100.0,24.51,1
-Warwick,Hextech Rocketbelt,0.0,37.54,1
-Warwick,Rabadon's Deathcap,0.0,-5.48,1
-Warwick,Cryptbloom,0.0,9.24,1
-Warwick,Banshee's Veil,0.0,0,1
-Volibear,Hextech Rocketbelt,100.0,38.7,1
-Volibear,Shadowflame,100.0,-4.15,1
-Volibear,Spellslinger's Shoes,100.0,-12.49,1
-Volibear,Zhonya's Hourglass,100.0,15.72,1
-Volibear,Malignance,0.0,-17.56,1
-Poppy,Liandry's Torment,0.0,18.9,1
-Poppy,Chainlaced Crushers,0.0,28.96,1
-Poppy,Spirit Visage,0.0,0,1
-Swain,Liandry's Torment,100.0,-9.3,1
-Swain,Spellslinger's Shoes,100.0,-10.83,1
-Braum,Luden's Companion,100.0,-18.76,1
-Braum,Spellslinger's Shoes,100.0,-16.2,1
-Braum,Liandry's Torment,100.0,0,1
-Briar,Malignance,100.0,-30.31,1
-Briar,Liandry's Torment,100.0,37.1,1
-Briar,Spellslinger's Shoes,100.0,42.04,1
-Briar,Zhonya's Hourglass,100.0,0,1
-Pantheon,Malignance,0.0,42.97,1
-Pantheon,Liandry's Torment,0.0,-44.34,1
-Yorick,Liandry's Torment,100.0,30.02,1
-Yorick,Blackfire Torch,100.0,0,1
-Garen,Armored Advance,100.0,-1.13,1
-Garen,Abyssal Mask,100.0,0,1
-Amumu,Banshee's Veil,100.0,0,1
-XinZhao,Liandry's Torment,0.0,-15.66,1
-XinZhao,Malignance,0.0,0,1
-Rengar,Malignance,0.0,-15.66,1
-Rengar,Zhonya's Hourglass,0.0,6.61,1
-Rengar,Liandry's Torment,0.0,28.64,1
-Karma,Liandry's Torment,0.0,18.28,1
-DrMundo,Malignance,0.0,-33.32,1
-Ambessa,Liandry's Torment,0.0,-2.01,1
-Ambessa,Shadowflame,0.0,-31.94,1
-Ambessa,Spellslinger's Shoes,0.0,-31.85,1
+VS Champion,Item Name,Last Item,Role,Avg Gold At Purchase,Win Rate (%),Gold Accel (5min) (%),Sample Size
+Viego,Malignance,None,JUNGLE,4120.5,66.7,7.48,6
+Viego,Liandry's Torment,Malignance,JUNGLE,7485.8,75.0,6.19,4
+Amumu,Malignance,None,JUNGLE,3677.3,66.7,-5.01,3
+Garen,Blackfire Torch,None,TOP,4285.0,50.0,13.57,2
+Garen,Liandry's Torment,Blackfire Torch,TOP,8159.5,50.0,-19.97,2
+Amumu,Liandry's Torment,Malignance,JUNGLE,7849.5,50.0,14.09,2
+Amumu,Zhonya's Hourglass,Liandry's Torment,JUNGLE,9809.0,100.0,13.5,2
+Amumu,Shadowflame,Zhonya's Hourglass,JUNGLE,12683.5,100.0,5.44,2
+Mordekaiser,Liandry's Torment,None,JUNGLE,4777.0,100.0,73.61,1
+Mordekaiser,Shadowflame,Liandry's Torment,JUNGLE,8274.0,100.0,0,1
+Nunu,Liandry's Torment,None,JUNGLE,5054.0,100.0,19.25,1
+Nunu,Shadowflame,Liandry's Torment,JUNGLE,8046.0,100.0,-0.22,1
+Nunu,Banshee's Veil,Shadowflame,JUNGLE,12309.0,100.0,-7.44,1
+Vi,Liandry's Torment,None,JUNGLE,4873.0,0.0,40.13,1
+Vi,Shadowflame,Liandry's Torment,JUNGLE,8215.0,0.0,0,1
+Kayn,Liandry's Torment,None,JUNGLE,5341.0,0.0,-19.24,1
+Kayn,Zhonya's Hourglass,Liandry's Torment,JUNGLE,7901.0,0.0,0,1
+Kayn,Hextech Rocketbelt,None,JUNGLE,5218.0,0.0,30.3,1
+Kayn,Shadowflame,Hextech Rocketbelt,JUNGLE,7615.0,0.0,-13.57,1
+Kayn,Spellslinger's Shoes,Shadowflame,JUNGLE,8216.0,0.0,58.28,1
+MasterYi,Malignance,None,JUNGLE,3326.0,100.0,10.08,1
+MasterYi,Liandry's Torment,Malignance,JUNGLE,7750.0,100.0,13.22,1
+Kayle,Liandry's Torment,None,TOP,4350.0,100.0,7.11,1
+Kayle,Blackfire Torch,Liandry's Torment,TOP,7802.0,100.0,-7.77,1
+Kayle,Shadowflame,Blackfire Torch,TOP,11808.0,100.0,0,1
+Maokai,Malignance,None,UTILITY,5390.0,100.0,-47.61,1
+Maokai,Zeke's Convergence,Malignance,UTILITY,7686.0,100.0,47.75,1
+Maokai,Forever Forward,Zeke's Convergence,UTILITY,8325.0,100.0,42.65,1
+Maokai,Liandry's Torment,Forever Forward,UTILITY,10543.0,100.0,-40.63,1
+Maokai,Malignance,None,JUNGLE,3225.0,100.0,38.32,1
+Maokai,Shadowflame,Malignance,JUNGLE,9548.0,100.0,99.04,1
+Maokai,Rabadon's Deathcap,Shadowflame,JUNGLE,11715.0,100.0,0,1
+Khazix,Liandry's Torment,None,JUNGLE,4453.0,0.0,-24.52,1
+Khazix,Zhonya's Hourglass,Liandry's Torment,JUNGLE,7709.0,0.0,-12.18,1
+Yuumi,Malignance,None,UTILITY,3444.0,100.0,-16.74,1
+Yuumi,Spellslinger's Shoes,Malignance,UTILITY,6507.0,100.0,22.74,1
+Yuumi,Zhonya's Hourglass,Spellslinger's Shoes,UTILITY,9322.0,100.0,0,1
+Zac,Blackfire Torch,None,JUNGLE,4597.0,0.0,89.88,1
+Zac,Liandry's Torment,Blackfire Torch,JUNGLE,7567.0,0.0,16.87,1
+Zac,Zhonya's Hourglass,Liandry's Torment,JUNGLE,11082.0,0.0,-54.59,1
+Viego,Rabadon's Deathcap,Liandry's Torment,JUNGLE,11605.0,100.0,-24.31,1
+Viego,Zhonya's Hourglass,Rabadon's Deathcap,JUNGLE,14165.0,100.0,-4.54,1
+Viego,Void Staff,Zhonya's Hourglass,JUNGLE,17504.0,100.0,-21.98,1
+Viego,Hextech Rocketbelt,None,JUNGLE,3680.0,100.0,53.76,1
+Viego,Zhonya's Hourglass,Hextech Rocketbelt,JUNGLE,7137.0,100.0,31.22,1
+Viego,Liandry's Torment,Zhonya's Hourglass,JUNGLE,11083.0,100.0,12.18,1
+Viego,Malignance,Liandry's Torment,JUNGLE,13384.0,100.0,41.42,1
+Viego,Hextech Rocketbelt,Malignance,JUNGLE,7974.0,0.0,16.32,1
+Viego,Spellslinger's Shoes,Liandry's Torment,JUNGLE,10051.0,100.0,24.51,1
+Viego,Zhonya's Hourglass,Spellslinger's Shoes,JUNGLE,11424.0,100.0,0,1
+Viego,Shadowflame,Malignance,JUNGLE,7963.0,100.0,-8.28,1
+Viego,Spellslinger's Shoes,Shadowflame,JUNGLE,10955.0,100.0,0,1
+Viego,Zhonya's Hourglass,Liandry's Torment,JUNGLE,12308.0,100.0,0,1
+Taliyah,Malignance,None,MIDDLE,4641.0,100.0,72.36,1
+Taliyah,Liandry's Torment,Malignance,MIDDLE,6745.0,100.0,37.15,1
+Taliyah,Shadowflame,Liandry's Torment,MIDDLE,10199.0,100.0,5.76,1
+Taliyah,Zhonya's Hourglass,Shadowflame,MIDDLE,13655.0,100.0,0,1
+Warwick,Hextech Rocketbelt,None,JUNGLE,5311.0,0.0,37.54,1
+Warwick,Rabadon's Deathcap,Hextech Rocketbelt,JUNGLE,8787.0,0.0,-5.48,1
+Warwick,Cryptbloom,Rabadon's Deathcap,JUNGLE,12167.0,0.0,9.24,1
+Warwick,Banshee's Veil,Cryptbloom,JUNGLE,14837.0,0.0,0,1
+Skarner,Liandry's Torment,None,JUNGLE,5306.0,100.0,21.15,1
+Skarner,Malignance,Liandry's Torment,JUNGLE,8229.0,100.0,8.94,1
+Skarner,Spellslinger's Shoes,Malignance,JUNGLE,8648.0,100.0,66.46,1
+Volibear,Hextech Rocketbelt,None,JUNGLE,3958.0,100.0,38.7,1
+Volibear,Shadowflame,Hextech Rocketbelt,JUNGLE,7915.0,100.0,-4.15,1
+Volibear,Spellslinger's Shoes,Shadowflame,JUNGLE,9711.0,100.0,-12.49,1
+Volibear,Zhonya's Hourglass,Spellslinger's Shoes,JUNGLE,11554.0,100.0,15.72,1
+Volibear,Malignance,None,JUNGLE,3609.0,0.0,-17.56,1
+Poppy,Liandry's Torment,None,UTILITY,3935.0,0.0,18.9,1
+Poppy,Chainlaced Crushers,Liandry's Torment,UTILITY,6760.0,0.0,28.96,1
+Poppy,Spirit Visage,Chainlaced Crushers,UTILITY,8890.0,0.0,0,1
+Swain,Liandry's Torment,None,UTILITY,5830.0,100.0,-9.3,1
+Swain,Spellslinger's Shoes,Liandry's Torment,UTILITY,5983.0,100.0,-10.83,1
+Braum,Luden's Companion,None,UTILITY,4824.0,100.0,-18.76,1
+Braum,Spellslinger's Shoes,Luden's Companion,UTILITY,5374.0,100.0,-16.2,1
+Braum,Liandry's Torment,Spellslinger's Shoes,UTILITY,8086.0,100.0,0,1
+Briar,Malignance,None,MIDDLE,4286.0,100.0,-30.31,1
+Briar,Liandry's Torment,Malignance,MIDDLE,9672.0,100.0,37.1,1
+Briar,Spellslinger's Shoes,Liandry's Torment,MIDDLE,9672.0,100.0,42.04,1
+Briar,Zhonya's Hourglass,Spellslinger's Shoes,MIDDLE,12269.0,100.0,0,1
+Briar,Malignance,Zhonya's Hourglass,MIDDLE,12269.0,100.0,0,1
+Pantheon,Malignance,None,JUNGLE,4296.0,0.0,42.97,1
+Pantheon,Liandry's Torment,Malignance,JUNGLE,7302.0,0.0,-44.34,1
+Yorick,Liandry's Torment,None,TOP,6102.0,100.0,30.02,1
+Yorick,Blackfire Torch,Liandry's Torment,TOP,7810.0,100.0,0,1
+Garen,Armored Advance,Liandry's Torment,TOP,9427.0,100.0,-1.13,1
+Garen,Abyssal Mask,Armored Advance,TOP,10836.0,100.0,0,1
+Amumu,Liandry's Torment,None,JUNGLE,4529.0,100.0,26.48,1
+Amumu,Malignance,Zhonya's Hourglass,JUNGLE,11875.0,100.0,-24.61,1
+Amumu,Banshee's Veil,Malignance,JUNGLE,15438.0,100.0,0,1
+Amumu,Shadowflame,Liandry's Torment,JUNGLE,10697.0,0.0,53.58,1
+Amumu,Zhonya's Hourglass,Shadowflame,JUNGLE,14920.0,0.0,0,1
+Amumu,Zhonya's Hourglass,Malignance,JUNGLE,8525.0,100.0,-4.91,1
+Amumu,Rylai's Crystal Scepter,Shadowflame,JUNGLE,13155.0,100.0,45.74,1
+Amumu,Hextech Rocketbelt,Rylai's Crystal Scepter,JUNGLE,16110.0,100.0,38.93,1
+Amumu,Rylai's Crystal Scepter,Hextech Rocketbelt,JUNGLE,18608.0,100.0,0,1
+Amumu,Rabadon's Deathcap,Rylai's Crystal Scepter,JUNGLE,18608.0,100.0,0,1
+XinZhao,Liandry's Torment,None,JUNGLE,6510.0,0.0,-15.66,1
+XinZhao,Malignance,Liandry's Torment,JUNGLE,7553.0,0.0,0,1
+Rengar,Malignance,None,JUNGLE,3872.0,0.0,-15.66,1
+Rengar,Zhonya's Hourglass,Malignance,JUNGLE,7934.0,0.0,6.61,1
+Rengar,Liandry's Torment,Zhonya's Hourglass,JUNGLE,10754.0,0.0,28.64,1
+Karma,Liandry's Torment,None,UTILITY,5511.0,0.0,18.28,1
+DrMundo,Malignance,None,JUNGLE,4884.0,0.0,-33.32,1
+Ambessa,Liandry's Torment,None,JUNGLE,7096.0,0.0,-2.01,1
+Ambessa,Shadowflame,Liandry's Torment,JUNGLE,8871.0,0.0,-31.94,1
+Ambessa,Spellslinger's Shoes,Shadowflame,JUNGLE,8871.0,0.0,-31.85,1
+Teemo,Malignance,None,JUNGLE,5300.0,0.0,29.63,1
+Teemo,Hextech Rocketbelt,Malignance,JUNGLE,9002.0,0.0,30.83,1
+Teemo,Liandry's Torment,Hextech Rocketbelt,JUNGLE,9850.0,0.0,0,1

@@ -1,93 +1,144 @@
-VS Champion,Item Name,Win Rate (%),Gold Accel (5min) (%),Sample Size
-Riven,Eclipse,50.0,29.78,2
-Riven,Manamune,50.0,46.12,2
-Singed,Eclipse,100.0,27.23,2
-Kayle,Manamune,100.0,20.17,2
-Kayle,Eclipse,100.0,38.97,2
-Ambessa,Youmuu's Ghostblade,100.0,14.07,1
-Ambessa,Manamune,100.0,-0.24,1
-Ambessa,Serylda's Grudge,100.0,9.12,1
-Pantheon,Black Cleaver,100.0,-3.92,1
-Pantheon,Spear of Shojin,100.0,-17.95,1
-Pantheon,Manamune,100.0,0,1
-Aatrox,Youmuu's Ghostblade,0.0,16.99,1
-Aatrox,Manamune,0.0,60.67,1
-Aatrox,Eclipse,0.0,0,1
-Aatrox,Mortal Reminder,0.0,0,1
-Shyvana,Youmuu's Ghostblade,0.0,-15.43,1
-Shyvana,Manamune,0.0,-34.89,1
-Shyvana,Serpent's Fang,0.0,-20.65,1
-Kennen,Youmuu's Ghostblade,0.0,0,1
-Syndra,Eclipse,0.0,8.78,1
-Syndra,Manamune,0.0,-27.34,1
-Syndra,Crimson Lucidity,0.0,-25.02,1
-Riven,Serylda's Grudge,100.0,12.85,1
-Riven,Crimson Lucidity,100.0,2.37,1
-Riven,Youmuu's Ghostblade,100.0,-46.69,1
-Riven,Black Cleaver,0.0,-28.0,1
-Garen,The Collector,0.0,41.51,1
-Garen,Manamune,0.0,37.25,1
-Garen,Swiftmarch,0.0,37.55,1
-Garen,Youmuu's Ghostblade,0.0,-15.96,1
-Yorick,Youmuu's Ghostblade,0.0,154.15,1
-Yorick,Manamune,0.0,31.67,1
-Yorick,Serylda's Grudge,0.0,37.58,1
-Yorick,Edge of Night,0.0,0,1
-Singed,Youmuu's Ghostblade,100.0,-15.3,1
-Singed,Manamune,100.0,0,1
-Singed,Serylda's Grudge,100.0,0,1
-Vladimir,Youmuu's Ghostblade,0.0,37.63,1
-Vladimir,Manamune,0.0,-10.01,1
-Vladimir,Eclipse,0.0,32.41,1
-Vladimir,Chainlaced Crushers,0.0,49.28,1
-Vladimir,Spear of Shojin,0.0,10.46,1
-Vladimir,Black Cleaver,0.0,-44.43,1
-Velkoz,Youmuu's Ghostblade,0.0,20.18,1
-Velkoz,Manamune,0.0,60.86,1
-Kayle,Youmuu's Ghostblade,100.0,14.2,1
-Kayle,Crimson Lucidity,100.0,0,1
-Kayle,Serylda's Grudge,100.0,0,1
-Brand,Youmuu's Ghostblade,100.0,123.48,1
-Brand,Opportunity,100.0,3.6,1
-Brand,Serylda's Grudge,100.0,30.1,1
-Brand,Edge of Night,100.0,0,1
-Zaahen,Youmuu's Ghostblade,100.0,48.77,1
-Zaahen,Manamune,100.0,-1.89,1
-Zaahen,Serylda's Grudge,100.0,66.21,1
-Zaahen,Edge of Night,100.0,-21.43,1
-Zaahen,Guardian Angel,100.0,-18.71,1
-Hecarim,Youmuu's Ghostblade,0.0,-0.72,1
-Hecarim,Opportunity,0.0,18.16,1
-Hecarim,Crimson Lucidity,0.0,18.37,1
-Hecarim,Serylda's Grudge,0.0,31.33,1
-Hecarim,Eclipse,0.0,8.1,1
-Hecarim,Edge of Night,0.0,-47.28,1
-Gwen,Youmuu's Ghostblade,100.0,49.66,1
-Gwen,Opportunity,100.0,-5.92,1
-Gwen,Crimson Lucidity,100.0,-5.28,1
-Gwen,Eclipse,100.0,0.89,1
-Briar,Youmuu's Ghostblade,0.0,-1.33,1
-Briar,Opportunity,0.0,-35.33,1
-Rengar,Youmuu's Ghostblade,100.0,-0.59,1
-Rengar,Opportunity,100.0,53.28,1
-Rengar,Crimson Lucidity,100.0,-10.02,1
-Rengar,Eclipse,100.0,2.13,1
-Akali,Youmuu's Ghostblade,0.0,-1.85,1
-Akali,Manamune,0.0,75.09,1
-Akali,Crimson Lucidity,0.0,34.33,1
-Akali,Edge of Night,0.0,-16.53,1
-Akali,Serylda's Grudge,0.0,16.63,1
-Akali,Eclipse,0.0,27.0,1
-Naafiri,Eclipse,0.0,36.03,1
-Naafiri,Manamune,0.0,-13.98,1
-Naafiri,Spear of Shojin,0.0,33.73,1
-Naafiri,Black Cleaver,0.0,86.13,1
-Naafiri,Maw of Malmortius,0.0,0.42,1
-Yasuo,Youmuu's Ghostblade,100.0,31.41,1
-Yasuo,Manamune,100.0,-19.79,1
-Yasuo,Opportunity,100.0,0,1
-DrMundo,Youmuu's Ghostblade,100.0,4.33,1
-DrMundo,Opportunity,100.0,-22.11,1
-DrMundo,Serylda's Grudge,100.0,7.01,1
-DrMundo,Eclipse,100.0,15.45,1
-DrMundo,Chempunk Chainsword,100.0,0,1
+VS Champion,Item Name,Last Item,Role,Avg Gold At Purchase,Win Rate (%),Gold Accel (5min) (%),Sample Size
+Aatrox,Youmuu's Ghostblade,None,TOP,4496.5,50.0,29.39,2
+Aatrox,Manamune,Youmuu's Ghostblade,TOP,7121.0,50.0,5.6,2
+Aatrox,Manamune,Manamune,TOP,7228.0,50.0,9.21,2
+Riven,Eclipse,None,TOP,3742.0,50.0,29.78,2
+Riven,Manamune,Eclipse,TOP,7204.0,50.0,46.12,2
+Riven,Manamune,Manamune,TOP,8060.5,50.0,30.85,2
+Singed,Eclipse,None,TOP,4049.5,100.0,27.23,2
+Kayle,Manamune,Manamune,TOP,8620.0,100.0,14.38,2
+Ambessa,Youmuu's Ghostblade,None,TOP,3825.0,100.0,14.07,1
+Ambessa,Manamune,Youmuu's Ghostblade,TOP,7063.0,100.0,-0.24,1
+Ambessa,Manamune,Manamune,TOP,7340.0,100.0,-0.93,1
+Ambessa,Serylda's Grudge,Manamune,TOP,10285.0,100.0,9.12,1
+Pantheon,Black Cleaver,None,TOP,4363.0,100.0,-3.92,1
+Pantheon,Spear of Shojin,Black Cleaver,TOP,8194.0,100.0,-17.95,1
+Pantheon,Manamune,Spear of Shojin,TOP,11416.0,100.0,0,1
+Pantheon,Manamune,Manamune,TOP,11416.0,100.0,0,1
+Lux,Eclipse,None,MIDDLE,3765.0,100.0,34.28,1
+Lux,Manamune,Eclipse,MIDDLE,7454.0,100.0,48.48,1
+Lux,Manamune,Manamune,MIDDLE,7454.0,100.0,48.51,1
+Lux,Spear of Shojin,Manamune,MIDDLE,11254.0,100.0,0,1
+Lux,Chainlaced Crushers,Spear of Shojin,MIDDLE,11254.0,100.0,0,1
+Aatrox,Eclipse,Manamune,TOP,12058.0,0.0,0,1
+Aatrox,Mortal Reminder,Eclipse,TOP,14559.0,0.0,0,1
+Aatrox,Serylda's Grudge,Manamune,TOP,9765.0,100.0,17.65,1
+Aatrox,Eclipse,Serylda's Grudge,TOP,13742.0,100.0,15.97,1
+Aatrox,Serpent's Fang,Eclipse,TOP,15203.0,100.0,0,1
+Shyvana,Youmuu's Ghostblade,None,TOP,4836.0,0.0,-15.43,1
+Shyvana,Manamune,Youmuu's Ghostblade,TOP,6706.0,0.0,-34.89,1
+Shyvana,Manamune,Manamune,TOP,6706.0,0.0,-33.22,1
+Shyvana,Serpent's Fang,Manamune,TOP,8463.0,0.0,-20.65,1
+Kennen,Youmuu's Ghostblade,None,TOP,4206.0,0.0,0,1
+Syndra,Eclipse,None,MIDDLE,4110.0,0.0,8.78,1
+Syndra,Manamune,Eclipse,MIDDLE,7483.0,0.0,-27.34,1
+Syndra,Crimson Lucidity,Manamune,MIDDLE,7606.0,0.0,-25.02,1
+Syndra,Manamune,Crimson Lucidity,MIDDLE,8536.0,0.0,0,1
+Riven,Serylda's Grudge,Manamune,TOP,10441.0,100.0,12.85,1
+Riven,Crimson Lucidity,Serylda's Grudge,TOP,11005.0,100.0,2.37,1
+Riven,Youmuu's Ghostblade,Crimson Lucidity,TOP,13233.0,100.0,-46.69,1
+Riven,Black Cleaver,Manamune,TOP,11035.0,0.0,-28.0,1
+Garen,The Collector,None,TOP,5598.0,0.0,41.51,1
+Garen,Manamune,The Collector,TOP,8600.0,0.0,37.25,1
+Garen,Manamune,Manamune,TOP,8600.0,0.0,37.26,1
+Garen,Swiftmarch,Manamune,TOP,8600.0,0.0,37.55,1
+Garen,Youmuu's Ghostblade,Swiftmarch,TOP,12478.0,0.0,-15.96,1
+Yorick,Youmuu's Ghostblade,None,TOP,3686.0,0.0,154.15,1
+Yorick,Manamune,Youmuu's Ghostblade,TOP,7263.0,0.0,31.67,1
+Yorick,Manamune,Manamune,TOP,7263.0,0.0,31.68,1
+Yorick,Serylda's Grudge,Manamune,TOP,9708.0,0.0,37.58,1
+Yorick,Edge of Night,Serylda's Grudge,TOP,13631.0,0.0,0,1
+Singed,Youmuu's Ghostblade,Eclipse,TOP,7655.0,100.0,-15.3,1
+Singed,Manamune,Youmuu's Ghostblade,TOP,9715.0,100.0,0,1
+Singed,Manamune,Manamune,TOP,9715.0,100.0,0,1
+Singed,Serylda's Grudge,Manamune,TOP,12884.0,100.0,0,1
+Vladimir,Youmuu's Ghostblade,None,TOP,4533.0,0.0,37.63,1
+Vladimir,Manamune,Youmuu's Ghostblade,TOP,7508.0,0.0,-10.01,1
+Vladimir,Manamune,Manamune,TOP,9878.0,0.0,-24.29,1
+Vladimir,Eclipse,Manamune,TOP,10105.0,0.0,32.41,1
+Vladimir,Chainlaced Crushers,Eclipse,TOP,11422.0,0.0,49.28,1
+Vladimir,Spear of Shojin,Chainlaced Crushers,TOP,14233.0,0.0,10.46,1
+Vladimir,Black Cleaver,Spear of Shojin,TOP,16912.0,0.0,-44.43,1
+Velkoz,Youmuu's Ghostblade,None,MIDDLE,4001.0,0.0,20.18,1
+Velkoz,Manamune,Youmuu's Ghostblade,MIDDLE,6303.0,0.0,60.86,1
+Velkoz,Manamune,Manamune,MIDDLE,8884.0,0.0,-28.79,1
+Kayle,Youmuu's Ghostblade,None,TOP,4424.0,100.0,14.2,1
+Kayle,Manamune,Youmuu's Ghostblade,TOP,7793.0,100.0,9.15,1
+Kayle,Eclipse,Manamune,TOP,9970.0,100.0,29.33,1
+Kayle,Crimson Lucidity,Eclipse,TOP,11648.0,100.0,0,1
+Kayle,Eclipse,None,TOP,4510.0,100.0,48.62,1
+Kayle,Manamune,Eclipse,TOP,6279.0,100.0,31.18,1
+Kayle,Serylda's Grudge,Manamune,TOP,10301.0,100.0,0,1
+Zac,Youmuu's Ghostblade,None,TOP,3416.0,0.0,-38.46,1
+Zac,Manamune,Youmuu's Ghostblade,TOP,6594.0,0.0,0,1
+Zac,Manamune,Manamune,TOP,6594.0,0.0,0,1
+Brand,Youmuu's Ghostblade,None,JUNGLE,3568.0,100.0,123.48,1
+Brand,Opportunity,Youmuu's Ghostblade,JUNGLE,7272.0,100.0,3.6,1
+Brand,Serylda's Grudge,Opportunity,JUNGLE,11478.0,100.0,30.1,1
+Brand,Edge of Night,Serylda's Grudge,JUNGLE,12920.0,100.0,0,1
+Zaahen,Youmuu's Ghostblade,None,TOP,3889.0,100.0,48.77,1
+Zaahen,Manamune,Youmuu's Ghostblade,TOP,6759.0,100.0,-1.89,1
+Zaahen,Manamune,Manamune,TOP,7228.0,100.0,28.77,1
+Zaahen,Serylda's Grudge,Manamune,TOP,10215.0,100.0,66.21,1
+Zaahen,Edge of Night,Serylda's Grudge,TOP,14178.0,100.0,-21.43,1
+Zaahen,Guardian Angel,Edge of Night,TOP,16181.0,100.0,-18.71,1
+Hecarim,Youmuu's Ghostblade,None,JUNGLE,4306.0,0.0,-0.72,1
+Hecarim,Opportunity,Youmuu's Ghostblade,JUNGLE,8324.0,0.0,18.16,1
+Hecarim,Crimson Lucidity,Opportunity,JUNGLE,8324.0,0.0,18.37,1
+Hecarim,Serylda's Grudge,Crimson Lucidity,JUNGLE,10771.0,0.0,31.33,1
+Hecarim,Eclipse,Serylda's Grudge,JUNGLE,12840.0,0.0,8.1,1
+Hecarim,Edge of Night,Eclipse,JUNGLE,16116.0,0.0,-47.28,1
+Gwen,Youmuu's Ghostblade,None,JUNGLE,3279.0,100.0,49.66,1
+Gwen,Opportunity,Youmuu's Ghostblade,JUNGLE,8709.0,100.0,-5.92,1
+Gwen,Crimson Lucidity,Opportunity,JUNGLE,8709.0,100.0,-5.28,1
+Gwen,Eclipse,Crimson Lucidity,JUNGLE,10168.0,100.0,0.89,1
+Briar,Youmuu's Ghostblade,None,JUNGLE,4840.0,0.0,-1.33,1
+Briar,Opportunity,Youmuu's Ghostblade,JUNGLE,6931.0,0.0,-35.33,1
+Rengar,Youmuu's Ghostblade,None,JUNGLE,4279.0,100.0,-0.59,1
+Rengar,Opportunity,Youmuu's Ghostblade,JUNGLE,6249.0,100.0,53.28,1
+Rengar,Crimson Lucidity,Opportunity,JUNGLE,7995.0,100.0,-10.02,1
+Rengar,Eclipse,Crimson Lucidity,JUNGLE,9946.0,100.0,2.13,1
+Akali,Youmuu's Ghostblade,None,MIDDLE,5501.0,0.0,-1.85,1
+Akali,Manamune,Youmuu's Ghostblade,MIDDLE,7579.0,0.0,75.09,1
+Akali,Manamune,Manamune,MIDDLE,7579.0,0.0,78.05,1
+Akali,Crimson Lucidity,Manamune,MIDDLE,8360.0,0.0,34.33,1
+Akali,Edge of Night,Crimson Lucidity,MIDDLE,10492.0,0.0,-16.53,1
+Akali,Serylda's Grudge,Edge of Night,MIDDLE,13945.0,0.0,16.63,1
+Akali,Eclipse,Serylda's Grudge,MIDDLE,17419.0,0.0,27.0,1
+Naafiri,Eclipse,None,TOP,3715.0,0.0,36.03,1
+Naafiri,Manamune,Eclipse,TOP,7443.0,0.0,-13.98,1
+Naafiri,Manamune,Manamune,TOP,7443.0,0.0,-13.96,1
+Naafiri,Spear of Shojin,Manamune,TOP,10221.0,0.0,33.73,1
+Naafiri,Black Cleaver,Spear of Shojin,TOP,13276.0,0.0,86.13,1
+Naafiri,Maw of Malmortius,Black Cleaver,TOP,17310.0,0.0,0.42,1
+Yasuo,Youmuu's Ghostblade,None,MIDDLE,3639.0,100.0,31.41,1
+Yasuo,Manamune,Youmuu's Ghostblade,MIDDLE,7297.0,100.0,-19.79,1
+Yasuo,Manamune,Manamune,MIDDLE,7420.0,100.0,-2.18,1
+Yasuo,Opportunity,Manamune,MIDDLE,9213.0,100.0,0,1
+DrMundo,Youmuu's Ghostblade,None,JUNGLE,4587.0,100.0,4.33,1
+DrMundo,Opportunity,Youmuu's Ghostblade,JUNGLE,6838.0,100.0,-22.11,1
+DrMundo,Serylda's Grudge,Opportunity,JUNGLE,9423.0,100.0,7.01,1
+DrMundo,Eclipse,Serylda's Grudge,JUNGLE,12920.0,100.0,15.45,1
+DrMundo,Chempunk Chainsword,Eclipse,JUNGLE,16438.0,100.0,0,1
+JarvanIV,Youmuu's Ghostblade,None,JUNGLE,3374.0,0.0,20.86,1
+JarvanIV,Eclipse,Youmuu's Ghostblade,JUNGLE,9032.0,0.0,0,1
+Katarina,Youmuu's Ghostblade,None,MIDDLE,3902.0,0.0,23.97,1
+Katarina,Manamune,Youmuu's Ghostblade,MIDDLE,7049.0,0.0,-23.29,1
+Katarina,Chainlaced Crushers,Manamune,MIDDLE,8478.0,0.0,3.6,1
+Katarina,Manamune,Chainlaced Crushers,MIDDLE,10530.0,0.0,5.24,1
+Katarina,Serylda's Grudge,Manamune,MIDDLE,10728.0,0.0,41.21,1
+Katarina,Maw of Malmortius,Serylda's Grudge,MIDDLE,13964.0,0.0,-54.49,1
+Malphite,Eclipse,None,TOP,6179.0,0.0,41.77,1
+Malphite,Manamune,Eclipse,TOP,9518.0,0.0,-37.54,1
+Malphite,Manamune,Manamune,TOP,9518.0,0.0,-37.53,1
+Malphite,Youmuu's Ghostblade,Manamune,TOP,11629.0,0.0,22.5,1
+Malphite,Edge of Night,Youmuu's Ghostblade,TOP,14279.0,0.0,0,1
+Zed,Youmuu's Ghostblade,None,MIDDLE,4466.0,100.0,4.69,1
+Zed,Manamune,Youmuu's Ghostblade,MIDDLE,7371.0,100.0,90.76,1
+Zed,Manamune,Manamune,MIDDLE,8135.0,100.0,67.66,1
+Zed,Serylda's Grudge,Manamune,MIDDLE,10687.0,100.0,21.7,1
+Zed,Edge of Night,Serylda's Grudge,MIDDLE,13081.0,100.0,0,1
+Darius,Youmuu's Ghostblade,None,TOP,4680.0,100.0,-0.59,1
+Darius,Manamune,Youmuu's Ghostblade,TOP,7563.0,100.0,-33.7,1
+Darius,Manamune,Manamune,TOP,7563.0,100.0,-33.69,1
+Darius,Sundered Sky,Manamune,TOP,11077.0,100.0,0,1

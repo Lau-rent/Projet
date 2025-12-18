@@ -1,54 +1,80 @@
-VS Champion,Item Name,Win Rate (%),Gold Accel (5min) (%),Sample Size
-Diana,Armored Advance,100.0,-39.79,2
-Udyr,The Collector,0.0,69.72,2
-Amumu,The Collector,50.0,30.74,2
-Lillia,The Collector,100.0,11.78,2
-Lillia,Infinity Edge,100.0,-10.45,2
-Lillia,Rapid Firecannon,100.0,98.01,2
-Diana,Kraken Slayer,100.0,53.48,1
-Diana,Wit's End,100.0,36.22,1
-Diana,Trinity Force,100.0,58.33,1
-Diana,The Collector,100.0,-13.01,1
-Diana,Infinity Edge,100.0,34.6,1
-Diana,Lord Dominik's Regards,100.0,-25.13,1
-Udyr,Kraken Slayer,0.0,-3.44,1
-Udyr,Trinity Force,0.0,40.64,1
-Udyr,Lord Dominik's Regards,0.0,0,1
-Rumble,Trinity Force,0.0,-9.4,1
-Rumble,The Collector,0.0,0,1
-Amumu,Trinity Force,100.0,10.99,1
-Amumu,Infinity Edge,100.0,37.24,1
-Amumu,Lord Dominik's Regards,100.0,0,1
-Amumu,Gunmetal Greaves,100.0,0,1
-Amumu,Kraken Slayer,0.0,13.89,1
-Lillia,Trinity Force,100.0,17.87,1
-Lillia,Guardian Angel,100.0,0,1
-Lillia,Gunmetal Greaves,100.0,18.77,1
-Nidalee,Trinity Force,0.0,36.71,1
-Nidalee,The Collector,0.0,0,1
-Gwen,Kraken Slayer,0.0,105.52,1
-Gwen,Blade of The Ruined King,0.0,25.92,1
-Gwen,Gunmetal Greaves,0.0,4.99,1
-Gwen,Trinity Force,0.0,0,1
-Viego,Kraken Slayer,0.0,16.13,1
-Viego,Trinity Force,0.0,0,1
-Ekko,Trinity Force,0.0,-5.14,1
-Ekko,The Collector,0.0,1.89,1
-JarvanIV,Kraken Slayer,100.0,37.22,1
-JarvanIV,The Collector,100.0,-32.2,1
-JarvanIV,Infinity Edge,100.0,116.36,1
-JarvanIV,Mortal Reminder,100.0,36.99,1
-JarvanIV,Wit's End,100.0,0,1
-Hecarim,Kraken Slayer,0.0,-22.25,1
-Nocturne,Kraken Slayer,0.0,-2.34,1
-Jax,Kraken Slayer,0.0,85.12,1
-Jax,The Collector,0.0,-12.19,1
-Jax,Infinity Edge,0.0,0,1
-XinZhao,Kraken Slayer,100.0,43.73,1
-XinZhao,The Collector,100.0,-6.81,1
-XinZhao,Lord Dominik's Regards,100.0,75.04,1
-XinZhao,Infinity Edge,100.0,0,1
-Shyvana,Trinity Force,0.0,-13.73,1
-Shyvana,The Collector,0.0,87.41,1
-Shyvana,Lord Dominik's Regards,0.0,-17.65,1
-Shyvana,Infinity Edge,0.0,-27.87,1
+VS Champion,Item Name,Last Item,Role,Avg Gold At Purchase,Win Rate (%),Gold Accel (5min) (%),Sample Size
+Lillia,Infinity Edge,The Collector,JUNGLE,10098.0,100.0,-10.45,2
+Shyvana,Trinity Force,None,JUNGLE,4226.5,50.0,11.71,2
+Shyvana,The Collector,Trinity Force,JUNGLE,7905.0,50.0,39.69,2
+JarvanIV,Kraken Slayer,None,JUNGLE,4229.0,100.0,42.28,2
+JarvanIV,The Collector,Kraken Slayer,JUNGLE,8942.0,100.0,-11.51,2
+Diana,Kraken Slayer,None,JUNGLE,4370.0,100.0,53.48,1
+Diana,Wit's End,Kraken Slayer,JUNGLE,7776.0,100.0,36.22,1
+Diana,Armored Advance,Wit's End,JUNGLE,10271.0,100.0,0,1
+Diana,Trinity Force,None,JUNGLE,4170.0,100.0,58.33,1
+Diana,The Collector,Trinity Force,JUNGLE,8463.0,100.0,-13.01,1
+Diana,Infinity Edge,The Collector,JUNGLE,10937.0,100.0,34.6,1
+Diana,Armored Advance,Infinity Edge,JUNGLE,13615.0,100.0,-39.79,1
+Diana,Lord Dominik's Regards,Armored Advance,JUNGLE,15869.0,100.0,-25.13,1
+Udyr,Kraken Slayer,None,JUNGLE,3995.0,0.0,-3.44,1
+Udyr,The Collector,Kraken Slayer,JUNGLE,7147.0,0.0,0,1
+Udyr,Trinity Force,None,JUNGLE,4320.0,0.0,40.64,1
+Udyr,The Collector,Trinity Force,JUNGLE,8475.0,0.0,69.72,1
+Udyr,Lord Dominik's Regards,The Collector,JUNGLE,11575.0,0.0,0,1
+Rumble,Trinity Force,None,JUNGLE,4333.0,0.0,-9.4,1
+Rumble,The Collector,Trinity Force,JUNGLE,8969.0,0.0,0,1
+Amumu,Trinity Force,None,JUNGLE,4129.0,100.0,10.99,1
+Amumu,The Collector,Trinity Force,JUNGLE,8607.0,100.0,30.74,1
+Amumu,Infinity Edge,The Collector,JUNGLE,11872.0,100.0,37.24,1
+Amumu,Lord Dominik's Regards,Infinity Edge,JUNGLE,15558.0,100.0,0,1
+Amumu,Gunmetal Greaves,Lord Dominik's Regards,JUNGLE,15558.0,100.0,0,1
+Amumu,Kraken Slayer,None,JUNGLE,3897.0,0.0,13.89,1
+Amumu,The Collector,Kraken Slayer,JUNGLE,7618.0,0.0,0,1
+Lillia,Trinity Force,None,JUNGLE,6269.0,100.0,17.87,1
+Lillia,The Collector,Trinity Force,JUNGLE,8864.0,100.0,-18.38,1
+Lillia,Rapid Firecannon,Infinity Edge,JUNGLE,14570.0,100.0,98.01,1
+Lillia,Guardian Angel,Rapid Firecannon,JUNGLE,16869.0,100.0,0,1
+Lillia,The Collector,None,JUNGLE,4205.0,100.0,41.95,1
+Lillia,Gunmetal Greaves,Infinity Edge,JUNGLE,9364.0,100.0,18.77,1
+Lillia,Rapid Firecannon,Gunmetal Greaves,JUNGLE,11634.0,100.0,0,1
+Shyvana,Infinity Edge,The Collector,JUNGLE,11948.0,100.0,0,1
+Shyvana,Lord Dominik's Regards,The Collector,JUNGLE,11135.0,0.0,-17.65,1
+Shyvana,Infinity Edge,Lord Dominik's Regards,JUNGLE,14414.0,0.0,-27.87,1
+Nidalee,Trinity Force,None,JUNGLE,5493.0,0.0,36.71,1
+Nidalee,The Collector,Trinity Force,JUNGLE,8215.0,0.0,0,1
+Gwen,Kraken Slayer,None,TOP,5160.0,0.0,105.52,1
+Gwen,Blade of The Ruined King,Kraken Slayer,TOP,8171.0,0.0,25.92,1
+Gwen,Gunmetal Greaves,Blade of The Ruined King,TOP,8894.0,0.0,4.99,1
+Gwen,Trinity Force,Gunmetal Greaves,TOP,13762.0,0.0,0,1
+Viego,Kraken Slayer,None,JUNGLE,3580.0,0.0,16.13,1
+Viego,Trinity Force,Kraken Slayer,JUNGLE,9511.0,0.0,0,1
+Ekko,Trinity Force,None,JUNGLE,3983.0,0.0,-5.14,1
+Ekko,The Collector,Trinity Force,JUNGLE,7406.0,0.0,1.89,1
+JarvanIV,Infinity Edge,The Collector,JUNGLE,10310.0,100.0,116.36,1
+JarvanIV,Mortal Reminder,Infinity Edge,JUNGLE,16878.0,100.0,36.99,1
+JarvanIV,Wit's End,Mortal Reminder,JUNGLE,17539.0,100.0,0,1
+JarvanIV,Blade of The Ruined King,The Collector,JUNGLE,11924.0,100.0,-26.87,1
+Hecarim,Kraken Slayer,None,JUNGLE,4328.0,0.0,-22.25,1
+Nocturne,Kraken Slayer,None,JUNGLE,4110.0,0.0,-2.34,1
+Jax,Kraken Slayer,None,JUNGLE,3572.0,0.0,85.12,1
+Jax,The Collector,Kraken Slayer,JUNGLE,8164.0,0.0,-12.19,1
+Jax,Infinity Edge,The Collector,JUNGLE,11310.0,0.0,0,1
+Jax,Trinity Force,None,JUNGLE,3970.0,0.0,51.03,1
+Jax,The Collector,Trinity Force,JUNGLE,6936.0,0.0,19.13,1
+XinZhao,Kraken Slayer,None,JUNGLE,3668.0,100.0,43.73,1
+XinZhao,The Collector,Kraken Slayer,JUNGLE,8448.0,100.0,-6.81,1
+XinZhao,Lord Dominik's Regards,The Collector,JUNGLE,11838.0,100.0,75.04,1
+XinZhao,Infinity Edge,Lord Dominik's Regards,JUNGLE,14322.0,100.0,0,1
+Kayn,Trinity Force,None,JUNGLE,5201.0,100.0,22.86,1
+Kayn,The Collector,Trinity Force,JUNGLE,9230.0,100.0,37.26,1
+Kayn,Swiftmarch,The Collector,JUNGLE,11507.0,100.0,47.32,1
+Kayn,Infinity Edge,Swiftmarch,JUNGLE,12077.0,100.0,0,1
+Rengar,Trinity Force,None,JUNGLE,4557.0,0.0,7.37,1
+Rengar,Black Cleaver,Trinity Force,JUNGLE,8603.0,0.0,0,1
+Shaco,Kraken Slayer,None,JUNGLE,3523.0,0.0,115.88,1
+Shaco,The Collector,Kraken Slayer,JUNGLE,7257.0,0.0,15.7,1
+Shaco,Infinity Edge,The Collector,JUNGLE,10758.0,0.0,17.4,1
+Shaco,Rapid Firecannon,Infinity Edge,JUNGLE,13188.0,0.0,17.34,1
+Alistar,The Collector,None,UTILITY,5907.0,0.0,25.61,1
+Alistar,Infinity Edge,The Collector,UTILITY,8685.0,0.0,-2.8,1
+Alistar,Rapid Firecannon,Infinity Edge,UTILITY,11064.0,0.0,1.68,1
+Alistar,Lord Dominik's Regards,Rapid Firecannon,UTILITY,14173.0,0.0,-18.6,1
+Elise,Kraken Slayer,None,JUNGLE,4331.0,100.0,-15.58,1
+Elise,The Collector,Kraken Slayer,JUNGLE,8754.0,100.0,5.16,1
+Elise,Armored Advance,The Collector,JUNGLE,10359.0,100.0,0,1

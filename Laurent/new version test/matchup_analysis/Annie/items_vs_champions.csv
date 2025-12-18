@@ -1,45 +1,58 @@
-VS Champion,Item Name,Win Rate (%),Gold Accel (5min) (%),Sample Size
-Yone,Malignance,33.3,33.28,3
-Yone,Shadowflame,33.3,5.64,3
-Yone,Stormsurge,50.0,33.09,2
-Yone,Spellslinger's Shoes,0.0,-33.37,1
-Yone,Rabadon's Deathcap,0.0,0,1
-AurelionSol,Malignance,0.0,-5.7,1
-AurelionSol,Shadowflame,0.0,-23.03,1
-Syndra,Malignance,0.0,-22.01,1
-Syndra,Stormsurge,0.0,-9.22,1
-Qiyana,Bloodletter's Curse,100.0,34.19,1
-Qiyana,Malignance,100.0,-25.14,1
-Qiyana,Zhonya's Hourglass,100.0,40.74,1
-Zed,Malignance,100.0,19.11,1
-Zed,Stormsurge,100.0,4.7,1
-Zed,Spellslinger's Shoes,100.0,38.31,1
-Zed,Zhonya's Hourglass,100.0,91.21,1
-Zed,Rabadon's Deathcap,100.0,0,1
-Vex,Malignance,100.0,27.21,1
-Vex,Rylai's Crystal Scepter,100.0,61.51,1
-Vex,Spellslinger's Shoes,100.0,-18.02,1
-Vex,Zhonya's Hourglass,100.0,-30.07,1
-Vex,Stormsurge,100.0,0,1
-Yasuo,Malignance,100.0,5.68,1
-Yasuo,Stormsurge,100.0,60.34,1
-Yasuo,Spellslinger's Shoes,100.0,34.53,1
-Yasuo,Shadowflame,100.0,53.78,1
-Yasuo,Zhonya's Hourglass,100.0,0,1
-Akali,Malignance,0.0,18.62,1
-Akali,Stormsurge,0.0,-10.8,1
-Akali,Shadowflame,0.0,0,1
-Briar,Malignance,100.0,14.83,1
-Briar,Stormsurge,100.0,-39.99,1
-Briar,Spellslinger's Shoes,100.0,-39.6,1
-Veigar,Malignance,0.0,-24.45,1
-Orianna,Luden's Companion,0.0,63.41,1
-Orianna,Malignance,0.0,-10.31,1
-Orianna,Stormsurge,0.0,0,1
-Akshan,Malignance,100.0,-8.03,1
-Akshan,Shadowflame,100.0,83.33,1
-Akshan,Spellslinger's Shoes,100.0,122.58,1
-Irelia,Malignance,100.0,14.29,1
-Irelia,Zhonya's Hourglass,100.0,63.86,1
-Irelia,Spellslinger's Shoes,100.0,74.46,1
-Irelia,Rabadon's Deathcap,100.0,0,1
+VS Champion,Item Name,Last Item,Role,Avg Gold At Purchase,Win Rate (%),Gold Accel (5min) (%),Sample Size
+Yone,Malignance,None,MIDDLE,3781.3,33.3,33.28,3
+Akshan,Malignance,None,MIDDLE,3939.7,66.7,0.18,3
+Yone,Stormsurge,Malignance,MIDDLE,7172.5,50.0,33.09,2
+Yone,Shadowflame,Stormsurge,MIDDLE,10535.0,50.0,14.62,2
+Akshan,Stormsurge,Malignance,MIDDLE,7011.5,50.0,47.45,2
+Zoe,Malignance,None,MIDDLE,3843.5,100.0,-15.74,2
+Zoe,Stormsurge,Malignance,MIDDLE,7042.5,100.0,33.76,2
+Yone,Shadowflame,Malignance,MIDDLE,7951.0,0.0,-3.33,1
+Yone,Spellslinger's Shoes,Shadowflame,MIDDLE,9787.0,0.0,-33.37,1
+Yone,Rabadon's Deathcap,Spellslinger's Shoes,MIDDLE,12748.0,0.0,0,1
+AurelionSol,Malignance,None,MIDDLE,3629.0,0.0,-5.7,1
+AurelionSol,Shadowflame,Malignance,MIDDLE,8385.0,0.0,-23.03,1
+Syndra,Malignance,None,MIDDLE,3624.0,0.0,-22.01,1
+Syndra,Stormsurge,Malignance,MIDDLE,7643.0,0.0,-9.22,1
+Syndra,Luden's Companion,None,MIDDLE,3472.0,0.0,4.76,1
+Qiyana,Bloodletter's Curse,None,MIDDLE,4459.0,100.0,34.19,1
+Qiyana,Malignance,Bloodletter's Curse,MIDDLE,9093.0,100.0,-25.14,1
+Qiyana,Zhonya's Hourglass,Malignance,MIDDLE,10556.0,100.0,40.74,1
+Zed,Malignance,None,MIDDLE,3509.0,100.0,19.11,1
+Zed,Stormsurge,Malignance,MIDDLE,7400.0,100.0,4.7,1
+Zed,Spellslinger's Shoes,Stormsurge,MIDDLE,9306.0,100.0,38.31,1
+Zed,Zhonya's Hourglass,Spellslinger's Shoes,MIDDLE,11885.0,100.0,91.21,1
+Zed,Rabadon's Deathcap,Zhonya's Hourglass,MIDDLE,14649.0,100.0,0,1
+Vex,Malignance,None,MIDDLE,3373.0,100.0,27.21,1
+Vex,Rylai's Crystal Scepter,Malignance,MIDDLE,7657.0,100.0,61.51,1
+Vex,Spellslinger's Shoes,Rylai's Crystal Scepter,MIDDLE,9656.0,100.0,-18.02,1
+Vex,Zhonya's Hourglass,Spellslinger's Shoes,MIDDLE,11311.0,100.0,-30.07,1
+Vex,Stormsurge,Zhonya's Hourglass,MIDDLE,14546.0,100.0,0,1
+Yasuo,Malignance,None,MIDDLE,3773.0,100.0,5.68,1
+Yasuo,Stormsurge,Malignance,MIDDLE,7301.0,100.0,60.34,1
+Yasuo,Spellslinger's Shoes,Stormsurge,MIDDLE,10246.0,100.0,34.53,1
+Yasuo,Shadowflame,Spellslinger's Shoes,MIDDLE,10570.0,100.0,53.78,1
+Yasuo,Zhonya's Hourglass,Shadowflame,MIDDLE,14226.0,100.0,0,1
+Akali,Malignance,None,MIDDLE,3380.0,0.0,18.62,1
+Akali,Stormsurge,Malignance,MIDDLE,7517.0,0.0,-10.8,1
+Akali,Shadowflame,Stormsurge,MIDDLE,11348.0,0.0,0,1
+Briar,Malignance,None,MIDDLE,4313.0,100.0,14.83,1
+Briar,Stormsurge,Malignance,MIDDLE,7678.0,100.0,-39.99,1
+Briar,Spellslinger's Shoes,Stormsurge,MIDDLE,7678.0,100.0,-39.6,1
+Veigar,Malignance,None,MIDDLE,3060.0,0.0,-24.45,1
+Veigar,Malignance,Malignance,MIDDLE,3060.0,0.0,-24.08,1
+Orianna,Luden's Companion,None,MIDDLE,4457.0,0.0,63.41,1
+Orianna,Malignance,Luden's Companion,MIDDLE,7380.0,0.0,-10.31,1
+Orianna,Stormsurge,Malignance,MIDDLE,9933.0,0.0,0,1
+Akshan,Shadowflame,Malignance,MIDDLE,8142.0,100.0,83.33,1
+Akshan,Spellslinger's Shoes,Shadowflame,MIDDLE,8876.0,100.0,122.58,1
+Akshan,Spellslinger's Shoes,Stormsurge,MIDDLE,7847.0,100.0,1.37,1
+Akshan,Shadowflame,Stormsurge,MIDDLE,10837.0,0.0,0,1
+Irelia,Malignance,None,MIDDLE,5044.0,100.0,14.29,1
+Irelia,Zhonya's Hourglass,Malignance,MIDDLE,8046.0,100.0,63.86,1
+Irelia,Spellslinger's Shoes,Zhonya's Hourglass,MIDDLE,10008.0,100.0,74.46,1
+Irelia,Rabadon's Deathcap,Spellslinger's Shoes,MIDDLE,12210.0,100.0,0,1
+Zoe,Shadowflame,Stormsurge,MIDDLE,10889.0,100.0,-7.1,1
+Zoe,Zhonya's Hourglass,Shadowflame,MIDDLE,13480.0,100.0,30.75,1
+Zoe,Blackfire Torch,Zhonya's Hourglass,MIDDLE,16494.0,100.0,0,1
+Shaco,Malignance,None,UTILITY,3785.0,100.0,37.84,1
+Shaco,Liandry's Torment,Malignance,UTILITY,8077.0,100.0,-38.39,1

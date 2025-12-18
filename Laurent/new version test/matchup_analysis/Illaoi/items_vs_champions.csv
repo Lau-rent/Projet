@@ -1,59 +1,94 @@
-VS Champion,Item Name,Win Rate (%),Gold Accel (5min) (%),Sample Size
-Rumble,Iceborn Gauntlet,0.0,-32.56,2
-Renekton,Iceborn Gauntlet,100.0,11.69,1
-Renekton,Sterak's Gage,100.0,28.64,1
-Renekton,Black Cleaver,100.0,-25.61,1
-Renekton,Spirit Visage,100.0,38.32,1
-Renekton,Armored Advance,100.0,-6.61,1
-Renekton,Thornmail,100.0,0,1
-Darius,Iceborn Gauntlet,0.0,85.0,1
-Darius,Black Cleaver,0.0,5.63,1
-Darius,Thornmail,0.0,-10.14,1
-Darius,Sterak's Gage,0.0,-29.25,1
-Darius,Spirit Visage,0.0,0,1
-Darius,Stridebreaker,100.0,43.25,1
-Darius,Sundered Sky,100.0,0,1
-Chogath,Black Cleaver,0.0,101.3,1
-Chogath,Iceborn Gauntlet,0.0,24.76,1
-Chogath,Spirit Visage,0.0,1.99,1
-Chogath,Thornmail,0.0,0,1
-TahmKench,Black Cleaver,0.0,32.88,1
-TahmKench,Sundered Sky,0.0,39.5,1
-TahmKench,Iceborn Gauntlet,0.0,-39.88,1
-TahmKench,Armored Advance,0.0,-11.15,1
-Cassiopeia,Iceborn Gauntlet,0.0,-13.15,1
-Cassiopeia,Spirit Visage,0.0,4.23,1
-Sion,Black Cleaver,0.0,100.26,1
-Sion,Iceborn Gauntlet,0.0,0,1
-Vladimir,Black Cleaver,100.0,-29.2,1
-Vladimir,Sterak's Gage,100.0,21.83,1
-Vladimir,Spirit Visage,100.0,3.9,1
-Vladimir,Chainlaced Crushers,100.0,3.97,1
-Vladimir,Winter's Approach,100.0,-17.83,1
-Vladimir,Thornmail,100.0,0,1
-Kayn,Black Cleaver,0.0,-19.87,1
-Kayn,Iceborn Gauntlet,0.0,7.47,1
-Irelia,Iceborn Gauntlet,0.0,4.83,1
-Irelia,Black Cleaver,0.0,20.0,1
-Irelia,Armored Advance,0.0,0.73,1
-Irelia,Thornmail,0.0,52.62,1
-Irelia,Spirit Visage,0.0,19.12,1
-Irelia,Death's Dance,0.0,-1.25,1
-Rumble,Spirit Visage,0.0,4.52,1
-Rumble,Black Cleaver,0.0,15.09,1
-Rumble,Sterak's Gage,0.0,80.59,1
-Sett,Iceborn Gauntlet,0.0,0,1
-Urgot,Black Cleaver,100.0,9.16,1
-Urgot,Iceborn Gauntlet,100.0,-16.73,1
-Urgot,Chainlaced Crushers,100.0,-35.76,1
-Urgot,Sterak's Gage,100.0,15.14,1
-Urgot,Death's Dance,100.0,31.75,1
-Urgot,Thornmail,100.0,68.96,1
-Aatrox,Iceborn Gauntlet,100.0,19.54,1
-Aatrox,Spirit Visage,100.0,65.24,1
-Aatrox,Sterak's Gage,100.0,0,1
-Yasuo,Iceborn Gauntlet,0.0,19.94,1
-Yasuo,Black Cleaver,0.0,12.58,1
-Yasuo,Spirit Visage,0.0,-0.86,1
-Yasuo,Armored Advance,0.0,-0.8,1
-Yasuo,Thornmail,0.0,-44.0,1
+VS Champion,Item Name,Last Item,Role,Avg Gold At Purchase,Win Rate (%),Gold Accel (5min) (%),Sample Size
+Zaahen,Iceborn Gauntlet,None,TOP,3867.5,100.0,17.98,2
+LeeSin,Iceborn Gauntlet,None,TOP,4289.0,100.0,90.67,1
+LeeSin,Sterak's Gage,Iceborn Gauntlet,TOP,7824.0,100.0,-28.31,1
+LeeSin,Sundered Sky,Sterak's Gage,TOP,11709.0,100.0,0,1
+LeeSin,Chainlaced Crushers,Sundered Sky,TOP,12057.0,100.0,0,1
+Renekton,Iceborn Gauntlet,None,TOP,3842.0,100.0,11.69,1
+Renekton,Sterak's Gage,Iceborn Gauntlet,TOP,8818.0,100.0,28.64,1
+Renekton,Black Cleaver,Sterak's Gage,TOP,11431.0,100.0,-25.61,1
+Renekton,Spirit Visage,Black Cleaver,TOP,14327.0,100.0,38.32,1
+Renekton,Armored Advance,Spirit Visage,TOP,15648.0,100.0,-6.61,1
+Renekton,Thornmail,Armored Advance,TOP,16330.0,100.0,0,1
+Darius,Iceborn Gauntlet,None,TOP,4937.0,0.0,85.0,1
+Darius,Black Cleaver,Iceborn Gauntlet,TOP,7948.0,0.0,5.63,1
+Darius,Thornmail,Black Cleaver,TOP,11887.0,0.0,-10.14,1
+Darius,Sterak's Gage,Thornmail,TOP,13556.0,0.0,-29.25,1
+Darius,Spirit Visage,Sterak's Gage,TOP,15640.0,0.0,0,1
+Darius,Stridebreaker,None,TOP,5750.0,100.0,43.25,1
+Darius,Sundered Sky,Stridebreaker,TOP,8755.0,100.0,0,1
+Chogath,Black Cleaver,None,TOP,3149.0,0.0,101.3,1
+Chogath,Iceborn Gauntlet,Black Cleaver,TOP,9260.0,0.0,24.76,1
+Chogath,Spirit Visage,Iceborn Gauntlet,TOP,10968.0,0.0,1.99,1
+Chogath,Thornmail,Spirit Visage,TOP,14327.0,0.0,0,1
+TahmKench,Black Cleaver,None,TOP,4054.0,0.0,32.88,1
+TahmKench,Sundered Sky,Black Cleaver,TOP,7835.0,0.0,39.5,1
+TahmKench,Iceborn Gauntlet,Sundered Sky,TOP,10339.0,0.0,-39.88,1
+TahmKench,Armored Advance,Iceborn Gauntlet,TOP,11113.0,0.0,-11.15,1
+Cassiopeia,Iceborn Gauntlet,None,TOP,5041.0,0.0,-13.15,1
+Cassiopeia,Spirit Visage,Iceborn Gauntlet,TOP,7708.0,0.0,4.23,1
+Sion,Black Cleaver,None,TOP,4880.0,0.0,100.26,1
+Sion,Iceborn Gauntlet,Black Cleaver,TOP,8818.0,0.0,0,1
+Vladimir,Black Cleaver,None,TOP,6431.0,100.0,-29.2,1
+Vladimir,Sterak's Gage,Black Cleaver,TOP,7535.0,100.0,21.83,1
+Vladimir,Spirit Visage,Sterak's Gage,TOP,11972.0,100.0,3.9,1
+Vladimir,Chainlaced Crushers,Spirit Visage,TOP,11972.0,100.0,3.97,1
+Vladimir,Winter's Approach,Chainlaced Crushers,TOP,13811.0,100.0,-17.83,1
+Vladimir,Winter's Approach,Winter's Approach,TOP,13811.0,100.0,-17.83,1
+Vladimir,Thornmail,Winter's Approach,TOP,16671.0,100.0,0,1
+Kayn,Black Cleaver,None,TOP,4633.0,0.0,-19.87,1
+Kayn,Iceborn Gauntlet,Black Cleaver,TOP,6808.0,0.0,7.47,1
+Irelia,Iceborn Gauntlet,None,TOP,5467.0,0.0,4.83,1
+Irelia,Black Cleaver,Iceborn Gauntlet,TOP,8040.0,0.0,20.0,1
+Irelia,Armored Advance,Black Cleaver,TOP,9897.0,0.0,0.73,1
+Irelia,Thornmail,Armored Advance,TOP,11770.0,0.0,52.62,1
+Irelia,Spirit Visage,Thornmail,TOP,13626.0,0.0,19.12,1
+Irelia,Death's Dance,Spirit Visage,TOP,17884.0,0.0,-1.25,1
+Rumble,Spirit Visage,None,TOP,4483.0,0.0,4.52,1
+Rumble,Iceborn Gauntlet,Spirit Visage,TOP,7465.0,0.0,-32.56,1
+Rumble,Black Cleaver,None,TOP,4031.0,0.0,15.09,1
+Rumble,Sterak's Gage,Black Cleaver,TOP,8191.0,0.0,80.59,1
+Rumble,Iceborn Gauntlet,Sterak's Gage,TOP,10954.0,0.0,0,1
+Sett,Iceborn Gauntlet,None,TOP,3567.0,0.0,0,1
+Urgot,Black Cleaver,None,TOP,5826.0,100.0,9.16,1
+Urgot,Iceborn Gauntlet,Black Cleaver,TOP,7042.0,100.0,-16.73,1
+Urgot,Chainlaced Crushers,Iceborn Gauntlet,TOP,9318.0,100.0,-35.76,1
+Urgot,Sterak's Gage,Chainlaced Crushers,TOP,11641.0,100.0,15.14,1
+Urgot,Death's Dance,Sterak's Gage,TOP,16769.0,100.0,31.75,1
+Urgot,Thornmail,Death's Dance,TOP,17045.0,100.0,68.96,1
+Aatrox,Iceborn Gauntlet,None,TOP,4449.0,100.0,19.54,1
+Aatrox,Spirit Visage,Iceborn Gauntlet,TOP,8600.0,100.0,65.24,1
+Aatrox,Sterak's Gage,Spirit Visage,TOP,10382.0,100.0,0,1
+Yasuo,Iceborn Gauntlet,None,TOP,3354.0,0.0,19.94,1
+Yasuo,Black Cleaver,Iceborn Gauntlet,TOP,7797.0,0.0,12.58,1
+Yasuo,Spirit Visage,Black Cleaver,TOP,11460.0,0.0,-0.86,1
+Yasuo,Armored Advance,Spirit Visage,TOP,11460.0,0.0,-0.8,1
+Yasuo,Thornmail,Armored Advance,TOP,13105.0,0.0,-44.0,1
+Volibear,Black Cleaver,None,TOP,3911.0,100.0,63.72,1
+Volibear,Iceborn Gauntlet,Black Cleaver,TOP,8716.0,100.0,-36.21,1
+Volibear,Chainlaced Crushers,Iceborn Gauntlet,TOP,9656.0,100.0,-29.15,1
+Singed,Black Cleaver,None,TOP,3534.0,100.0,31.01,1
+Singed,Spirit Visage,Black Cleaver,TOP,8095.0,100.0,114.57,1
+Singed,Chainlaced Crushers,Spirit Visage,TOP,8095.0,100.0,114.97,1
+Singed,Sundered Sky,Chainlaced Crushers,TOP,11377.0,100.0,45.45,1
+Singed,Unending Despair,Sundered Sky,TOP,14104.0,100.0,0,1
+Zaahen,Black Cleaver,Iceborn Gauntlet,TOP,7753.0,100.0,50.15,1
+Zaahen,Spirit Visage,Black Cleaver,TOP,10597.0,100.0,-10.19,1
+Zaahen,Thornmail,Iceborn Gauntlet,TOP,8760.0,100.0,5.62,1
+Zaahen,Sundered Sky,Thornmail,TOP,10652.0,100.0,-63.46,1
+Zaahen,Armored Advance,Sundered Sky,TOP,10652.0,100.0,-62.97,1
+Mordekaiser,Black Cleaver,None,TOP,5169.0,0.0,-9.74,1
+Mordekaiser,Spirit Visage,Black Cleaver,TOP,7744.0,0.0,0,1
+Kennen,Sundered Sky,None,TOP,5759.0,100.0,54.2,1
+Kennen,Maw of Malmortius,Sundered Sky,TOP,8438.0,100.0,23.93,1
+Kennen,Chainlaced Crushers,Maw of Malmortius,TOP,8851.0,100.0,114.51,1
+Garen,Iceborn Gauntlet,None,TOP,3701.0,100.0,39.88,1
+Garen,Sundered Sky,Iceborn Gauntlet,TOP,7207.0,100.0,6.8,1
+Garen,Sterak's Gage,Sundered Sky,TOP,10761.0,100.0,-15.29,1
+Garen,Spirit Visage,Sterak's Gage,TOP,13335.0,100.0,0,1
+DrMundo,Black Cleaver,None,TOP,5157.0,100.0,-16.92,1
+DrMundo,Sterak's Gage,Black Cleaver,TOP,8406.0,100.0,-14.08,1
+DrMundo,Ravenous Hydra,Sterak's Gage,TOP,11552.0,100.0,25.14,1
+DrMundo,Thornmail,Ravenous Hydra,TOP,13552.0,100.0,-23.23,1
+DrMundo,Overlord's Bloodmail,Thornmail,TOP,17029.0,100.0,51.97,1
+DrMundo,Chainlaced Crushers,Overlord's Bloodmail,TOP,19586.0,100.0,0,1

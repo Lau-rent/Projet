@@ -1,81 +1,120 @@
-VS Champion,Item Name,Win Rate (%),Gold Accel (5min) (%),Sample Size
-Ornn,Rod of Ages,0.0,3.85,2
-Cassiopeia,Hextech Rocketbelt,50.0,-7.91,2
-Cassiopeia,Stormsurge,50.0,0,2
-Fiora,Rod of Ages,0.0,36.89,2
-Fiora,Winter's Approach,0.0,-2.35,2
-MasterYi,Lich Bane,100.0,8.57,1
-MasterYi,Zhonya's Hourglass,100.0,0,1
-Anivia,Stormsurge,100.0,36.21,1
-Anivia,Shadowflame,100.0,-19.73,1
-Anivia,Forever Forward,100.0,-11.5,1
-Anivia,Lich Bane,100.0,0,1
-Garen,Rod of Ages,0.0,5.67,1
-Garen,Winter's Approach,0.0,55.03,1
-Garen,Cosmic Drive,0.0,-44.3,1
-Yone,Hextech Rocketbelt,0.0,4.15,1
-Yone,Stormsurge,0.0,-27.86,1
-Yone,Spellslinger's Shoes,0.0,-59.59,1
-JarvanIV,Lich Bane,0.0,-7.55,1
-Malphite,Cosmic Drive,0.0,7.13,1
-Malphite,Shadowflame,0.0,13.35,1
-Malphite,Spellslinger's Shoes,0.0,-22.82,1
-Malphite,Void Staff,0.0,0,1
-Gwen,Stormsurge,0.0,27.05,1
-Gwen,Shadowflame,0.0,69.85,1
-Gwen,Spellslinger's Shoes,0.0,70.99,1
-Chogath,Rod of Ages,0.0,30.84,1
-Chogath,Winter's Approach,0.0,-28.1,1
-Chogath,Cosmic Drive,0.0,-20.22,1
-Ornn,Hextech Rocketbelt,0.0,-19.94,1
-Ornn,Lich Bane,0.0,69.43,1
-Ornn,Cosmic Drive,0.0,-20.46,1
-Ornn,Zhonya's Hourglass,0.0,-23.87,1
-Vex,Luden's Companion,0.0,-15.15,1
-Vex,Stormsurge,0.0,-21.98,1
-Vex,Shadowflame,0.0,0,1
-Sett,Rod of Ages,0.0,103.74,1
-Sett,Winter's Approach,0.0,-22.76,1
-Sett,Cosmic Drive,0.0,0,1
-Teemo,Locket of the Iron Solari,0.0,27.67,1
-Teemo,Cosmic Drive,0.0,-8.1,1
-Teemo,Frozen Heart,0.0,0,1
-Cassiopeia,Luden's Companion,0.0,-15.27,1
-Cassiopeia,Lich Bane,0.0,33.56,1
-Cassiopeia,Shadowflame,100.0,51.71,1
-Cassiopeia,Rabadon's Deathcap,100.0,-21.0,1
-Khazix,Lich Bane,0.0,31.19,1
-Khazix,Shadowflame,0.0,-36.93,1
-Khazix,Zhonya's Hourglass,0.0,-59.12,1
-Shen,Cosmic Drive,0.0,0,1
-Fiora,Cosmic Drive,0.0,0,1
-Kayle,Rod of Ages,0.0,0.66,1
-Kayle,Archangel's Staff,0.0,-23.83,1
-Urgot,Rod of Ages,100.0,34.66,1
-Urgot,Archangel's Staff,100.0,-10.94,1
-Urgot,Cosmic Drive,100.0,0,1
-Rumble,Rod of Ages,0.0,25.05,1
-Rumble,Hextech Rocketbelt,0.0,0.12,1
-Nasus,Lich Bane,100.0,12.72,1
-Nasus,Cosmic Drive,100.0,-19.27,1
-Nasus,Winter's Approach,100.0,61.4,1
-Nasus,Thornmail,100.0,34.5,1
-Nasus,Cryptbloom,100.0,-55.79,1
-Braum,Luden's Companion,100.0,21.69,1
-Braum,Crimson Lucidity,100.0,45.63,1
-Braum,Stormsurge,100.0,0,1
-Tryndamere,Rod of Ages,100.0,64.34,1
-Tryndamere,Hextech Rocketbelt,100.0,47.71,1
-Tryndamere,Crimson Lucidity,100.0,32.47,1
-Tryndamere,Cosmic Drive,100.0,23.85,1
-Tryndamere,Riftmaker,100.0,0,1
-Viego,Stormsurge,100.0,22.74,1
-Maokai,Rod of Ages,0.0,-22.73,1
-Maokai,Cosmic Drive,0.0,0,1
-Ambessa,Hextech Rocketbelt,100.0,96.35,1
-Ambessa,Shadowflame,100.0,62.98,1
-Ambessa,Spellslinger's Shoes,100.0,27.42,1
-Ambessa,Stormsurge,100.0,-10.44,1
-Ambessa,Rabadon's Deathcap,100.0,11.87,1
-Shaco,Hextech Rocketbelt,0.0,71.47,1
-Shaco,Cosmic Drive,0.0,17.04,1
+VS Champion,Item Name,Last Item,Role,Avg Gold At Purchase,Win Rate (%),Gold Accel (5min) (%),Sample Size
+Ornn,Rod of Ages,None,TOP,3401.0,0.0,3.85,2
+Cassiopeia,Hextech Rocketbelt,None,TOP,5863.0,50.0,-7.91,2
+Fiora,Rod of Ages,None,TOP,4117.0,0.0,36.89,2
+Fiora,Winter's Approach,Rod of Ages,TOP,6544.5,0.0,-2.35,2
+Fiora,Winter's Approach,Winter's Approach,TOP,6544.5,0.0,-2.35,2
+MasterYi,Lich Bane,None,JUNGLE,5150.0,100.0,8.57,1
+MasterYi,Zhonya's Hourglass,Lich Bane,JUNGLE,9163.0,100.0,0,1
+MasterYi,Stormsurge,None,JUNGLE,5145.0,0.0,60.88,1
+MasterYi,Shadowflame,Stormsurge,JUNGLE,8385.0,0.0,-0.46,1
+Anivia,Stormsurge,None,MIDDLE,5636.0,100.0,36.21,1
+Anivia,Shadowflame,Stormsurge,MIDDLE,7872.0,100.0,-19.73,1
+Anivia,Forever Forward,Shadowflame,MIDDLE,8696.0,100.0,-11.5,1
+Anivia,Lich Bane,Forever Forward,MIDDLE,11743.0,100.0,0,1
+Garen,Rod of Ages,None,TOP,3943.0,0.0,5.67,1
+Garen,Winter's Approach,Rod of Ages,TOP,7284.0,0.0,55.03,1
+Garen,Winter's Approach,Winter's Approach,TOP,7284.0,0.0,55.03,1
+Garen,Cosmic Drive,Winter's Approach,TOP,9930.0,0.0,-44.3,1
+Yone,Hextech Rocketbelt,None,MIDDLE,3570.0,0.0,4.15,1
+Yone,Stormsurge,Hextech Rocketbelt,MIDDLE,7121.0,0.0,-27.86,1
+Yone,Spellslinger's Shoes,Stormsurge,MIDDLE,8238.0,0.0,-59.59,1
+JarvanIV,Lich Bane,None,JUNGLE,3876.0,0.0,-7.55,1
+Malphite,Cosmic Drive,None,TOP,4592.0,0.0,7.13,1
+Malphite,Shadowflame,Cosmic Drive,TOP,8704.0,0.0,13.35,1
+Malphite,Spellslinger's Shoes,Shadowflame,TOP,10219.0,0.0,-22.82,1
+Malphite,Void Staff,Spellslinger's Shoes,TOP,11998.0,0.0,0,1
+Malphite,Rod of Ages,None,TOP,4650.0,0.0,-6.94,1
+Malphite,Winter's Approach,Rod of Ages,TOP,6995.0,0.0,0,1
+Malphite,Winter's Approach,Winter's Approach,TOP,6995.0,0.0,0,1
+Gwen,Stormsurge,None,JUNGLE,3373.0,0.0,27.05,1
+Gwen,Shadowflame,Stormsurge,JUNGLE,8047.0,0.0,69.85,1
+Gwen,Spellslinger's Shoes,Shadowflame,JUNGLE,8047.0,0.0,70.99,1
+Chogath,Rod of Ages,None,TOP,4756.0,0.0,30.84,1
+Chogath,Winter's Approach,Rod of Ages,TOP,7204.0,0.0,-28.1,1
+Chogath,Winter's Approach,Winter's Approach,TOP,7204.0,0.0,-28.1,1
+Chogath,Cosmic Drive,Winter's Approach,TOP,9622.0,0.0,-20.22,1
+Ornn,Hextech Rocketbelt,Rod of Ages,TOP,7346.0,0.0,-19.94,1
+Ornn,Lich Bane,Rod of Ages,TOP,7600.0,0.0,69.43,1
+Ornn,Cosmic Drive,Lich Bane,TOP,10682.0,0.0,-20.46,1
+Ornn,Zhonya's Hourglass,Cosmic Drive,TOP,13573.0,0.0,-23.87,1
+Vex,Luden's Companion,None,MIDDLE,4014.0,0.0,-15.15,1
+Vex,Stormsurge,Luden's Companion,MIDDLE,7415.0,0.0,-21.98,1
+Vex,Shadowflame,Stormsurge,MIDDLE,10484.0,0.0,0,1
+Sett,Rod of Ages,None,TOP,3475.0,0.0,103.74,1
+Sett,Winter's Approach,Rod of Ages,TOP,6328.0,0.0,-22.76,1
+Sett,Winter's Approach,Winter's Approach,TOP,6328.0,0.0,-22.75,1
+Sett,Cosmic Drive,Winter's Approach,TOP,9293.0,0.0,0,1
+Teemo,Locket of the Iron Solari,None,UTILITY,3638.0,0.0,27.67,1
+Teemo,Cosmic Drive,Locket of the Iron Solari,UTILITY,6548.0,0.0,-8.1,1
+Teemo,Frozen Heart,Cosmic Drive,UTILITY,9346.0,0.0,0,1
+Teemo,Rod of Ages,None,TOP,4505.0,0.0,15.92,1
+Teemo,Winter's Approach,Rod of Ages,TOP,6197.0,0.0,-40.18,1
+Teemo,Crimson Lucidity,Winter's Approach,TOP,7311.0,0.0,-4.47,1
+Teemo,Winter's Approach,Crimson Lucidity,TOP,7311.0,0.0,-2.48,1
+Teemo,Cosmic Drive,Winter's Approach,TOP,10099.0,0.0,0,1
+Cassiopeia,Luden's Companion,None,TOP,3361.0,0.0,-15.27,1
+Cassiopeia,Lich Bane,Luden's Companion,TOP,7457.0,0.0,33.56,1
+Cassiopeia,Stormsurge,Hextech Rocketbelt,TOP,9513.0,0.0,0,1
+Cassiopeia,Shadowflame,Hextech Rocketbelt,TOP,8140.0,100.0,51.71,1
+Cassiopeia,Rabadon's Deathcap,Shadowflame,TOP,11625.0,100.0,-21.0,1
+Cassiopeia,Stormsurge,Rabadon's Deathcap,TOP,14843.0,100.0,0,1
+Khazix,Lich Bane,None,JUNGLE,4367.0,0.0,31.19,1
+Khazix,Shadowflame,Lich Bane,JUNGLE,9325.0,0.0,-36.93,1
+Khazix,Zhonya's Hourglass,Shadowflame,JUNGLE,11751.0,0.0,-59.12,1
+Shen,Cosmic Drive,None,TOP,5307.0,0.0,0,1
+Fiora,Cosmic Drive,Winter's Approach,TOP,9741.0,0.0,0,1
+Kayle,Rod of Ages,None,TOP,4048.0,0.0,0.66,1
+Kayle,Archangel's Staff,Rod of Ages,TOP,7749.0,0.0,-23.83,1
+Kayle,Archangel's Staff,Archangel's Staff,TOP,7749.0,0.0,-23.82,1
+Urgot,Rod of Ages,None,TOP,4602.0,100.0,34.66,1
+Urgot,Archangel's Staff,Rod of Ages,TOP,8283.0,100.0,-10.94,1
+Urgot,Archangel's Staff,Archangel's Staff,TOP,8283.0,100.0,-10.94,1
+Urgot,Cosmic Drive,Archangel's Staff,TOP,10012.0,100.0,0,1
+Rumble,Rod of Ages,None,TOP,4143.0,0.0,25.05,1
+Rumble,Hextech Rocketbelt,Rod of Ages,TOP,7373.0,0.0,0.12,1
+Rumble,Hextech Rocketbelt,None,TOP,3586.0,100.0,-14.6,1
+Rumble,Archangel's Staff,Hextech Rocketbelt,TOP,7042.0,100.0,47.55,1
+Rumble,Archangel's Staff,Archangel's Staff,TOP,7042.0,100.0,47.57,1
+Rumble,Cosmic Drive,Archangel's Staff,TOP,10034.0,100.0,-8.13,1
+Rumble,Zhonya's Hourglass,Cosmic Drive,TOP,13009.0,100.0,5.21,1
+Nasus,Lich Bane,None,TOP,5005.0,100.0,12.72,1
+Nasus,Cosmic Drive,Lich Bane,TOP,8413.0,100.0,-19.27,1
+Nasus,Winter's Approach,Cosmic Drive,TOP,10410.0,100.0,61.4,1
+Nasus,Winter's Approach,Winter's Approach,TOP,10410.0,100.0,61.42,1
+Nasus,Thornmail,Winter's Approach,TOP,12555.0,100.0,34.5,1
+Nasus,Cryptbloom,Thornmail,TOP,16118.0,100.0,-55.79,1
+Braum,Luden's Companion,None,UTILITY,4347.0,100.0,21.69,1
+Braum,Crimson Lucidity,Luden's Companion,UTILITY,5503.0,100.0,45.63,1
+Braum,Stormsurge,Crimson Lucidity,UTILITY,7582.0,100.0,0,1
+Tryndamere,Rod of Ages,None,TOP,2896.0,100.0,64.34,1
+Tryndamere,Hextech Rocketbelt,Rod of Ages,TOP,6784.0,100.0,47.71,1
+Tryndamere,Crimson Lucidity,Hextech Rocketbelt,TOP,9090.0,100.0,32.47,1
+Tryndamere,Cosmic Drive,Crimson Lucidity,TOP,10122.0,100.0,23.85,1
+Tryndamere,Riftmaker,Cosmic Drive,TOP,14086.0,100.0,0,1
+Viego,Stormsurge,None,JUNGLE,5173.0,100.0,22.74,1
+Maokai,Rod of Ages,None,TOP,3108.0,0.0,-22.73,1
+Maokai,Cosmic Drive,Rod of Ages,TOP,7397.0,0.0,0,1
+Ambessa,Hextech Rocketbelt,None,TOP,3433.0,100.0,96.35,1
+Ambessa,Shadowflame,Hextech Rocketbelt,TOP,7523.0,100.0,62.98,1
+Ambessa,Spellslinger's Shoes,Shadowflame,TOP,8933.0,100.0,27.42,1
+Ambessa,Stormsurge,Spellslinger's Shoes,TOP,11259.0,100.0,-10.44,1
+Ambessa,Rabadon's Deathcap,Stormsurge,TOP,14207.0,100.0,11.87,1
+Shaco,Hextech Rocketbelt,None,UTILITY,4102.0,0.0,71.47,1
+Shaco,Cosmic Drive,Hextech Rocketbelt,UTILITY,7155.0,0.0,17.04,1
+Zaahen,Rod of Ages,None,TOP,3770.0,0.0,-19.57,1
+Zaahen,Hextech Rocketbelt,Rod of Ages,TOP,7271.0,0.0,0,1
+Yorick,Rod of Ages,None,TOP,4508.0,100.0,2.62,1
+Yorick,Cosmic Drive,Rod of Ages,TOP,8062.0,100.0,52.47,1
+Yorick,Shadowflame,Cosmic Drive,TOP,11113.0,100.0,0,1
+Blitzcrank,Winter's Approach,None,UTILITY,3986.0,0.0,1.34,1
+Blitzcrank,Cosmic Drive,Winter's Approach,UTILITY,6759.0,0.0,-30.67,1
+Blitzcrank,Winter's Approach,Cosmic Drive,UTILITY,7127.0,0.0,-32.81,1
+Kled,Hextech Rocketbelt,None,TOP,5318.0,0.0,14.02,1
+Kled,Archangel's Staff,Hextech Rocketbelt,TOP,7218.0,0.0,-19.1,1
+Kled,Archangel's Staff,Archangel's Staff,TOP,7218.0,0.0,-19.1,1
+Kled,Crimson Lucidity,Archangel's Staff,TOP,7598.0,0.0,-32.5,1
+Mordekaiser,Cosmic Drive,None,TOP,5497.0,0.0,38.68,1
+Mordekaiser,Cosmic Drive,Cosmic Drive,TOP,5497.0,0.0,39.11,1
+Mordekaiser,Winter's Approach,Cosmic Drive,TOP,6856.0,0.0,-30.11,1
+Mordekaiser,Winter's Approach,Winter's Approach,TOP,6856.0,0.0,-30.11,1

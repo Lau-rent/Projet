@@ -1,75 +1,125 @@
-VS Champion,Item Name,Win Rate (%),Gold Accel (5min) (%),Sample Size
-Pyke,Luden's Companion,0.0,-7.84,2
-Brand,Moonstone Renewer,50.0,17.16,2
-Maokai,Mikael's Blessing,50.0,30.41,2
-Pantheon,Moonstone Renewer,0.0,-2.37,2
-Pantheon,Ardent Censer,0.0,-9.15,2
-Ashe,Moonstone Renewer,0.0,-14.72,2
-Ashe,Ardent Censer,0.0,-12.74,2
-Leona,Moonstone Renewer,0.0,-28.75,2
-Pyke,Blackfire Torch,0.0,-13.17,1
-Pyke,Imperial Mandate,0.0,10.3,1
-Velkoz,Moonstone Renewer,100.0,-15.24,1
-Velkoz,Ardent Censer,100.0,5.13,1
-Velkoz,Imperial Mandate,100.0,-0.83,1
-Velkoz,Mikael's Blessing,100.0,9.1,1
-Bard,Mikael's Blessing,0.0,13.36,1
-Bard,Moonstone Renewer,0.0,-51.29,1
-Bard,Ardent Censer,0.0,0,1
-Brand,Echoes of Helia,100.0,-1.32,1
-Brand,Imperial Mandate,100.0,-32.36,1
-Brand,Dawncore,100.0,0,1
-Brand,Redemption,0.0,8.8,1
-FiddleSticks,Moonstone Renewer,0.0,-25.24,1
-FiddleSticks,Ardent Censer,0.0,54.72,1
-FiddleSticks,Mikael's Blessing,0.0,0,1
-Maokai,Ardent Censer,0.0,-8.63,1
-Maokai,Moonstone Renewer,100.0,-34.16,1
-Maokai,Imperial Mandate,100.0,30.2,1
-Maokai,Redemption,100.0,19.09,1
-Pantheon,Dawncore,0.0,0,1
-Kayle,Moonstone Renewer,0.0,0,1
-Lulu,Moonstone Renewer,0.0,-7.78,1
-Lulu,Mikael's Blessing,0.0,0,1
-Senna,Moonstone Renewer,100.0,-4.77,1
-Senna,Ardent Censer,100.0,-31.01,1
-Senna,Mikael's Blessing,100.0,76.43,1
-Ashe,Mikael's Blessing,0.0,-2.19,1
-Ashe,Dawncore,0.0,-28.96,1
-Karma,Ardent Censer,100.0,-14.17,1
-Karma,Moonstone Renewer,100.0,31.98,1
-Karma,Staff of Flowing Water,100.0,0,1
-Seraphine,Imperial Mandate,0.0,18.02,1
-Seraphine,Ardent Censer,0.0,-36.45,1
-Seraphine,Redemption,0.0,23.05,1
-Seraphine,Mikael's Blessing,0.0,0,1
-Shen,Luden's Companion,0.0,-7.42,1
-Leona,Mikael's Blessing,0.0,23.68,1
-Leona,Dawncore,0.0,-30.24,1
-Leona,Redemption,0.0,-21.25,1
-Rell,Ardent Censer,100.0,60.36,1
-Rell,Moonstone Renewer,100.0,14.29,1
-Zilean,Echoes of Helia,100.0,30.56,1
-Zilean,Imperial Mandate,100.0,46.95,1
-Zilean,Moonstone Renewer,100.0,41.79,1
-Zilean,Staff of Flowing Water,100.0,29.46,1
-Milio,Luden's Companion,0.0,82.18,1
-Milio,Horizon Focus,0.0,-20.71,1
-Milio,Imperial Mandate,0.0,-17.79,1
-Milio,Redemption,0.0,23.05,1
-Milio,Locket of the Iron Solari,0.0,0,1
-Milio,Ardent Censer,0.0,25.22,1
-Milio,Moonstone Renewer,0.0,-11.04,1
-Leblanc,Moonstone Renewer,100.0,35.9,1
-Leblanc,Ardent Censer,100.0,101.21,1
-Leblanc,Dawncore,100.0,0,1
-Zoe,Mikael's Blessing,100.0,9.38,1
-Zoe,Ardent Censer,100.0,-32.53,1
-Zoe,Imperial Mandate,100.0,97.8,1
-Zoe,Moonstone Renewer,100.0,4.54,1
-Nautilus,Moonstone Renewer,0.0,3.35,1
-Nautilus,Imperial Mandate,0.0,1.3,1
-Thresh,Ardent Censer,0.0,0,1
-Lux,Moonstone Renewer,100.0,87.6,1
-Lux,Ardent Censer,100.0,-27.33,1
-Lux,Imperial Mandate,100.0,24.32,1
+VS Champion,Item Name,Last Item,Role,Avg Gold At Purchase,Win Rate (%),Gold Accel (5min) (%),Sample Size
+Nautilus,Moonstone Renewer,None,UTILITY,3695.7,33.3,10.74,3
+Pyke,Luden's Companion,None,UTILITY,3449.5,0.0,-7.84,2
+Maokai,Mikael's Blessing,None,UTILITY,3542.0,50.0,30.41,2
+Ashe,Moonstone Renewer,None,UTILITY,3137.5,0.0,-14.72,2
+Ashe,Ardent Censer,Moonstone Renewer,UTILITY,5509.5,0.0,-12.74,2
+Leona,Mikael's Blessing,None,UTILITY,2993.0,0.0,9.2,2
+Leona,Moonstone Renewer,Mikael's Blessing,UTILITY,5601.0,0.0,-24.72,2
+Zilean,Staff of Flowing Water,Moonstone Renewer,UTILITY,8776.0,50.0,0.77,2
+Pyke,Blackfire Torch,Luden's Companion,UTILITY,6179.0,0.0,-13.17,1
+Pyke,Imperial Mandate,Luden's Companion,UTILITY,5594.0,0.0,10.3,1
+Pyke,Moonstone Renewer,None,UTILITY,3415.0,0.0,12.91,1
+Pyke,Ardent Censer,Moonstone Renewer,UTILITY,5321.0,0.0,2.51,1
+Velkoz,Moonstone Renewer,None,UTILITY,3614.0,100.0,-15.24,1
+Velkoz,Ardent Censer,Moonstone Renewer,UTILITY,5078.0,100.0,5.13,1
+Velkoz,Imperial Mandate,Ardent Censer,UTILITY,8044.0,100.0,-0.83,1
+Velkoz,Mikael's Blessing,Imperial Mandate,UTILITY,10322.0,100.0,9.1,1
+Velkoz,Luden's Companion,None,UTILITY,3896.0,0.0,29.81,1
+Velkoz,Malignance,Luden's Companion,UTILITY,6670.0,0.0,-6.41,1
+Velkoz,Horizon Focus,Malignance,UTILITY,8909.0,0.0,0,1
+Bard,Mikael's Blessing,None,UTILITY,2914.0,0.0,13.36,1
+Bard,Moonstone Renewer,Mikael's Blessing,UTILITY,5763.0,0.0,-51.29,1
+Bard,Ardent Censer,Moonstone Renewer,UTILITY,7458.0,0.0,0,1
+Bard,Knight's Vow,None,UTILITY,2849.0,0.0,29.68,1
+Bard,Moonstone Renewer,Knight's Vow,UTILITY,5256.0,0.0,-23.3,1
+Bard,Redemption,Moonstone Renewer,UTILITY,7413.0,0.0,0,1
+Brand,Echoes of Helia,None,UTILITY,3495.0,100.0,-1.32,1
+Brand,Imperial Mandate,Echoes of Helia,UTILITY,4867.0,100.0,-32.36,1
+Brand,Moonstone Renewer,Imperial Mandate,UTILITY,7792.0,100.0,0,1
+Brand,Dawncore,Moonstone Renewer,UTILITY,9709.0,100.0,0,1
+Brand,Moonstone Renewer,None,UTILITY,2628.0,0.0,17.16,1
+Brand,Redemption,Moonstone Renewer,UTILITY,5113.0,0.0,8.8,1
+Nami,Moonstone Renewer,None,UTILITY,2965.0,0.0,13.12,1
+Nami,Ardent Censer,Moonstone Renewer,UTILITY,4857.0,0.0,0,1
+FiddleSticks,Moonstone Renewer,None,UTILITY,2847.0,0.0,-25.24,1
+FiddleSticks,Ardent Censer,Moonstone Renewer,UTILITY,5538.0,0.0,54.72,1
+FiddleSticks,Mikael's Blessing,Ardent Censer,UTILITY,7605.0,0.0,0,1
+Maokai,Ardent Censer,Mikael's Blessing,UTILITY,6668.0,0.0,-8.63,1
+Maokai,Moonstone Renewer,Mikael's Blessing,UTILITY,5472.0,100.0,-34.16,1
+Maokai,Imperial Mandate,Moonstone Renewer,UTILITY,7965.0,100.0,30.2,1
+Maokai,Redemption,Imperial Mandate,UTILITY,9735.0,100.0,19.09,1
+Pantheon,Moonstone Renewer,None,UTILITY,2557.0,0.0,22.11,1
+Pantheon,Ardent Censer,Moonstone Renewer,UTILITY,5185.0,0.0,-6.06,1
+Pantheon,Ardent Censer,None,UTILITY,3276.0,0.0,-12.25,1
+Pantheon,Moonstone Renewer,Ardent Censer,UTILITY,5157.0,0.0,-26.84,1
+Pantheon,Dawncore,Moonstone Renewer,UTILITY,8736.0,0.0,0,1
+Swain,Luden's Companion,None,UTILITY,3259.0,100.0,-3.78,1
+Swain,Stormsurge,Luden's Companion,UTILITY,7620.0,100.0,0,1
+Kayle,Moonstone Renewer,None,TOP,2484.0,0.0,0,1
+Lulu,Moonstone Renewer,None,UTILITY,2789.0,0.0,-7.78,1
+Lulu,Mikael's Blessing,Moonstone Renewer,UTILITY,5217.0,0.0,0,1
+Lulu,Redemption,None,UTILITY,3366.0,0.0,-30.51,1
+Lulu,Moonstone Renewer,Redemption,UTILITY,5222.0,0.0,77.93,1
+Galio,Moonstone Renewer,None,UTILITY,2977.0,0.0,-20.51,1
+Galio,Ardent Censer,Moonstone Renewer,UTILITY,5536.0,0.0,0,1
+Senna,Moonstone Renewer,None,UTILITY,3385.0,100.0,-4.77,1
+Senna,Ardent Censer,Moonstone Renewer,UTILITY,5047.0,100.0,-31.01,1
+Senna,Mikael's Blessing,Ardent Censer,UTILITY,7830.0,100.0,76.43,1
+Senna,Imperial Mandate,None,UTILITY,3042.0,0.0,16.35,1
+Senna,Mikael's Blessing,Imperial Mandate,UTILITY,5137.0,0.0,-26.0,1
+Senna,Moonstone Renewer,Mikael's Blessing,UTILITY,7465.0,0.0,-10.91,1
+Ashe,Mikael's Blessing,Ardent Censer,UTILITY,8535.0,0.0,-2.19,1
+Ashe,Dawncore,Mikael's Blessing,UTILITY,10034.0,0.0,-28.96,1
+Thresh,Redemption,None,UTILITY,4259.0,0.0,16.26,1
+Thresh,Imperial Mandate,Redemption,UTILITY,7795.0,0.0,-37.08,1
+Thresh,Staff of Flowing Water,Imperial Mandate,UTILITY,10274.0,0.0,5.23,1
+Thresh,Moonstone Renewer,None,UTILITY,3474.0,100.0,-4.24,1
+Thresh,Ardent Censer,Moonstone Renewer,UTILITY,4843.0,100.0,0,1
+Thresh,Ardent Censer,None,UTILITY,3115.0,0.0,0,1
+Karma,Ardent Censer,None,UTILITY,3116.0,100.0,-14.17,1
+Karma,Moonstone Renewer,Ardent Censer,UTILITY,5118.0,100.0,31.98,1
+Karma,Staff of Flowing Water,Moonstone Renewer,UTILITY,8039.0,100.0,0,1
+Seraphine,Imperial Mandate,None,UTILITY,3163.0,0.0,18.02,1
+Seraphine,Ardent Censer,Imperial Mandate,UTILITY,5182.0,0.0,-36.45,1
+Seraphine,Redemption,Ardent Censer,UTILITY,6987.0,0.0,23.05,1
+Seraphine,Mikael's Blessing,Redemption,UTILITY,9749.0,0.0,0,1
+Seraphine,Moonstone Renewer,None,UTILITY,2988.0,100.0,25.82,1
+Seraphine,Ardent Censer,Moonstone Renewer,UTILITY,5290.0,100.0,-18.63,1
+Seraphine,Imperial Mandate,Ardent Censer,UTILITY,7798.0,100.0,10.87,1
+Seraphine,Dawncore,Imperial Mandate,UTILITY,9655.0,100.0,-1.49,1
+Shen,Luden's Companion,None,UTILITY,3392.0,0.0,-7.42,1
+Leona,Dawncore,Moonstone Renewer,UTILITY,7770.0,0.0,-30.24,1
+Leona,Redemption,None,UTILITY,3257.0,0.0,-21.25,1
+Leona,Moonstone Renewer,Redemption,UTILITY,5408.0,0.0,-32.78,1
+Rell,Ardent Censer,None,UTILITY,2533.0,100.0,60.36,1
+Rell,Moonstone Renewer,Ardent Censer,UTILITY,5840.0,100.0,14.29,1
+Zilean,Echoes of Helia,None,UTILITY,3799.0,100.0,30.56,1
+Zilean,Imperial Mandate,Echoes of Helia,UTILITY,5799.0,100.0,46.95,1
+Zilean,Moonstone Renewer,Imperial Mandate,UTILITY,7724.0,100.0,41.79,1
+Zilean,Ardent Censer,None,UTILITY,3208.0,0.0,20.03,1
+Zilean,Moonstone Renewer,Ardent Censer,UTILITY,5394.0,0.0,-27.01,1
+Zilean,Mikael's Blessing,None,UTILITY,4246.0,0.0,-17.82,1
+Zilean,Ardent Censer,Mikael's Blessing,UTILITY,5847.0,0.0,-15.62,1
+Milio,Luden's Companion,None,UTILITY,3974.0,0.0,82.18,1
+Milio,Horizon Focus,Luden's Companion,UTILITY,6315.0,0.0,-20.71,1
+Milio,Imperial Mandate,Horizon Focus,UTILITY,8650.0,0.0,-17.79,1
+Milio,Redemption,Imperial Mandate,UTILITY,10775.0,0.0,23.05,1
+Milio,Locket of the Iron Solari,Redemption,UTILITY,13060.0,0.0,0,1
+Milio,Ardent Censer,None,UTILITY,3293.0,0.0,25.22,1
+Milio,Moonstone Renewer,Ardent Censer,UTILITY,5082.0,0.0,-11.04,1
+Leblanc,Moonstone Renewer,None,UTILITY,2920.0,100.0,35.9,1
+Leblanc,Ardent Censer,Moonstone Renewer,UTILITY,4910.0,100.0,101.21,1
+Leblanc,Dawncore,Ardent Censer,UTILITY,8283.0,100.0,0,1
+Zoe,Mikael's Blessing,None,UTILITY,3103.0,100.0,9.38,1
+Zoe,Ardent Censer,Mikael's Blessing,UTILITY,5968.0,100.0,-32.53,1
+Zoe,Imperial Mandate,Ardent Censer,UTILITY,7940.0,100.0,97.8,1
+Zoe,Moonstone Renewer,Imperial Mandate,UTILITY,9872.0,100.0,4.54,1
+Nautilus,Imperial Mandate,Moonstone Renewer,UTILITY,5477.0,0.0,1.3,1
+Nautilus,Mikael's Blessing,Moonstone Renewer,UTILITY,5021.0,100.0,30.34,1
+Nautilus,Imperial Mandate,Mikael's Blessing,UTILITY,7994.0,100.0,0,1
+Nautilus,Redemption,Moonstone Renewer,UTILITY,5837.0,0.0,-1.64,1
+Nautilus,Dawncore,Redemption,UTILITY,8075.0,0.0,-15.39,1
+Nautilus,Ardent Censer,Dawncore,UTILITY,11083.0,0.0,0,1
+Lux,Moonstone Renewer,None,UTILITY,3201.0,100.0,87.6,1
+Lux,Ardent Censer,Moonstone Renewer,UTILITY,5476.0,100.0,-27.33,1
+Lux,Imperial Mandate,Ardent Censer,UTILITY,7830.0,100.0,24.32,1
+Viego,Ardent Censer,None,UTILITY,3881.0,100.0,-14.22,1
+Viego,Moonstone Renewer,Ardent Censer,UTILITY,6294.0,100.0,32.38,1
+Viego,Dawncore,Moonstone Renewer,UTILITY,8468.0,100.0,0,1
+Blitzcrank,Ardent Censer,None,UTILITY,2989.0,100.0,36.46,1
+Blitzcrank,Echoes of Helia,Ardent Censer,UTILITY,4905.0,100.0,-0.85,1
+Blitzcrank,Moonstone Renewer,Echoes of Helia,UTILITY,8455.0,100.0,-21.2,1
+Blitzcrank,Dawncore,Moonstone Renewer,UTILITY,10472.0,100.0,-22.61,1
+Xerath,Ardent Censer,None,UTILITY,2731.0,0.0,4.69,1
+Xerath,Moonstone Renewer,Ardent Censer,UTILITY,4801.0,0.0,9.82,1
