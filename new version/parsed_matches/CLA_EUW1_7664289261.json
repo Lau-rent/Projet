@@ -1,0 +1,1822 @@
+{
+  "matchId": "EUW1_7664289261",
+  "gameDate": "2025-12-30 18:54:01",
+  "rank": "DIAMOND II",
+  "gameMode": "CLASSIC",
+  "gameDuration": 1156,
+  "timestamps_minutes": [
+    0.0,
+    1.0001,
+    2.0002833333333334,
+    3.0005333333333333,
+    4.00075,
+    5.002916666666667,
+    6.00295,
+    7.0030166666666664,
+    8.0035,
+    9.003716666666667,
+    10.004,
+    11.00455,
+    12.004966666666666,
+    13.005433333333333,
+    14.005633333333334,
+    15.006166666666667,
+    16.006683333333335,
+    17.007166666666667,
+    18.007633333333334,
+    19.008,
+    19.268533333333334
+  ],
+  "participants": [
+    {
+      "participantId": 1,
+      "championName": "KSante",
+      "teamId": 100,
+      "win": false,
+      "lane": "TOP",
+      "gold_curve": [
+        500,
+        500,
+        597,
+        811,
+        1121,
+        1353,
+        1545,
+        1906,
+        2177,
+        2506,
+        3426,
+        3766,
+        4155,
+        4440,
+        4817,
+        4939,
+        5517,
+        5639,
+        5978,
+        6525,
+        6641
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 11709,
+          "itemId": 1054
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 12110,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 150636,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 163728,
+          "itemId": 2010
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 177894,
+          "itemId": 1029
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 319896,
+          "itemId": 1029
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 319896,
+          "itemId": 3076
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 524391,
+          "itemId": 1031
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 622157,
+          "itemId": 3057
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 622191,
+          "itemId": 1028
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 632776,
+          "itemId": 3057
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 634313,
+          "itemId": 1001
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 833492,
+          "itemId": 3057
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 833492,
+          "itemId": 1031
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 833492,
+          "itemId": 6662
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 963265,
+          "itemId": 1001
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 963265,
+          "itemId": 3009
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 1073675,
+          "itemId": 2010
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 1074743,
+          "itemId": 2010
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1086237,
+          "itemId": 1033
+        }
+      ],
+      "final_items": [
+        1054,
+        3076,
+        1033,
+        6662,
+        3009,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 2,
+      "championName": "Rengar",
+      "teamId": 100,
+      "win": false,
+      "lane": "JUNGLE",
+      "gold_curve": [
+        500,
+        500,
+        631,
+        1043,
+        1492,
+        1783,
+        2130,
+        2343,
+        2704,
+        3042,
+        3674,
+        4034,
+        5099,
+        5321,
+        5675,
+        5841,
+        6603,
+        6932,
+        7101,
+        7572,
+        7603
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 2757,
+          "itemId": 1102
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 2991,
+          "itemId": 3340
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 3191,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 60226,
+          "itemId": 3340
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 60226,
+          "itemId": 3364
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 247301,
+          "itemId": 3134
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 350198,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 447663,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 486917,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 486917,
+          "itemId": 3077
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 618884,
+          "itemId": 6690
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 619318,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 755644,
+          "itemId": 3134
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 755644,
+          "itemId": 6690
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 755644,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 755644,
+          "itemId": 3142
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 758183,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 758317,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 824347,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 824347,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 824347,
+          "itemId": 3134
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 825415,
+          "itemId": 3364
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 825415,
+          "itemId": 3363
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 934579,
+          "itemId": 1102
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 942574,
+          "itemId": 1037
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 1131122,
+          "itemId": 3077
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 1131122,
+          "itemId": 1037
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1131122,
+          "itemId": 6698
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1132592,
+          "itemId": 1036
+        }
+      ],
+      "final_items": [
+        6698,
+        3134,
+        3142,
+        1036,
+        0,
+        0,
+        3363
+      ]
+    },
+    {
+      "participantId": 3,
+      "championName": "Malzahar",
+      "teamId": 100,
+      "win": false,
+      "lane": "MIDDLE",
+      "gold_curve": [
+        500,
+        500,
+        597,
+        839,
+        1178,
+        1577,
+        1853,
+        2191,
+        2421,
+        2569,
+        2941,
+        3345,
+        3737,
+        4009,
+        4439,
+        4562,
+        4942,
+        5106,
+        5376,
+        5603,
+        5635
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 3391,
+          "itemId": 1056
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 3391,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 3391,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 3859,
+          "itemId": 3340
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 77798,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 86682,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 206765,
+          "itemId": 1027
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 207800,
+          "itemId": 2031
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 358941,
+          "itemId": 1027
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 358941,
+          "itemId": 3802
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 449207,
+          "itemId": 1052
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 561357,
+          "itemId": 1052
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 561357,
+          "itemId": 2508
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 681187,
+          "itemId": 3802
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 681187,
+          "itemId": 2508
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 681187,
+          "itemId": 2503
+        },
+        {
+          "type": "ITEM_SOLD",
+          "timestamp": 696304,
+          "itemId": 2031
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 697172,
+          "itemId": 1001
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 833826,
+          "itemId": 1052
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 865169,
+          "itemId": 1028
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 984022,
+          "itemId": 1052
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 984022,
+          "itemId": 1028
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 984022,
+          "itemId": 3147
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1141134,
+          "itemId": 1052
+        }
+      ],
+      "final_items": [
+        1056,
+        2503,
+        1001,
+        3147,
+        1052,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 4,
+      "championName": "Smolder",
+      "teamId": 100,
+      "win": false,
+      "lane": "BOTTOM",
+      "gold_curve": [
+        500,
+        500,
+        604,
+        888,
+        1367,
+        1688,
+        1859,
+        2080,
+        2251,
+        2598,
+        2920,
+        3275,
+        3628,
+        3887,
+        4185,
+        4337,
+        4584,
+        4773,
+        5017,
+        5216,
+        5248
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 3959,
+          "itemId": 1055
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 3959,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 4360,
+          "itemId": 3340
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 170643,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 229186,
+          "itemId": 1018
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 232626,
+          "itemId": 2022
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 364461,
+          "itemId": 2022
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 367167,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 463202,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 463202,
+          "itemId": 2022
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 463202,
+          "itemId": 3133
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 532142,
+          "itemId": 1001
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 609714,
+          "itemId": 2022
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 889500,
+          "itemId": 3133
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 889500,
+          "itemId": 1018
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 889500,
+          "itemId": 3508
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 890302,
+          "itemId": 1001
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 890302,
+          "itemId": 2022
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 890302,
+          "itemId": 3158
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1057699,
+          "itemId": 1028
+        }
+      ],
+      "final_items": [
+        1055,
+        3508,
+        3158,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 5,
+      "championName": "Karma",
+      "teamId": 100,
+      "win": false,
+      "lane": "UTILITY",
+      "gold_curve": [
+        500,
+        500,
+        567,
+        787,
+        1262,
+        1458,
+        1707,
+        2147,
+        2376,
+        2627,
+        3090,
+        3459,
+        3632,
+        3841,
+        4004,
+        4242,
+        4544,
+        4717,
+        4871,
+        5054,
+        5093
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 40600,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 181166,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 226146,
+          "itemId": 1052
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 227148,
+          "itemId": 1001
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 227616,
+          "itemId": 3340
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 227616,
+          "itemId": 3364
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 367969,
+          "itemId": 1026
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 371109,
+          "itemId": 3340
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 371109,
+          "itemId": 3364
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 462434,
+          "itemId": 3865
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 496189,
+          "itemId": 1027
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 617214,
+          "itemId": 1052
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 617214,
+          "itemId": 1027
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 617214,
+          "itemId": 3802
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 698775,
+          "itemId": 3802
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 698775,
+          "itemId": 1026
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 698775,
+          "itemId": 3118
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 896863,
+          "itemId": 3866
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 898967,
+          "itemId": 3867
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 901551,
+          "itemId": 1001
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 901551,
+          "itemId": 3158
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1037663,
+          "itemId": 1052
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1039506,
+          "itemId": 2022
+        }
+      ],
+      "final_items": [
+        3871,
+        3118,
+        3158,
+        1052,
+        2022,
+        0,
+        3364
+      ]
+    },
+    {
+      "participantId": 6,
+      "championName": "Yorick",
+      "teamId": 200,
+      "win": true,
+      "lane": "TOP",
+      "gold_curve": [
+        500,
+        500,
+        583,
+        1009,
+        1187,
+        1456,
+        1822,
+        2237,
+        2725,
+        3057,
+        3180,
+        3604,
+        3952,
+        4330,
+        4783,
+        5528,
+        5714,
+        6033,
+        7011,
+        7200,
+        7231
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 13078,
+          "itemId": 1055
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 13078,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 130206,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 191460,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 192828,
+          "itemId": 2031
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 325360,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 325360,
+          "itemId": 3044
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 546646,
+          "itemId": 3057
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 551278,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 809325,
+          "itemId": 3057
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 809325,
+          "itemId": 3044
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 809325,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 809325,
+          "itemId": 3078
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 810360,
+          "itemId": 1001
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 812365,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 926453,
+          "itemId": 1001
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 926453,
+          "itemId": 3009
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 952970,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 1096853,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1096853,
+          "itemId": 3044
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 1100160,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 1100160,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1100160,
+          "itemId": 3035
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1100728,
+          "itemId": 1036
+        }
+      ],
+      "final_items": [
+        3078,
+        2031,
+        3009,
+        1055,
+        3035,
+        1036,
+        3340
+      ]
+    },
+    {
+      "participantId": 7,
+      "championName": "Briar",
+      "teamId": 200,
+      "win": true,
+      "lane": "JUNGLE",
+      "gold_curve": [
+        500,
+        500,
+        655,
+        1258,
+        1675,
+        2007,
+        2399,
+        2995,
+        3388,
+        3875,
+        4272,
+        4721,
+        5549,
+        6244,
+        6620,
+        7181,
+        7619,
+        8159,
+        9182,
+        9975,
+        10347
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 9337,
+          "itemId": 1102
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 48550,
+          "itemId": 3340
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 48550,
+          "itemId": 3364
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 177894,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 178128,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 318059,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 318059,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 318059,
+          "itemId": 3077
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 318359,
+          "itemId": 1028
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 529319,
+          "itemId": 3077
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 529319,
+          "itemId": 1028
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 529319,
+          "itemId": 3748
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 529787,
+          "itemId": 2055
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 592640,
+          "itemId": 2055
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 615798,
+          "itemId": 1028
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 617181,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 791413,
+          "itemId": 1037
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 791847,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 791847,
+          "itemId": 3044
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 792081,
+          "itemId": 1028
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 892042,
+          "itemId": 1102
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 936453,
+          "itemId": 3044
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 936453,
+          "itemId": 1028
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 936453,
+          "itemId": 1037
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 936453,
+          "itemId": 3071
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 939325,
+          "itemId": 1033
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 940294,
+          "itemId": 2055
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 1016433,
+          "itemId": 3364
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 1042341,
+          "itemId": 3513
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 1082013,
+          "itemId": 2422
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 1082013,
+          "itemId": 1033
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1082013,
+          "itemId": 3111
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1086137,
+          "itemId": 2021
+        }
+      ],
+      "final_items": [
+        3071,
+        3748,
+        2055,
+        3111,
+        2021,
+        0,
+        3364
+      ]
+    },
+    {
+      "participantId": 8,
+      "championName": "Anivia",
+      "teamId": 200,
+      "win": true,
+      "lane": "MIDDLE",
+      "gold_curve": [
+        500,
+        500,
+        626,
+        1188,
+        1536,
+        1945,
+        2269,
+        2654,
+        3361,
+        4047,
+        4449,
+        4764,
+        5144,
+        5540,
+        5925,
+        6465,
+        6860,
+        7406,
+        8073,
+        8720,
+        8752
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 25570,
+          "itemId": 1056
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 25570,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 25570,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 76161,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 93262,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 144387,
+          "itemId": 1082
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 145957,
+          "itemId": 2055
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 165098,
+          "itemId": 2151
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 325426,
+          "itemId": 2055
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 357338,
+          "itemId": 2152
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 377522,
+          "itemId": 1001
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 378345,
+          "itemId": 3070
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 379548,
+          "itemId": 1028
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 379815,
+          "itemId": 1028
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 448406,
+          "itemId": 1028
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 448406,
+          "itemId": 1028
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 448406,
+          "itemId": 3803
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 451846,
+          "itemId": 2055
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 478974,
+          "itemId": 2055
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 528451,
+          "itemId": 1026
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 665995,
+          "itemId": 1026
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 665995,
+          "itemId": 3803
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 665995,
+          "itemId": 6657
+        },
+        {
+          "type": "ITEM_SOLD",
+          "timestamp": 678046,
+          "itemId": 1056
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 678714,
+          "itemId": 1001
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 678714,
+          "itemId": 3020
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 682571,
+          "itemId": 2055
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 741163,
+          "itemId": 2055
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 819537,
+          "itemId": 1052
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 820071,
+          "itemId": 2055
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 820605,
+          "itemId": 3340
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 820605,
+          "itemId": 3363
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 848766,
+          "itemId": 2055
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 909514,
+          "itemId": 1052
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 909514,
+          "itemId": 3802
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 910316,
+          "itemId": 2022
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 1085502,
+          "itemId": 3070
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 1085502,
+          "itemId": 3802
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 1085502,
+          "itemId": 2022
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1085502,
+          "itemId": 3003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1087440,
+          "itemId": 1052
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1088141,
+          "itemId": 1029
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 1128450,
+          "itemId": 3003
+        }
+      ],
+      "final_items": [
+        3020,
+        3040,
+        1082,
+        1052,
+        6657,
+        1029,
+        3363
+      ]
+    },
+    {
+      "participantId": 9,
+      "championName": "Twitch",
+      "teamId": 200,
+      "win": true,
+      "lane": "BOTTOM",
+      "gold_curve": [
+        500,
+        500,
+        597,
+        909,
+        1129,
+        1469,
+        2059,
+        2502,
+        2967,
+        3480,
+        3922,
+        4690,
+        5218,
+        5846,
+        6188,
+        6767,
+        7127,
+        7673,
+        8576,
+        8983,
+        9286
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 18355,
+          "itemId": 1056
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 18355,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 18355,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 118380,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 150268,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 197905,
+          "itemId": 1082
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 224977,
+          "itemId": 2151
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 259541,
+          "itemId": 1052
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 366165,
+          "itemId": 1026
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 380516,
+          "itemId": 1001
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 493216,
+          "itemId": 1052
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 493216,
+          "itemId": 3108
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 493717,
+          "itemId": 1042
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 657368,
+          "itemId": 1042
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 657368,
+          "itemId": 1026
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 657368,
+          "itemId": 3108
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 657368,
+          "itemId": 3115
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 658771,
+          "itemId": 1001
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 658771,
+          "itemId": 3158
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 762982,
+          "itemId": 1029
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 764953,
+          "itemId": 2152
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 765688,
+          "itemId": 1052
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 915293,
+          "itemId": 1052
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 915293,
+          "itemId": 1029
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 915293,
+          "itemId": 2420
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 917302,
+          "itemId": 3340
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 917302,
+          "itemId": 3363
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 1021258,
+          "itemId": 2420
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 1091080,
+          "itemId": 1082
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1091080,
+          "itemId": 3041
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1092884,
+          "itemId": 1058
+        }
+      ],
+      "final_items": [
+        3158,
+        2421,
+        3115,
+        3041,
+        1058,
+        1056,
+        3363
+      ]
+    },
+    {
+      "participantId": 10,
+      "championName": "Taric",
+      "teamId": 200,
+      "win": true,
+      "lane": "UTILITY",
+      "gold_curve": [
+        500,
+        500,
+        584,
+        770,
+        925,
+        1111,
+        1510,
+        1740,
+        2176,
+        2509,
+        2817,
+        3163,
+        3634,
+        3786,
+        4173,
+        4535,
+        4773,
+        5130,
+        6002,
+        6330,
+        6582
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 3325,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 3592,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 121821,
+          "itemId": 2010
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 138943,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 257771,
+          "itemId": 3070
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 302750,
+          "itemId": 2010
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 335848,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 368904,
+          "itemId": 2010
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 382387,
+          "itemId": 1001
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 382420,
+          "itemId": 1029
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 454418,
+          "itemId": 3865
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 521147,
+          "itemId": 1001
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 521147,
+          "itemId": 1029
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 521147,
+          "itemId": 3047
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 522988,
+          "itemId": 2022
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 523790,
+          "itemId": 3340
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 523790,
+          "itemId": 3364
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 524124,
+          "itemId": 2055
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 722114,
+          "itemId": 2022
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 722114,
+          "itemId": 3067
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 722181,
+          "itemId": 1033
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 816924,
+          "itemId": 3866
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 818334,
+          "itemId": 3867
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 827286,
+          "itemId": 2055
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 903355,
+          "itemId": 3067
+        },
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 903355,
+          "itemId": 1033
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 903355,
+          "itemId": 3190
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 904891,
+          "itemId": 2055
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1095848,
+          "itemId": 1011
+        }
+      ],
+      "final_items": [
+        3876,
+        3190,
+        2055,
+        3070,
+        3047,
+        1011,
+        3364
+      ]
+    }
+  ]
+}

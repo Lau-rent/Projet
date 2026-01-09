@@ -6,8 +6,9 @@ from collections import defaultdict
 import sys
 
 # --- Configuration ---
-INPUT_FOLDER = "parsed_matches"
-BRAIN_FILE = "ai_brain.json" # Le fichier où on stocke l'intelligence
+script_dir = os.path.dirname(os.path.abspath(__file__))
+INPUT_FOLDER = os.path.join(script_dir, "parsed_matches")
+BRAIN_FILE = os.path.join(script_dir, "ai_brain.json") # Le fichier où on stocke l'intelligence
 
 # --- Data Dragon & Filtres ---
 
@@ -44,7 +45,7 @@ class ItemAdvisorAI:
         }
         with open(BRAIN_FILE, 'w', encoding='utf-8') as f:
             json.dump(data, f)
-        print(f"✅ Cerveau sauvegardé dans '{BRAIN_FILE}'")
+        print(f"[OK] Cerveau sauvegardé dans '{BRAIN_FILE}'")
 
     def load_brain(self):
         """Charge les matrices depuis le fichier JSON."""
@@ -70,7 +71,7 @@ class ItemAdvisorAI:
         temp_general = defaultdict(lambda: defaultdict(lambda: defaultdict(float)))
         
         files = glob.glob(os.path.join(INPUT_FOLDER, "*.json"))
-        print(f"🔄 Démarrage de l'entraînement sur {len(files)} parties...")
+        print(f"[..] Démarrage de l'entraînement sur {len(files)} parties...")
         
         for filepath in files:
             try:
@@ -129,38 +130,11 @@ class ItemAdvisorAI:
     def get_item_name(self, item_id):
         return self.item_data.get(item_id, {}).get('name', f"ID {item_id}")
 
-    def recommend_build(self, my_champ, enemy_champ):
-        print(f"\n🤖 --- Analyse IA : {my_champ} vs {enemy_champ} ---")
-        
-        # 1. Vérifier si données spécifiques (Champ vs Ennemi)
-        transitions = None
-        mode = "Inconnu"
-        
-        # Vérification robuste dans le dictionnaire
-        has_specific = (my_champ in self.specific_memory and 
-                        enemy_champ in self.specific_memory[my_champ] and
-                        "START" in self.specific_memory[my_champ][enemy_champ])
-        
-        if has_specific:
-            print(f"✅ Données SPÉCIFIQUES trouvées (Matchup connu).")
-            transitions = self.specific_memory[my_champ][enemy_champ]
-            mode = "SPECIFIC"
-        else:
-            # 2. Fallback sur données générales (Champ global)
-            print(f"⚠️ Pas de données vs {enemy_champ}. Passage en mode GÉNÉRAL.")
-            if my_champ in self.general_memory and "START" in self.general_memory[my_champ]:
-                transitions = self.general_memory[my_champ]
-                mode = "GENERAL"
-            else:
-                print(f"❌ Aucune donnée pour {my_champ}. Il faut scraper des games !")
-                return
-
-        # --- Génération du chemin ---
+    def _print_path(self, transitions, title):
         current_item = "START"
-        build_path = []
         visited = set()
         
-        print(f"\n--- 🛡️ Build Recommandé ({mode}) ---")
+        print(f"\n--- [@] {title} ---")
         
         for i in range(1, 7): 
             if current_item not in transitions:
@@ -188,9 +162,30 @@ class ItemAdvisorAI:
             item_name = self.get_item_name(best_next)
             print(f"Item {i}: {item_name} (Score: {score:.1f})")
             
-            build_path.append(best_next)
             visited.add(best_next)
             current_item = best_next
+
+    def recommend_build(self, my_champ, enemy_champ):
+        print(f"\n[?] --- Analyse IA : {my_champ} vs {enemy_champ} ---")
+        
+        # 1. Build Général (Toujours affiché)
+        if my_champ in self.general_memory and "START" in self.general_memory[my_champ]:
+            self._print_path(self.general_memory[my_champ], f"Build GÉNÉRAL (Reference)")
+        else:
+            print(f"[!] Pas de données générales pour {my_champ}.")
+            return # Si pas de général, probablement pas de champ du tout, on arrête ? Ou on check spécifique ?
+                   # Généralement si on a spécifique on a général (car update simultané), donc return est safe.
+
+        # 2. Build Spécifique (Si disponible)
+        has_specific = (my_champ in self.specific_memory and 
+                        enemy_champ in self.specific_memory[my_champ] and
+                        "START" in self.specific_memory[my_champ][enemy_champ])
+        
+        if has_specific:
+            print(f"[OK] Données SPÉCIFIQUES trouvées (Matchup connu).")
+            self._print_path(self.specific_memory[my_champ][enemy_champ], f"Build SPÉCIFIQUE (vs {enemy_champ})")
+        else:
+            print(f"[!] Pas de données spécifiques vs {enemy_champ}. (Comparaison impossible)")
 
 # --- Interface ---
 
@@ -201,10 +196,10 @@ def main():
     if os.path.exists(BRAIN_FILE):
         # Si le fichier existe, on charge
         ai.load_brain()
-        print("\n💡 Astuce : Supprimez 'ai_brain.json' pour forcer un ré-entraînement.")
+        print("\n[?] Astuce : Supprimez 'ai_brain.json' pour forcer un ré-entraînement.")
     else:
         # Sinon, on entraîne
-        print("🧠 Cerveau introuvable. Lancement de l'entraînement...")
+        print("[!] Cerveau introuvable. Lancement de l'entraînement...")
         ai.train()
     
     # Boucle

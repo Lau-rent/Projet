@@ -1,0 +1,379 @@
+{
+  "matchId": "EUW1_7662355311",
+  "gameDate": "2025-12-29 09:38:58",
+  "rank": "DIAMOND II",
+  "gameMode": "CLASSIC",
+  "gameDuration": 120,
+  "timestamps_minutes": [
+    0.0,
+    1.0001333333333333,
+    2.0009
+  ],
+  "participants": [
+    {
+      "participantId": 1,
+      "championName": "Warwick",
+      "teamId": 100,
+      "win": true,
+      "lane": "TOP",
+      "gold_curve": [
+        500,
+        500,
+        603
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 9802,
+          "itemId": 1055
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 10070,
+          "itemId": 3340
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 10270,
+          "itemId": 2003
+        }
+      ],
+      "final_items": [
+        1055,
+        2003,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 2,
+      "championName": "JarvanIV",
+      "teamId": 100,
+      "win": true,
+      "lane": "JUNGLE",
+      "gold_curve": [
+        500,
+        500,
+        630
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 14178,
+          "itemId": 1103
+        }
+      ],
+      "final_items": [
+        1103,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 3,
+      "championName": "Akali",
+      "teamId": 100,
+      "win": true,
+      "lane": "MIDDLE",
+      "gold_curve": [
+        500,
+        500,
+        645
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 14512,
+          "itemId": 1054
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 14512,
+          "itemId": 2003
+        }
+      ],
+      "final_items": [
+        1054,
+        0,
+        0,
+        2003,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 4,
+      "championName": "Jinx",
+      "teamId": 100,
+      "win": true,
+      "lane": "BOTTOM",
+      "gold_curve": [
+        500,
+        500,
+        617
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 24933,
+          "itemId": 1055
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 24933,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 25802,
+          "itemId": 3340
+        }
+      ],
+      "final_items": [
+        1055,
+        2003,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 5,
+      "championName": "Lulu",
+      "teamId": 100,
+      "win": true,
+      "lane": "UTILITY",
+      "gold_curve": [
+        500,
+        500,
+        561
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 7898,
+          "itemId": 3340
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 12474,
+          "itemId": 2055
+        }
+      ],
+      "final_items": [
+        3865,
+        0,
+        2055,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 6,
+      "championName": "Darius",
+      "teamId": 200,
+      "win": false,
+      "lane": "TOP",
+      "gold_curve": [
+        500,
+        500,
+        603
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 6629,
+          "itemId": 1055
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 6629,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 7130,
+          "itemId": 3340
+        }
+      ],
+      "final_items": [
+        1055,
+        2003,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 7,
+      "championName": "Rumble",
+      "teamId": 200,
+      "win": false,
+      "lane": "JUNGLE",
+      "gold_curve": [
+        500,
+        500,
+        630
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1986,
+          "itemId": 1101
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 2420,
+          "itemId": 3340
+        }
+      ],
+      "final_items": [
+        1101,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 8,
+      "championName": "Talon",
+      "teamId": 200,
+      "win": false,
+      "lane": "MIDDLE",
+      "gold_curve": [
+        500,
+        500,
+        540
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 9869,
+          "itemId": 1036
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 9869,
+          "itemId": 2031
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 11072,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 11239,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 11406,
+          "itemId": 2003
+        }
+      ],
+      "final_items": [
+        1036,
+        2003,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "participantId": 9,
+      "championName": "Aphelios",
+      "teamId": 200,
+      "win": false,
+      "lane": "BOTTOM",
+      "gold_curve": [
+        500,
+        500,
+        582
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1785,
+          "itemId": 1055
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1785,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 2253,
+          "itemId": 3340
+        }
+      ],
+      "final_items": [
+        1055,
+        2003,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 10,
+      "championName": "Braum",
+      "teamId": 200,
+      "win": false,
+      "lane": "UTILITY",
+      "gold_curve": [
+        500,
+        500,
+        546
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 1919,
+          "itemId": 3340
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 2220,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 2387,
+          "itemId": 2003
+        }
+      ],
+      "final_items": [
+        3865,
+        2003,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    }
+  ]
+}

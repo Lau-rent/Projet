@@ -1,0 +1,353 @@
+{
+  "matchId": "EUW1_7645500874",
+  "gameDate": "2025-12-16 14:18:04",
+  "rank": "IRON I",
+  "gameMode": "CLASSIC",
+  "gameDuration": 107,
+  "timestamps_minutes": [
+    0.0,
+    1.0004166666666667,
+    1.78775
+  ],
+  "participants": [
+    {
+      "participantId": 1,
+      "championName": "Teemo",
+      "teamId": 100,
+      "win": false,
+      "lane": "TOP",
+      "gold_curve": [
+        500,
+        500,
+        514
+      ],
+      "item_purchases": [],
+      "final_items": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "participantId": 2,
+      "championName": "Amumu",
+      "teamId": 100,
+      "win": false,
+      "lane": "JUNGLE",
+      "gold_curve": [
+        500,
+        500,
+        514
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 10986,
+          "itemId": 1102
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 12023,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 12825,
+          "itemId": 3340
+        }
+      ],
+      "final_items": [
+        1102,
+        2003,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 3,
+      "championName": "Veigar",
+      "teamId": 100,
+      "win": false,
+      "lane": "MIDDLE",
+      "gold_curve": [
+        500,
+        500,
+        514
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 4338,
+          "itemId": 1056
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 4338,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 4338,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 5507,
+          "itemId": 3340
+        }
+      ],
+      "final_items": [
+        1056,
+        2003,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 4,
+      "championName": "Jhin",
+      "teamId": 100,
+      "win": false,
+      "lane": "BOTTOM",
+      "gold_curve": [
+        500,
+        500,
+        519
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 11386,
+          "itemId": 1055
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 11386,
+          "itemId": 2003
+        }
+      ],
+      "final_items": [
+        1055,
+        2003,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 5,
+      "championName": "Morgana",
+      "teamId": 100,
+      "win": false,
+      "lane": "UTILITY",
+      "gold_curve": [
+        500,
+        500,
+        516
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 11420,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 12224,
+          "itemId": 2003
+        }
+      ],
+      "final_items": [
+        3865,
+        2003,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 6,
+      "championName": "Trundle",
+      "teamId": 200,
+      "win": true,
+      "lane": "TOP",
+      "gold_curve": [
+        500,
+        500,
+        514
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 9516,
+          "itemId": 1054
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 9516,
+          "itemId": 2003
+        }
+      ],
+      "final_items": [
+        2003,
+        0,
+        0,
+        0,
+        0,
+        1054,
+        3340
+      ]
+    },
+    {
+      "participantId": 7,
+      "championName": "Zac",
+      "teamId": 200,
+      "win": true,
+      "lane": "JUNGLE",
+      "gold_curve": [
+        500,
+        500,
+        514
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 17969,
+          "itemId": 1101
+        }
+      ],
+      "final_items": [
+        1101,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 8,
+      "championName": "Yasuo",
+      "teamId": 200,
+      "win": true,
+      "lane": "MIDDLE",
+      "gold_curve": [
+        500,
+        500,
+        577
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 23617,
+          "itemId": 1054
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 23617,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 24419,
+          "itemId": 3340
+        }
+      ],
+      "final_items": [
+        1054,
+        2003,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 9,
+      "championName": "Vayne",
+      "teamId": 200,
+      "win": true,
+      "lane": "BOTTOM",
+      "gold_curve": [
+        500,
+        500,
+        519
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 8714,
+          "itemId": 1055
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 8714,
+          "itemId": 2003
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 9416,
+          "itemId": 3340
+        }
+      ],
+      "final_items": [
+        1055,
+        2003,
+        0,
+        0,
+        0,
+        0,
+        3340
+      ]
+    },
+    {
+      "participantId": 10,
+      "championName": "Seraphine",
+      "teamId": 200,
+      "win": true,
+      "lane": "UTILITY",
+      "gold_curve": [
+        500,
+        500,
+        516
+      ],
+      "item_purchases": [
+        {
+          "type": "ITEM_DESTROYED",
+          "timestamp": 87950,
+          "itemId": 3340
+        },
+        {
+          "type": "ITEM_PURCHASED",
+          "timestamp": 87950,
+          "itemId": 3364
+        }
+      ],
+      "final_items": [
+        3865,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3364
+      ]
+    }
+  ]
+}
